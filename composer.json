@@ -1,0 +1,19 @@
+{
+    "name": "hasan/focotik",
+    "description": "This will ensure the theme's standards are maintained.",
+    "type": "wordpress-theme",
+    "license": "GPLv2.0",
+    "autoload": {
+        "psr-4": {
+            "Focotik\\": "inc/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hasan Tareq",
+            "email": "hsntareq@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

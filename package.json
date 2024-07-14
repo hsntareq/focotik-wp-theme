@@ -1,0 +1,28 @@
+{
+		"name": "focotik",
+		"version": "1.0.0",
+		"main": "index.js",
+		"scripts": {
+				"start": "wp-scripts start src/frontend.js",
+				"build": "wp-scripts build",
+				"format:js": "wp-scripts format-js",
+				"lint:css": "wp-scripts lint-style",
+				"lint:js": "wp-scripts lint-js",
+				"lint:js:fix": "wp-scripts lint-js --fix",
+				"lint:md": "wp-scripts lint-md",
+				"lint:php": "wp-scripts lint-php",
+				"lint:php:fix": "wp-scripts lint-php --fix",
+				"lint:sh": "wp-scripts lint-sh",
+				"lint:sh:fix": "wp-scripts lint-sh --fix",
+				"lint:yaml": "wp-scripts lint-yaml",
+				"lint:yaml:fix": "wp-scripts lint-yaml --fix",
+				"test": "echo \"Error: no test specified\" && exit 1"
+		},
+		"keywords": [],
+		"author": "",
+		"license": "ISC",
+		"description": "",
+		"devDependencies": {
+				"@wordpress/scripts": "^28.3.0"
+		}
+}
