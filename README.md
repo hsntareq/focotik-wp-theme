@@ -1,4 +1,4 @@
-# FocoTik #
+# FocoTik - WordPress Theme (FSE) #
 
 Contributors: hsntareq
 Requires at least: 6.0
