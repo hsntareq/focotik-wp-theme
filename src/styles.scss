@@ -1,4 +1,34 @@
 body {
-	background-color: #f0f;
-	border: 10px solid red;
+	background-color: #E7E7E7;
 }
+
+
+//hero-section
+
+.hero-section {
+	position: relative;
+
+	.img-left-top {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		margin-top: 0;
+	}
+	
+	.img-right-top {
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: -1;
+		margin-top: 0;
+	}
+	
+	//header
+	.header {
+		margin-bottom: 108px;
+		padding-block: 24px;
+	}
+
+}
+

@@ -7,7 +7,9 @@
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Hero Section"},"className":"hero-section","layout":{"type":"default"}} -->
-<div class="wp-block-group hero-section"><!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+<div class="wp-block-group hero-section">
+<!-- wp:template-part {"slug":"white-header","tagName":"header"} /-->
+<!-- wp:template-part {"slug":"dark-header","tagName":"header"} /-->
 
 <!-- wp:group {"metadata":{"name":"Hero Content"},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Container"},"layout":{"type":"constrained","contentSize":"1170px"}} -->
