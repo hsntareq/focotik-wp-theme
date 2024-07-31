@@ -2,6 +2,14 @@ body {
 	background-color: #E7E7E7;
 }
 
+.nogap {
+	gap: 0;
+}
+
+.gap8 {
+	gap: 8px;
+}
+
 
 //hero-section
 
@@ -15,7 +23,7 @@ body {
 		z-index: -1;
 		margin-top: 0;
 	}
-	
+
 	.img-right-top {
 		position: absolute;
 		top: 0;
@@ -23,12 +31,53 @@ body {
 		z-index: -1;
 		margin-top: 0;
 	}
-	
-	//header
-	.header {
+
+	.white-header {
 		margin-bottom: 108px;
 		padding-block: 24px;
 	}
-
 }
 
+.footer {
+
+	.footer-container {
+		position: relative;
+		padding-block-start: 64px;
+		padding-block-end: 32px;
+
+		.footer-title-border {
+			border-top: 1px solid #EBE2DA;
+			width: 65px;
+			margin-left: 0;
+		}
+
+		.footer-top {
+			color: #D6D8DC;
+			
+
+			.footer-logo {
+				margin-bottom: 40px;
+			}
+
+			.footer-h3-heading-style {
+				color: #EBE2DA;
+				font-size: 18px;
+				font-family: Inter;
+				font-weight: 500;
+			}
+		}
+
+
+		.footer-right-img {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			margin: 0;
+		}
+
+		.footer-bottom {
+			margin-block-start: 40px;
+			color: #B2B4B8;
+		}
+	}
+}

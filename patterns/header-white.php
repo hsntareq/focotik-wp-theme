@@ -1,15 +1,15 @@
 <?php
 /**
- * Title: white header
- * Slug: focotik/white-header
+ * Title: header white
+ * Slug: focotik/header-white
  * Categories: hidden
  * Inserter: no
  */
 ?>
 
 <!-- wp:group {"metadata":{"name":"Container"},"layout":{"type":"constrained","contentSize":"1170px"}} -->
-<div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Header"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Header"},"className":"white-header","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group white-header"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:site-logo {"shouldSyncIcon":false} /-->
 
 <!-- wp:navigation {"ref":26} /--></div>

@@ -6,75 +6,84 @@
  * Inserter: no
  */
 ?>
+
 <!-- wp:group {"metadata":{"name":"Hero Section"},"className":"hero-section","layout":{"type":"default"}} -->
-<div class="wp-block-group hero-section">
-<!-- wp:template-part {"slug":"white-header","tagName":"header"} /-->
-<!-- wp:template-part {"slug":"dark-header","tagName":"header"} /-->
+<div class="wp-block-group hero-section"><!-- wp:template-part {"slug":"header-white","theme":"focotik-wp-theme","tagName":"header"} /-->
+
+
 
 <!-- wp:group {"metadata":{"name":"Hero Content"},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Container"},"layout":{"type":"constrained","contentSize":"1170px"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"fontSize":"72px","lineHeight":"1.2"}},"className":"is-style-multi-color"} -->
-<h2 class="wp-block-heading is-style-multi-color" style="font-size:72px;line-height:1.2"><?php esc_html_e('We are a worldwide design agency <span>increase conversion...</span>', 'focotik');?></h2>
+<div class="wp-block-group"><!-- wp:heading {"className":"is-style-multi-color","style":{"typography":{"fontSize":"72px","lineHeight":"1.2"}}} -->
+<h2 class="wp-block-heading is-style-multi-color" style="font-size:72px;line-height:1.2">We are a worldwide design agency <mark style="background-color:rgba(0, 0, 0, 0);color:#eb6945" class="has-inline-color">increase conversion...</mark></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e('We are a strategic partner for fast-growing tech companies in need of a scalable website.We are a strategic partner for fast-growing tech companies in need of a scalable website.', 'focotik');?></p>
+<p>We are a strategic partner for fast-growing tech companies in need of a scalable&nbsp;website.We are a strategic partner for fast-growing tech companies in need of a scalable&nbsp;website.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('Schedule a Meeting ->', 'focotik');?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Schedule a Meeting -&gt;</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/clutch.png" alt="<?php esc_html_e('', 'focotik');?>" class=""/></figure>
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/themes/focotik-wp-theme/assets/images/clutch.png" alt=""/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading"><?php esc_html_e('300+', 'focotik');?></h2>
+<h2 class="wp-block-heading">300+</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e('Clients', 'focotik');?></p>
+<p>Clients</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading"><?php esc_html_e('One Billion+', 'focotik');?></h2>
+<h2 class="wp-block-heading">One Billion+</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e('Lives Touched', 'focotik');?></p>
+<p>Lives Touched</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading"><?php esc_html_e('30+', 'focotik');?></h2>
+<h2 class="wp-block-heading">30+</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e('Global Awards', 'focotik');?></p>
+<p>Global Awards</p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","metadata":{"name":"Hero top-left image"}} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/hero-left.png" alt="<?php esc_html_e('', 'focotik');?>" class=""/></figure>
+<!-- wp:group {"metadata":{"name":"promo video"},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:embed {"url":"https://youtu.be/uOHOgI66C28?si=OkGMaQmaC6mBAnI4","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+https://youtu.be/uOHOgI66C28?si=OkGMaQmaC6mBAnI4
+</div></figure>
+<!-- /wp:embed --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","metadata":{"name":"Hero top-left image"},"className":"img-left-top"} -->
+<figure class="wp-block-image size-full img-left-top"><img src="https://focotik.test/wp-content/themes/focotik-wp-theme/assets/images/hero-left.png" alt=""/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","metadata":{"name":"Hero top-right image"}} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/hero-right.png" alt="<?php esc_html_e('', 'focotik');?>" class=""/></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","metadata":{"name":"Hero top-right image"},"className":"img-right-top "} -->
+<figure class="wp-block-image size-full img-right-top"><img src="https://focotik.test/wp-content/themes/focotik-wp-theme/assets/images/hero-right.png" alt=""/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -114,4 +123,4 @@
 <!-- /wp:group --></main>
 <!-- /wp:query -->
 
-<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
+<!-- wp:template-part {"slug":"footer","theme":"focotik-wp-theme","tagName":"footer","className":"footer"} /-->

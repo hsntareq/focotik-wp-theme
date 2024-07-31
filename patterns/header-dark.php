@@ -1,13 +1,13 @@
 <?php
 /**
- * Title: dark header
- * Slug: focotik/dark-header
+ * Title: header dark
+ * Slug: focotik/header-dark
  * Categories: hidden
  * Inserter: no
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Container"},"style":{"color":{"background":"#272b2f","text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}},"layout":{"type":"constrained","contentSize":"1170px"}} -->
-<div class="wp-block-group has-text-color has-background has-link-color" style="color:#eff2f6;background-color:#272b2f"><!-- wp:group {"metadata":{"name":"Header"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<!-- wp:group {"metadata":{"name":"Container"},"className":"header-dark","style":{"color":{"background":"#272b2f","text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}},"layout":{"type":"constrained","contentSize":"1170px"}} -->
+<div class="wp-block-group header-dark has-text-color has-background has-link-color" style="color:#eff2f6;background-color:#272b2f"><!-- wp:group {"metadata":{"name":"Header"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:site-logo {"shouldSyncIcon":false} /-->
 
