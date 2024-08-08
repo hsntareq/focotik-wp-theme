@@ -40,31 +40,39 @@ body {
 	.hero-text-content {
 		margin-bottom: 64px;
 
-		.hero-heading {margin-bottom: 32px;}
+		.hero-heading {
+			margin-bottom: 32px;
+		}
 	}
+
 	.success-state {
 		margin-top: 108px;
+
 		.success-item {
-			.success-heading{
+			.success-heading {
 				font-size: 32px;
 				font-weight: 700;
 				color: #383A3E;
 			}
-			.success-text{
+
+			.success-text {
 				color: #AEAEAE;
 				font-size: 20px;
 				font-weight: 500;
 			}
 		}
 	}
+
 	.promo-video {
 		margin-top: 48px;
 
-		
-			.wp-has-aspect-ratio {
-				iframe{border-radius: 8px;}
+
+		.wp-has-aspect-ratio {
+			iframe {
+				border-radius: 8px;
 			}
-		
+		}
+
 	}
 }
 
@@ -73,7 +81,10 @@ body {
 
 	.brands-logo-wrap {
 		margin-top: 56px;
-		.brands-logo-list{gap: 52px;}
+
+		.brands-logo-list {
+			gap: 52px;
+		}
 	}
 }
 
@@ -86,8 +97,69 @@ body {
 		top: 0;
 		right: 0;
 	}
-	.why-us-item-wrap {
-		padding: 16px;
+
+	.why-us-content {
+		margin-top: 72px;
+		.why-us-item-wrap {
+			padding: 16px;
+			position: relative;
+
+			.bg-why-us-item-right {
+				position: absolute;
+				top: 0;
+				right: 0;
+			}
+
+			.heading {
+				font-size: 16px;
+				font-weight: 700;
+				color: #383A3E;
+			}
+
+			.item-content-wrap {
+				padding: 24px;
+
+				h5 {
+					color: #383A3E;
+					margin: 0;
+				}
+
+				p {
+					color: #515457;
+					font-size: 20px;
+					font-weight: 400;
+					margin: 0;
+				}
+
+				.text {
+					margin-block: 40px;
+				}
+
+				.btn-explore {
+					color: #EFF2F6;
+					font-size: 18px;
+					font-weight: 500;
+				}
+			}
+		}
+	}
+}
+
+.services {
+	padding-block: 108px;
+	.services-top-content {
+		margin-bottom: 150px;
+		p.text-with-bg{
+			font-size: 16px;
+			font-weight: 500;
+			color: #242424;
+			
+		}
+		p{
+			color: #EFF2F6;
+			font-size: 32px;
+			font-weight: 400;
+		}
 	}
 }
 
@@ -106,7 +178,7 @@ body {
 
 		.footer-top {
 			color: #D6D8DC;
-			
+
 
 			.footer-logo {
 				margin-bottom: 40px;
