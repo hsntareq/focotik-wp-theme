@@ -36,6 +36,56 @@ body {
 		margin-bottom: 108px;
 		padding-block: 24px;
 	}
+
+	.hero-text-content {
+		margin-bottom: 64px;
+
+		.hero-heading {margin-bottom: 32px;}
+	}
+	.success-state {
+		margin-top: 108px;
+		.success-item {
+			.success-heading{
+				font-size: 32px;
+				font-weight: 700;
+				color: #383A3E;
+			}
+			.success-text{
+				color: #AEAEAE;
+				font-size: 20px;
+				font-weight: 500;
+			}
+		}
+	}
+	.promo-video {
+		margin-top: 48px;
+
+		
+			.wp-has-aspect-ratio {
+				iframe{border-radius: 8px;}
+			}
+		
+	}
+}
+
+.brands-content {
+	padding-block: 108px;
+
+	.brands-logo-wrap {
+		margin-top: 56px;
+		.brands-logo-list{gap: 52px;}
+	}
+}
+
+.why-us {
+	padding-block: 108px;
+	position: relative;
+
+	.why-us-img-right-top {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
 }
 
 .footer {

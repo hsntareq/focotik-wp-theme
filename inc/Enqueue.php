@@ -32,7 +32,7 @@ class Enqueue {
     
 	public function init() {
 		// Enqueue style for frontend
-		add_action('wp_enqueue_scripts', array($this, 'enqueue_frontend_style'));
+		add_action('enqueue_block_assets', array($this, 'enqueue_frontend_style'));
 	}
 	
 	/**

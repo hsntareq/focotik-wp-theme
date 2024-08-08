@@ -17,7 +17,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"style":{"color":{"background":"#eb6945"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" style="background-color:#eb6945"><?php esc_html_e('Let\'s Talk -&gt;', 'focotik');?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" style="background-color:#eb6945">Let's Talk </a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
