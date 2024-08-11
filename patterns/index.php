@@ -89,40 +89,300 @@ https://youtu.be/uOHOgI66C28?si=OkGMaQmaC6mBAnI4
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
-<!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"tagName":"main","layout":{"contentSize":null,"type":"constrained"}} -->
-<main class="wp-block-query"><!-- wp:post-template {"layout":{"type":"default"}} -->
-<!-- wp:group -->
-<div class="wp-block-group"><!-- wp:post-title {"isLink":true} /-->
+<!-- wp:group {"metadata":{"name":"Brands"},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Brands Content"},"className":"brands-content","layout":{"type":"default"}} -->
+<div class="wp-block-group brands-content"><!-- wp:group {"metadata":{"name":"container"},"layout":{"type":"constrained","contentSize":"1170px"}} -->
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":5} -->
+<h5 class="wp-block-heading has-text-align-center">Top partners that we worked with.</h5>
+<!-- /wp:heading -->
 
-<!-- wp:post-featured-image {"isLink":true} /-->
+<!-- wp:group {"className":"brands-logo-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group brands-logo-wrap"><!-- wp:group {"className":"brands-logo-list","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<div class="wp-block-group brands-logo-list"><!-- wp:image {"id":153,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/logo-discord.png" alt="" class="wp-image-153"/></figure>
+<!-- /wp:image -->
 
-<!-- wp:post-content /-->
+<!-- wp:image {"id":158,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/logo-monday.png" alt="" class="wp-image-158"/></figure>
+<!-- /wp:image -->
 
-<!-- wp:group {"style":{"typography":{"fontSize":"14px"}},"layout":{"type":"flex"}} -->
-<div class="wp-block-group" style="font-size:14px"><!-- wp:post-author {"showAvatar":false,"showBio":false} /-->
+<!-- wp:image {"id":157,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/logo-gumroad.png" alt="" class="wp-image-157"/></figure>
+<!-- /wp:image -->
 
-<!-- wp:post-date {"isLink":true} /-->
+<!-- wp:image {"id":159,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/logo-pipe.png" alt="" class="wp-image-159"/></figure>
+<!-- /wp:image -->
 
-<!-- wp:post-terms {"term":"category"} /-->
+<!-- wp:image {"id":151,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/logo-attentive.png" alt="" class="wp-image-151"/></figure>
+<!-- /wp:image -->
 
-<!-- wp:post-terms {"term":"post_tag"} /--></div>
+<!-- wp:image {"id":152,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/logo-cult.png" alt="" class="wp-image-152"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group -->
 
-<!-- wp:spacer {"height":"40px"} -->
-<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer --></div>
+<!-- wp:group {"className":"brands-logo-list","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<div class="wp-block-group brands-logo-list"><!-- wp:image {"id":160,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/logo-plaid.png" alt="" class="wp-image-160"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":156,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/logo-github.png" alt="" class="wp-image-156"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":161,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/logo-square.png" alt="" class="wp-image-161"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":154,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/logo-farmer.png" alt="" class="wp-image-154"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":154,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/logo-farmer.png" alt="" class="wp-image-154"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":155,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/logo-ghost.png" alt="" class="wp-image-155"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group -->
-<!-- /wp:post-template -->
 
-<!-- wp:group {"layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:query-pagination -->
-<!-- wp:query-pagination-previous /-->
+<!-- wp:group {"className":"brands-logo-list","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<div class="wp-block-group brands-logo-list"><!-- wp:image {"id":160,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/logo-plaid.png" alt="" class="wp-image-160"/></figure>
+<!-- /wp:image -->
 
-<!-- wp:query-pagination-numbers /-->
+<!-- wp:image {"id":156,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/logo-github.png" alt="" class="wp-image-156"/></figure>
+<!-- /wp:image -->
 
-<!-- wp:query-pagination-next /-->
-<!-- /wp:query-pagination --></div>
-<!-- /wp:group --></main>
-<!-- /wp:query -->
+<!-- wp:image {"id":161,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/logo-square.png" alt="" class="wp-image-161"/></figure>
+<!-- /wp:image -->
 
-<!-- wp:template-part {"slug":"footer","theme":"focotik-wp-theme","tagName":"footer","className":"footer"} /-->
+<!-- wp:image {"id":154,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/logo-farmer.png" alt="" class="wp-image-154"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":155,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/logo-ghost.png" alt="" class="wp-image-155"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"why-us"},"className":"why-us","style":{"color":{"background":"#eb6945"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group why-us has-background" style="background-color:#eb6945"><!-- wp:image {"id":176,"sizeSlug":"full","linkDestination":"none","metadata":{"name":"Hero top-right image"},"className":"why-us-img-right-top"} -->
+<figure class="wp-block-image size-full why-us-img-right-top"><img src="https://focotik.test/wp-content/uploads/2024/08/why-us-img-right-top.png" alt="" class="wp-image-176"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"metadata":{"name":"why-us content"},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:group {"metadata":{"name":"container"},"layout":{"type":"constrained","contentSize":"1170px"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}}} -->
+<h3 class="wp-block-heading has-text-color has-link-color" style="color:#eff2f6">Transforming Ideas into Impact <mark style="background-color:rgba(0, 0, 0, 0);color:#383a3e" class="has-inline-color">Explore Our Expertise</mark></h3>
+<!-- /wp:heading -->
+
+<!-- wp:group {"className":"why-us-content","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group why-us-content"><!-- wp:group {"className":"why-us-item-wrap","style":{"border":{"color":"#ee9176","width":"1px","radius":"16px"}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
+<div class="wp-block-group why-us-item-wrap has-border-color has-white-background-color has-background" style="border-color:#ee9176;border-width:1px;border-radius:16px"><!-- wp:image {"id":179,"sizeSlug":"full","linkDestination":"none","className":"bg-why-us-item-right"} -->
+<figure class="wp-block-image size-full bg-why-us-item-right"><img src="https://focotik.test/wp-content/uploads/2024/08/bg-why-us-item-1.png" alt="" class="wp-image-179"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:paragraph {"className":"heading"} -->
+<p class="heading">FOR <br>STARTUPS</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"item-content-wrap","style":{"color":{"background":"#d3e7ff"},"border":{"radius":"12px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group item-content-wrap has-background" style="border-radius:12px;background-color:#d3e7ff"><!-- wp:image {"id":209,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/icon-dollor.png" alt="" class="wp-image-209"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"className":"text","layout":{"type":"constrained"}} -->
+<div class="wp-block-group text"><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">MVP Design</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Create a digital product, attract investors and new clients</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons {"className":"btn-explore"} -->
+<div class="wp-block-buttons btn-explore"><!-- wp:button {"style":{"border":{"radius":"40px"},"color":{"background":"#272b2f"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" style="border-radius:40px;background-color:#272b2f">Explore Now</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"why-us-item-wrap","style":{"border":{"color":"#ee9176","width":"1px","radius":"16px"}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
+<div class="wp-block-group why-us-item-wrap has-border-color has-white-background-color has-background" style="border-color:#ee9176;border-width:1px;border-radius:16px"><!-- wp:image {"id":181,"sizeSlug":"full","linkDestination":"none","className":"bg-why-us-item-right"} -->
+<figure class="wp-block-image size-full bg-why-us-item-right"><img src="https://focotik.test/wp-content/uploads/2024/08/bg-why-us-item-2.png" alt="" class="wp-image-181"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:paragraph {"className":"heading"} -->
+<p class="heading">FOR STARTUPS &amp; <br>EXISTING COMPANIES</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"item-content-wrap","style":{"color":{"background":"#d9d5ff"},"border":{"radius":"12px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group item-content-wrap has-background" style="border-radius:12px;background-color:#d9d5ff"><!-- wp:image {"id":209,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/icon-dollor.png" alt="" class="wp-image-209"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"className":"text","layout":{"type":"constrained"}} -->
+<div class="wp-block-group text"><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Product Redesign</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Get a fresh look, improved UX, and enhanced functionality</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons {"className":"btn-explore"} -->
+<div class="wp-block-buttons btn-explore"><!-- wp:button {"style":{"border":{"radius":"40px"},"color":{"background":"#272b2f"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" style="border-radius:40px;background-color:#272b2f">Explore Now</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"why-us-item-wrap","style":{"border":{"color":"#ee9176","width":"1px","radius":"16px"}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
+<div class="wp-block-group why-us-item-wrap has-border-color has-white-background-color has-background" style="border-color:#ee9176;border-width:1px;border-radius:16px"><!-- wp:image {"id":189,"sizeSlug":"full","linkDestination":"none","className":"bg-why-us-item-right"} -->
+<figure class="wp-block-image size-full bg-why-us-item-right"><img src="https://focotik.test/wp-content/uploads/2024/08/bg-why-us-item-3.png" alt="" class="wp-image-189"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:paragraph {"className":"heading"} -->
+<p class="heading">FOR EXISTING <br>COMPANIES</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"item-content-wrap","style":{"color":{"background":"#d1fa88"},"border":{"radius":"12px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group item-content-wrap has-background" style="border-radius:12px;background-color:#d1fa88"><!-- wp:image {"id":209,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/icon-dollor.png" alt="" class="wp-image-209"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"className":"text","layout":{"type":"constrained"}} -->
+<div class="wp-block-group text"><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Team Extension</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Enhance your team with our skilled design experts</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons {"className":"btn-explore"} -->
+<div class="wp-block-buttons btn-explore"><!-- wp:button {"style":{"border":{"radius":"40px"},"color":{"background":"#272b2f"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" style="border-radius:40px;background-color:#272b2f">Explore Now</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+
+
+<!-- wp:group {"metadata":{"name":"services"},"className":"services","style":{"color":{"background":"#272b2f"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group services has-background" style="background-color:#272b2f;margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"services content"},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:group {"metadata":{"name":"container"},"layout":{"type":"constrained","contentSize":"1170px"}} -->
+<div class="wp-block-group"><!-- wp:group {"metadata":{"name":"srevices-top-content"},"className":"services-top-content","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group services-top-content"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"className":"text-with-bg","style":{"color":{"background":"#daff99"}}} -->
+<p class="text-with-bg has-background" style="background-color:#daff99">Revenue increasing</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Crafting unparalleled digital journeys for top-tier brands. Our approach is UX friendly and help to gain audience. SEO friendly design helps to rank top</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"text-with-bg","style":{"color":{"background":"#dbd7ff"}}} -->
+<p class="text-with-bg has-background" style="background-color:#dbd7ff">Humen centric design</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:image {"id":222,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/services-vector-warp.png" alt="" class="wp-image-222"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"services-bottom-content"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}}} -->
+<h3 class="wp-block-heading has-text-color has-link-color" style="color:#eff2f6"><mark style="background-color:rgba(0, 0, 0, 0);color:#eb6945" class="has-inline-color">Service</mark> we <br>provides</h3>
+<!-- /wp:heading -->
+
+<!-- wp:image {"id":230,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/img-services.png" alt="" class="wp-image-230"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph -->
+<p>acc</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"works"},"className":"why-us","style":{"color":{"background":"#e7e7e7"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group why-us has-background" style="background-color:#e7e7e7;margin-top:0;margin-bottom:0"><!-- wp:image {"id":238,"sizeSlug":"full","linkDestination":"none","metadata":{"name":"work top-right image"},"className":"why-us-img-right-top"} -->
+<figure class="wp-block-image size-full why-us-img-right-top"><img src="https://focotik.test/wp-content/uploads/2024/08/works-img-right-top.png" alt="" class="wp-image-238"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"metadata":{"name":"works content"},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:group {"metadata":{"name":"container"},"layout":{"type":"constrained","contentSize":"1170px"}} -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"color":{"text":"#383a3e"},"elements":{"link":{"color":{"text":"#383a3e"}}}}} -->
+<h3 class="wp-block-heading has-text-color has-link-color" style="color:#383a3e">Intuitive works boosting <br><mark style="background-color:rgba(0, 0, 0, 0);color:#eb6945" class="has-inline-color">conversions by 800%</mark></h3>
+<!-- /wp:heading -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Check more projects</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"CTA Wrap"},"className":"cta","style":{"color":{"background":"#e7e7e7"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group cta has-background" style="background-color:#e7e7e7;margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"works content"},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:group {"metadata":{"name":"container"},"layout":{"type":"constrained","contentSize":"1170px"}} -->
+<div class="wp-block-group"><!-- wp:group {"className":"cta-content-wrap","style":{"color":{"background":"#eb6945"},"border":{"radius":"24px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group cta-content-wrap has-background" style="border-radius:24px;background-color:#eb6945"><!-- wp:image {"id":247,"sizeSlug":"full","linkDestination":"none","metadata":{"name":"ctatop-right image"},"className":"cta-img-right-top"} -->
+<figure class="wp-block-image size-full cta-img-right-top"><img src="https://focotik.test/wp-content/uploads/2024/08/cta-img-right-top.png" alt="" class="wp-image-247"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"className":"cta-text","layout":{"type":"constrained"}} -->
+<div class="wp-block-group cta-text"><!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading">Ready to stand out? Let’s craft your unique digital identity with FocoTik</h4>
+<!-- /wp:heading --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"focotik-wp-theme","tagName":"footer"} /-->

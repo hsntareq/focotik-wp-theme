@@ -100,6 +100,7 @@ body {
 
 	.why-us-content {
 		margin-top: 72px;
+
 		.why-us-item-wrap {
 			padding: 16px;
 			position: relative;
@@ -147,21 +148,36 @@ body {
 
 .services {
 	padding-block: 108px;
+
 	.services-top-content {
 		margin-bottom: 150px;
-		p.text-with-bg{
+
+		p.text-with-bg {
 			font-size: 16px;
 			font-weight: 500;
 			color: #242424;
-			
+
 		}
-		p{
+
+		p {
 			color: #EFF2F6;
 			font-size: 32px;
 			font-weight: 400;
 		}
 	}
 }
+
+.works {}
+
+.cta {
+
+	.cta-text {
+		padding-block: 96px;
+
+		h4 {}
+	}
+}
+
 
 .footer {
 

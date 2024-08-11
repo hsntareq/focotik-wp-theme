@@ -43,6 +43,24 @@ class Variations {
 				color: #EB6945;
 			}'
 		));*/
+
+		register_block_style('core/button', array(
+			'name'         => 'btn-orange-color',
+			'label'        => __('btn Orange Color', 'focotik'),
+			'inline_style' => '.wp-block-button.is-style-btn-orange-color {
+				background-color: #EB6945;
+				color: #EFF2F6;
+			}'
+		));
+
+		register_block_style('core/button', array(
+			'name'         => 'btn-white-color',
+			'label'        => __('btn White Color', 'focotik'),
+			'inline_style' => '.wp-block-button.is-style-btn-white-color {
+				background-color: #EFF2F6;
+				color: #272B2F;
+			}'
+		));
 	}
 }
 

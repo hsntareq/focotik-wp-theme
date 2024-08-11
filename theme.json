@@ -315,7 +315,7 @@
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "22px",
+					"fontSize": "48px",
 					"letterSpacing": "-5%"
 				}
 			},
@@ -328,7 +328,7 @@
 			"button": {
 				"color": {
 					"background": "var(--wp--preset--color--orange)",
-					"text": "var(--wp--preset--color--black)"
+					"text": "var(--wp--preset--color--base)"
 				}
 			},
 			"caption": {
