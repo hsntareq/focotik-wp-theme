@@ -58,11 +58,11 @@ class Variations {
 		register_block_style('core/button', array(
 			'name'         => 'btn-white-color',
 			'label'        => __('btn White Color', 'focotik'),
-			'inline_style' => '.wp-block-button.is-style-btn-white-color{
-				background-color: #EFF2F6;
-				color: #272B2F;
-				border-radius: 40px;
-				padding: 12px 24px;
+			'inline_style' => '.wp-block-button.is-style-btn-white-color .wp-block-button__link{
+				background-color: #EFF2F6 !important;
+				color: #272B2F !important;
+				border-radius: 40px !important;
+				padding: 12px 24px !important;
 			}'
 		));
 	}
