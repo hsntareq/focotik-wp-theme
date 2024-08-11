@@ -36,12 +36,13 @@ class Variations {
 	}
 
 	public function focotik_register_block_styles() {
-		register_block_style('core/heading', array(
+		/*register_block_style('core/heading', array(
 			'name'         => 'multi-color',
 			'label'        => __('Multi Color', 'focotik'),
 			'inline_style' => '.wp-block-heading.is-style-multi-color span {
 				color: #EB6945;
 			}'
-		));
+		));*/
 	}
 }
+

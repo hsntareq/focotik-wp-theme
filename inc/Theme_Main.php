@@ -94,6 +94,7 @@ final class Theme_Main {
 		$this->define_constants();
 
 		Blocks\Variations::get_instance();
+		Enqueue::get_instance();
 	}
 
 
