@@ -178,6 +178,25 @@ body {
 	}
 }
 
+.review {
+	padding-block: 180px;
+	.review-content {
+		margin-top: 72px;
+		h5{
+			color: #EFF2F6;
+			font-weight: 700;
+		}
+	}
+}
+
+.work-process-section {
+	padding-block: 180px;
+	.wps-heading {
+		margin-block-start: 150px;
+		margin-block-end: 72px;
+	}
+}
+
 
 .footer {
 
