@@ -6,6 +6,7 @@
  * Inserter: no
  */
 ?>
+
 <!-- wp:group {"metadata":{"name":"Work process section"},"className":"work-process-section","style":{"color":{"background":"#e7e7e7"},"spacing":{"margin":{"top":"0","bottom":"0"}},"background":{"backgroundImage":{"url":"https://focotik.test/wp-content/uploads/2024/08/bg-work-process-section.png","id":305,"source":"file","title":"bg-work-process-section"},"backgroundPosition":"100% 0%","backgroundSize":"auto","backgroundRepeat":"no-repeat"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group work-process-section has-background" style="background-color:#e7e7e7;margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"Work process section Content"},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"container"},"layout":{"type":"constrained","contentSize":"1170px"}} -->

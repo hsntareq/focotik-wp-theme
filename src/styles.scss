@@ -195,6 +195,25 @@ body {
 		margin-block-start: 150px;
 		margin-block-end: 72px;
 	}
+	.wps-service-section {
+		.services-title {
+			color: #383A3E;
+			font-size: 36px;
+			font-weight: 700;
+		}
+		.services-text {
+			color: #515457;
+			font-size: 24px;
+			font-weight: 400;
+		}
+		.services-list {
+			font-size: 20px;
+			font-weight: 500;
+			color: #383A3E;
+
+			li{margin-bottom: 16px;}
+		}
+	}
 }
 
 
