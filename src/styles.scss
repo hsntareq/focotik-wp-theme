@@ -219,12 +219,28 @@ body {
 .why-us-d2 {
 	padding-block: 180px;
 
+	.why-us-d2-heading {
+		margin-bottom: 40px;
+	}
+
 	.why-us-d2-text-wrap {
-		padding-block: 24px;
+		padding-block: 48px;
 		padding-inline: 56px;
-		margin-block: 48px;
+		margin-block: 28px;
 		border-radius: 16px;
 		border-bottom: 1px solid #EE9176;
+	}
+}
+
+.pricing-section {
+	padding-block: 180px;
+
+	.pricing-text-box {
+		padding-block: 24px;
+		padding-inline: 24px;
+		border-radius: 20px;
+
+		
 	}
 }
 
