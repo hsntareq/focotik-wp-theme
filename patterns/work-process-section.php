@@ -20,23 +20,23 @@
 <h3 class="wp-block-heading has-text-align-left wps-heading has-text-color" style="color:#383a3e">Design process that we follow from <mark style="background-color:rgba(0, 0, 0, 0);color:#eb6945" class="has-inline-color">concept to launch</mark></h3>
 <!-- /wp:heading -->
 
-<!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"textAlign":"right","level":4} -->
-<h4 class="wp-block-heading has-text-align-right">Research &amp; Concepts</h4>
+<!-- wp:group {"className":"wps-service-section","layout":{"type":"default"}} -->
+<div class="wp-block-group wps-service-section"><!-- wp:columns {"style":{"spacing":{"padding":{"top":"72px","bottom":"72px"}}}} -->
+<div class="wp-block-columns" style="padding-top:72px;padding-bottom:72px"><!-- wp:column {"style":{"spacing":{"padding":{"right":"100px"}}}} -->
+<div class="wp-block-column" style="padding-right:100px"><!-- wp:heading {"textAlign":"right","level":4,"className":"services-title"} -->
+<h4 class="wp-block-heading has-text-align-right services-title">Research &amp; Concepts</h4>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:paragraph -->
-<p>Crafting unparalleled digital journeys for top-tier brands, we seamlessly integrate the power of artificial intelligence.</p>
+<div class="wp-block-column"><!-- wp:paragraph {"className":"services-text"} -->
+<p class="services-text">Crafting unparalleled digital journeys for top-tier brands, we seamlessly integrate the power of artificial intelligence.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
+<!-- wp:column {"style":{"spacing":{"padding":{"left":"80px"}}}} -->
+<div class="wp-block-column" style="padding-left:80px"><!-- wp:list {"className":"services-list"} -->
+<ul class="wp-block-list services-list"><!-- wp:list-item -->
 <li>Heuristic Analysis</li>
 <!-- /wp:list-item -->
 
@@ -63,22 +63,26 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"textAlign":"right","level":4} -->
-<h4 class="wp-block-heading has-text-align-right">Design</h4>
+<!-- wp:separator {"style":{"color":{"background":"#d6d8dc"}}} -->
+<hr class="wp-block-separator has-text-color has-alpha-channel-opacity has-background" style="background-color:#d6d8dc;color:#d6d8dc"/>
+<!-- /wp:separator -->
+
+<!-- wp:columns {"style":{"spacing":{"padding":{"top":"72px","bottom":"72px"}}}} -->
+<div class="wp-block-columns" style="padding-top:72px;padding-bottom:72px"><!-- wp:column {"style":{"spacing":{"padding":{"right":"100px"}}}} -->
+<div class="wp-block-column" style="padding-right:100px"><!-- wp:heading {"textAlign":"right","level":4,"className":"services-title"} -->
+<h4 class="wp-block-heading has-text-align-right services-title">Design</h4>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:paragraph -->
-<p>Crafting unparalleled digital journeys for top-tier brands, we seamlessly integrate the power of artificial intelligence.</p>
+<div class="wp-block-column"><!-- wp:paragraph {"className":"services-text"} -->
+<p class="services-text">Crafting unparalleled digital journeys for top-tier brands, we seamlessly integrate the power of artificial intelligence.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
+<!-- wp:column {"style":{"spacing":{"padding":{"left":"80px"}}}} -->
+<div class="wp-block-column" style="padding-left:80px"><!-- wp:list {"className":"services-list"} -->
+<ul class="wp-block-list services-list"><!-- wp:list-item -->
 <li>Heuristic Analysis</li>
 <!-- /wp:list-item -->
 
@@ -105,22 +109,26 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"right":"var:preset|spacing|50"}}}} -->
-<div class="wp-block-column" style="padding-right:var(--wp--preset--spacing--50)"><!-- wp:heading {"textAlign":"right","level":4} -->
-<h4 class="wp-block-heading has-text-align-right">Development</h4>
+<!-- wp:separator {"style":{"color":{"background":"#d6d8dc"}}} -->
+<hr class="wp-block-separator has-text-color has-alpha-channel-opacity has-background" style="background-color:#d6d8dc;color:#d6d8dc"/>
+<!-- /wp:separator -->
+
+<!-- wp:columns {"style":{"spacing":{"padding":{"top":"72px","bottom":"72px"}}}} -->
+<div class="wp-block-columns" style="padding-top:72px;padding-bottom:72px"><!-- wp:column {"style":{"spacing":{"padding":{"right":"100px"},"blockGap":"0"}}} -->
+<div class="wp-block-column" style="padding-right:100px"><!-- wp:heading {"textAlign":"right","level":4,"className":"services-title"} -->
+<h4 class="wp-block-heading has-text-align-right services-title">Development</h4>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:paragraph -->
-<p>Crafting unparalleled digital journeys for top-tier brands, we seamlessly integrate the power of artificial intelligence.</p>
+<div class="wp-block-column"><!-- wp:paragraph {"className":"services-text"} -->
+<p class="services-text">Crafting unparalleled digital journeys for top-tier brands, we seamlessly integrate the power of artificial intelligence.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"style":{"spacing":{"padding":{"right":"0","left":"0"}}}} -->
-<div class="wp-block-column" style="padding-right:0;padding-left:0"><!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
+<!-- wp:column {"style":{"spacing":{"padding":{"right":"0","left":"80px"}}}} -->
+<div class="wp-block-column" style="padding-right:0;padding-left:80px"><!-- wp:list {"className":"services-list"} -->
+<ul class="wp-block-list services-list"><!-- wp:list-item -->
 <li>Heuristic Analysis</li>
 <!-- /wp:list-item -->
 
