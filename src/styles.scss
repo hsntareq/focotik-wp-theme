@@ -240,7 +240,12 @@ body {
 		padding-inline: 24px;
 		border-radius: 20px;
 
-		
+		ul.pricing-list-item {
+			list-style-type: none;
+			li::before {
+				
+			}
+		}
 	}
 }
 
