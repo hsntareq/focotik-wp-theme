@@ -1,0 +1,72 @@
+.contact-section {
+    .wpcf7-form * {
+        box-sizing: border-box;
+
+        p {
+            margin: 0;
+        }
+        button{
+            text-align: center;
+            display: flex;
+            margin-inline: auto;
+        }
+    }
+
+    .wpcf7-form input[type="text"],
+    .wpcf7-form input[type="email"],
+    .wpcf7-form select,
+    .wpcf7-form textarea {
+        border: none;
+        border-bottom: 1px solid #6A6C70;
+        outline: none;
+        padding: 8px;
+        font-size: 16px;
+        width: 100%;
+        background: none;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .wpcf7-form textarea {
+        resize: vertical;
+        height: 57px;
+    }
+
+    .wpcf7-form label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .wpcf7-form .contact-service-type p {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .wpcf7-form .contact-service-type p>* {
+        flex: 1 1 50%;
+        box-sizing: border-box;
+    }
+
+    .wp-block-media-text__content {
+        padding: 0 12px;
+    }
+
+    .wp-block-media-text__media img {
+        height: 52px;
+        width: 52px;
+    }
+
+    .contact-whatsapp-row {
+        gap: 12px;
+    }
+
+    .wp-block-media-text__media {
+        height: 24px;
+        width: 24px;
+    }
+
+    .wp-block-columns.is-layout-flex.wp-container-core-columns-is-layout-1.wp-block-columns-is-layout-flex.is-layout-flex {
+        gap: 64px;
+    }
+}

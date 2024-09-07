@@ -9,6 +9,15 @@
 
 namespace Focotik\Blocks;
 
+use Focotik\Blocks\Variations\Btn_Orange_Color;
+use Focotik\Blocks\Variations\Btn_White_Color;
+use Focotik\Blocks\Variations\Grid_Card;
+use Focotik\Blocks\Variations\Grid_Gradient;
+use Focotik\Blocks\Variations\List_With_Bullet;
+use Focotik\Blocks\Variations\List_With_Circle;
+use Focotik\Blocks\Variations\List_With_Gradient_Bullet;
+use Focotik\Blocks\Variations\List_With_Right_Arrow;
+
 if (!defined('ABSPATH')) {
 	exit;
 }
@@ -16,7 +25,8 @@ if (!defined('ABSPATH')) {
 /**
  * Block_Variations Class
  */
-class Variations {
+class Variations
+{
 
 	use \Focotik\Traits\Singleton; // Use the Singleton and PluginData trait.
 
@@ -24,47 +34,32 @@ class Variations {
 	 * Class constructor
 	 * (private to enforce singleton pattern).
 	 */
-	private function __construct() {
+	private function __construct()
+	{
 		// All the initialization tasks.
 		$this->register_hooks();
 	}
 
 
-	public function register_hooks() {
+	public function register_hooks()
+	{
 		// Register block styles.
-		add_action('init', array($this, 'focotik_register_block_styles'));
+		add_action('enqueue_block_assets', array($this, 'focotik_register_block_styles'));
 	}
 
-	public function focotik_register_block_styles() {
-		/*register_block_style('core/heading', array(
-			'name'         => 'multi-color',
-			'label'        => __('Multi Color', 'focotik'),
-			'inline_style' => '.wp-block-heading.is-style-multi-color span {
-				color: #EB6945;
-			}'
-		));*/
-
-		register_block_style('core/button', array(
-			'name'         => 'btn-orange-color',
-			'label'        => __('btn Orange Color', 'focotik'),
-			'inline_style' => '.wp-block-button.is-style-btn-orange-color {
-				background-color: #EB6945;
-				color: #EFF2F6;
-				border-radius: 40px;
-				padding: 12px 24px;
-			}'
-		));
-
-		register_block_style('core/button', array(
-			'name'         => 'btn-white-color',
-			'label'        => __('btn White Color', 'focotik'),
-			'inline_style' => '.wp-block-button.is-style-btn-white-color .wp-block-button__link{
-				background-color: #EFF2F6 !important;
-				color: #272B2F !important;
-				border-radius: 40px !important;
-				padding: 12px 24px !important;
-			}'
-		));
+	/**
+	 * Register block variations
+	 */
+	public function focotik_register_block_styles()
+	{
+		// Register block variations.
+		Btn_Orange_Color::get_instance();
+		Btn_White_Color::get_instance();
+		Grid_Gradient::get_instance();
+		Grid_Card::get_instance();
+		List_With_Bullet::get_instance();
+		List_With_Gradient_Bullet::get_instance();
+		List_With_Circle::get_instance();
+		List_With_Right_Arrow::get_instance();
 	}
 }
-

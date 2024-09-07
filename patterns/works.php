@@ -12,8 +12,8 @@
 <!-- /wp:image -->
 
 <!-- wp:group {"metadata":{"name":"works content"},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:group {"metadata":{"name":"container"},"layout":{"type":"constrained","contentSize":"1170px"}} -->
-<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group"><!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1170px"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"color":{"text":"#383a3e"},"elements":{"link":{"color":{"text":"#383a3e"}}}}} -->
 <h3 class="wp-block-heading has-text-color has-link-color" style="color:#383a3e">Intuitive works boosting <br><mark style="background-color:rgba(0, 0, 0, 0);color:#eb6945" class="has-inline-color">conversions by 800%</mark></h3>
 <!-- /wp:heading -->
@@ -25,8 +25,122 @@
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"></div>
+<!-- wp:spacer {"height":"48px"} -->
+<div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"className":"gap32","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
+<div class="wp-block-group gap32" style="margin-top:0;margin-bottom:0"><!-- wp:group {"style":{"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:image {"id":945,"width":"569px","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"8px"}}} -->
+<figure class="wp-block-image size-full is-resized has-custom-border"><img src="https://focotik.test/wp-content/uploads/2024/09/work-img-1.png" alt="" class="wp-image-945" style="border-radius:8px;width:569px"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:buttons {"className":"gap8","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-buttons gap8" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:button {"className":"is-style-outline","style":{"spacing":{"padding":{"left":"12px","right":"12px","top":"4px","bottom":"4px"}},"border":{"color":"#b2b4b8"},"typography":{"fontSize":"14px","fontStyle":"normal","fontWeight":"700"}}} -->
+<div class="wp-block-button has-custom-font-size is-style-outline" style="font-size:14px;font-style:normal;font-weight:700"><a class="wp-block-button__link has-border-color wp-element-button" style="border-color:#b2b4b8;padding-top:4px;padding-right:12px;padding-bottom:4px;padding-left:12px">WEBSITE</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"className":"is-style-outline","style":{"spacing":{"padding":{"left":"12px","right":"12px","top":"4px","bottom":"4px"}},"border":{"color":"#b2b4b8"},"typography":{"fontSize":"14px","fontStyle":"normal","fontWeight":"700"}}} -->
+<div class="wp-block-button has-custom-font-size is-style-outline" style="font-size:14px;font-style:normal;font-weight:700"><a class="wp-block-button__link has-border-color wp-element-button" style="border-color:#b2b4b8;padding-top:4px;padding-right:12px;padding-bottom:4px;padding-left:12px">BUSINESS</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"32px"}}}} -->
+<h5 class="wp-block-heading" style="margin-top:32px;font-style:normal;font-weight:600">Torii — Building the world's best home buying experience.</h5>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:image {"id":946,"width":"569px","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"8px"}}} -->
+<figure class="wp-block-image size-full is-resized has-custom-border"><img src="https://focotik.test/wp-content/uploads/2024/09/work-img-2.png" alt="" class="wp-image-946" style="border-radius:8px;width:569px"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:buttons {"className":"gap8","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-buttons gap8" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:button {"className":"is-style-outline","style":{"spacing":{"padding":{"left":"12px","right":"12px","top":"4px","bottom":"4px"}},"border":{"color":"#b2b4b8"},"typography":{"fontSize":"14px","fontStyle":"normal","fontWeight":"700"}}} -->
+<div class="wp-block-button has-custom-font-size is-style-outline" style="font-size:14px;font-style:normal;font-weight:700"><a class="wp-block-button__link has-border-color wp-element-button" style="border-color:#b2b4b8;padding-top:4px;padding-right:12px;padding-bottom:4px;padding-left:12px">WEBSITE</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"className":"is-style-outline","style":{"spacing":{"padding":{"left":"12px","right":"12px","top":"4px","bottom":"4px"}},"border":{"color":"#b2b4b8"},"typography":{"fontSize":"14px","fontStyle":"normal","fontWeight":"700"}}} -->
+<div class="wp-block-button has-custom-font-size is-style-outline" style="font-size:14px;font-style:normal;font-weight:700"><a class="wp-block-button__link has-border-color wp-element-button" style="border-color:#b2b4b8;padding-top:4px;padding-right:12px;padding-bottom:4px;padding-left:12px">BUSINESS</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"32px"}}}} -->
+<h5 class="wp-block-heading" style="margin-top:32px;font-style:normal;font-weight:600">Torii — Building the world's best home buying experience.</h5>
+<!-- /wp:heading --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"56px"} -->
+<div style="height:56px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"grid","columnCount":"1","minimumColumnWidth":null}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"style":{"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:image {"id":953,"scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"8px"}}} -->
+<figure class="wp-block-image size-full has-custom-border"><img src="https://focotik.test/wp-content/uploads/2024/09/work-img-3.png" alt="" class="wp-image-953" style="border-radius:8px;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:buttons {"className":"gap8","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-buttons gap8" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:button {"className":"is-style-outline","style":{"spacing":{"padding":{"left":"12px","right":"12px","top":"4px","bottom":"4px"}},"border":{"color":"#b2b4b8"},"typography":{"fontSize":"14px","fontStyle":"normal","fontWeight":"700"}}} -->
+<div class="wp-block-button has-custom-font-size is-style-outline" style="font-size:14px;font-style:normal;font-weight:700"><a class="wp-block-button__link has-border-color wp-element-button" style="border-color:#b2b4b8;padding-top:4px;padding-right:12px;padding-bottom:4px;padding-left:12px">WEBSITE</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"className":"is-style-outline","style":{"spacing":{"padding":{"left":"12px","right":"12px","top":"4px","bottom":"4px"}},"border":{"color":"#b2b4b8"},"typography":{"fontSize":"14px","fontStyle":"normal","fontWeight":"700"}}} -->
+<div class="wp-block-button has-custom-font-size is-style-outline" style="font-size:14px;font-style:normal;font-weight:700"><a class="wp-block-button__link has-border-color wp-element-button" style="border-color:#b2b4b8;padding-top:4px;padding-right:12px;padding-bottom:4px;padding-left:12px">BUSINESS</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"32px"}}}} -->
+<h5 class="wp-block-heading" style="margin-top:32px;font-style:normal;font-weight:600">Torii — Building the world's best home buying experience.</h5>
+<!-- /wp:heading --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"56px"} -->
+<div style="height:56px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"className":"gap32","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
+<div class="wp-block-group gap32" style="margin-top:0;margin-bottom:0"><!-- wp:group {"style":{"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:image {"id":945,"width":"569px","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"8px"}}} -->
+<figure class="wp-block-image size-full is-resized has-custom-border"><img src="https://focotik.test/wp-content/uploads/2024/09/work-img-1.png" alt="" class="wp-image-945" style="border-radius:8px;width:569px"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:buttons {"className":"gap8","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-buttons gap8" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:button {"className":"is-style-outline","style":{"spacing":{"padding":{"left":"12px","right":"12px","top":"4px","bottom":"4px"}},"border":{"color":"#b2b4b8"},"typography":{"fontSize":"14px","fontStyle":"normal","fontWeight":"700"}}} -->
+<div class="wp-block-button has-custom-font-size is-style-outline" style="font-size:14px;font-style:normal;font-weight:700"><a class="wp-block-button__link has-border-color wp-element-button" style="border-color:#b2b4b8;padding-top:4px;padding-right:12px;padding-bottom:4px;padding-left:12px">WEBSITE</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"className":"is-style-outline","style":{"spacing":{"padding":{"left":"12px","right":"12px","top":"4px","bottom":"4px"}},"border":{"color":"#b2b4b8"},"typography":{"fontSize":"14px","fontStyle":"normal","fontWeight":"700"}}} -->
+<div class="wp-block-button has-custom-font-size is-style-outline" style="font-size:14px;font-style:normal;font-weight:700"><a class="wp-block-button__link has-border-color wp-element-button" style="border-color:#b2b4b8;padding-top:4px;padding-right:12px;padding-bottom:4px;padding-left:12px">BUSINESS</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"32px"}}}} -->
+<h5 class="wp-block-heading" style="margin-top:32px;font-style:normal;font-weight:600">Torii — Building the world's best home buying experience.</h5>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:image {"id":946,"width":"569px","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"8px"}}} -->
+<figure class="wp-block-image size-full is-resized has-custom-border"><img src="https://focotik.test/wp-content/uploads/2024/09/work-img-2.png" alt="" class="wp-image-946" style="border-radius:8px;width:569px"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:buttons {"className":"gap8","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-buttons gap8" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:button {"className":"is-style-outline","style":{"spacing":{"padding":{"left":"12px","right":"12px","top":"4px","bottom":"4px"}},"border":{"color":"#b2b4b8"},"typography":{"fontSize":"14px","fontStyle":"normal","fontWeight":"700"}}} -->
+<div class="wp-block-button has-custom-font-size is-style-outline" style="font-size:14px;font-style:normal;font-weight:700"><a class="wp-block-button__link has-border-color wp-element-button" style="border-color:#b2b4b8;padding-top:4px;padding-right:12px;padding-bottom:4px;padding-left:12px">WEBSITE</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"className":"is-style-outline","style":{"spacing":{"padding":{"left":"12px","right":"12px","top":"4px","bottom":"4px"}},"border":{"color":"#b2b4b8"},"typography":{"fontSize":"14px","fontStyle":"normal","fontWeight":"700"}}} -->
+<div class="wp-block-button has-custom-font-size is-style-outline" style="font-size:14px;font-style:normal;font-weight:700"><a class="wp-block-button__link has-border-color wp-element-button" style="border-color:#b2b4b8;padding-top:4px;padding-right:12px;padding-bottom:4px;padding-left:12px">BUSINESS</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"32px"}}}} -->
+<h5 class="wp-block-heading" style="margin-top:32px;font-style:normal;font-weight:600">Torii — Building the world's best home buying experience.</h5>
+<!-- /wp:heading --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

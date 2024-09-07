@@ -3,7 +3,8 @@
 		"version": "1.0.0",
 		"main": "index.js",
 		"scripts": {
-				"start": "wp-scripts start src/frontend.js",
+				"start": "concurrently \"wp-scripts start src/frontend.js --output-path=build\" && \"wp-scripts start\"",
+				"startX": "wp-scripts start && wp-scripts start src/frontend.js",
 				"build": "wp-scripts build src/frontend.js",
 				"format:js": "wp-scripts format-js",
 				"lint:css": "wp-scripts lint-style",
@@ -23,6 +24,7 @@
 		"license": "ISC",
 		"description": "",
 		"devDependencies": {
-				"@wordpress/scripts": "^28.3.0"
+				"@wordpress/scripts": "^28.3.0",
+				"concurrently": "^8.2.2"
 		}
 }

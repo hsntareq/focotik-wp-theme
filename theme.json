@@ -3,7 +3,7 @@
 		"appearanceTools": true,
 		"layout": {
 			"contentSize": "620px",
-			"wideSize": "1000px"
+			"wideSize": "1170px"
 		},
 		"spacing": {
 			"units": [
@@ -129,6 +129,48 @@
 					"name": "Manrope",
 					"slug": "manrope"
 				}
+			],
+			"fontSizes": [
+				{
+					"name": "XS",
+					"slug": "extra-small",
+					"size": "13px"
+				},
+				{
+					"name": "S",
+					"slug": "small",
+					"size": "16px"
+				},
+				{
+					"name": "M",
+					"slug": "medium",
+					"size": "20px"
+				},
+				{
+					"name": "L",
+					"slug": "large",
+					"size": "24px"
+				},
+				{
+					"name": "XL",
+					"slug": "extra-large",
+					"size": "36px"
+				},
+				{
+					"name": "2XL",
+					"slug": "2x-large",
+					"size": "42px"
+				},
+				{
+					"name": "3XL",
+					"slug": "3x-large",
+					"size": "64px"
+				},
+				{
+					"name": "4XL",
+					"slug": "4x-large",
+					"size": "72px"
+				}
 			]
 		},
 		"useRootPaddingAwareAlignments": true
@@ -151,21 +193,15 @@
 			},
 			"core/image": {
 				"spacing": {
-					"margin": {
-						
-					}
+					"margin": {}
 				}
 			},
 			"core/heading": {
 				"spacing": {
-					"margin": {
-						
-					}
+					"margin": {}
 				}
 			},
-			"core/code": {
-				
-			},
+			"core/code": {},
 			"core/navigation": {
 				"typography": {
 					"fontSize": "16px",
@@ -220,7 +256,6 @@
 							"style": "solid",
 							"radius": "0"
 						},
-						
 						":hover": {
 							"color": {
 								"background": "#005AEA",
@@ -284,7 +319,6 @@
 					"background": "var(--wp--preset--color--white)",
 					"text": "var(--wp--preset--color--black)"
 				}
-				
 			}
 		},
 		"elements": {
@@ -384,7 +418,6 @@
 			"textTransform": "none"
 		}
 	},
-	
 	"templateParts": [
 		{
 			"area": "header",

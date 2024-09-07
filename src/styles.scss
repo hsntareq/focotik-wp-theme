@@ -1,3 +1,5 @@
+@import url(./styles/lib.scss);
+
 body {
 	background-color: #E7E7E7;
 }
@@ -10,6 +12,79 @@ body {
 	gap: 8px;
 }
 
+.foco-accordion {
+	details {
+		overflow: hidden;
+		transition: height 0.3s ease, padding-bottom 0.3s ease;
+		border-bottom: 1px solid #D6D8DC;
+		padding-block: 48px;
+		height: auto !important;
+		margin-block-start: 0;
+
+		&[open] {
+			summary::after {
+				content: url(../assets/images/svg-icons/arrow-up.svg);
+			}
+		}
+
+		&:not([open]) {
+			height: 0;
+			padding-bottom: 0;
+
+			p {
+				opacity: 0;
+			}
+		}
+
+		p {
+			margin-top: 0;
+			transition: opacity 0.3s ease;
+			opacity: 1;
+		}
+
+
+		summary {
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			line-height: 23px;
+
+			&::after {
+				content: url(../assets/images/svg-icons/arrow-down.svg);
+				margin-left: auto;
+			}
+		}
+
+	}
+}
+
+
+
+.details {
+	border-bottom: 1px solid #D6D8DC;
+	padding-bottom: 48px;
+
+	summary {
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+
+		&::after {
+			content: url(../assets/images/svg-icons/arrow-down.svg);
+			margin-left: auto;
+		}
+	}
+
+	&[open] {
+		summary::after {
+			content: url(../assets/images/svg-icons/arrow-up.svg);
+		}
+	}
+
+	// &>*:not(summary) {
+	// 	// padding-bottom: 100px;
+	// }
+}
 
 //hero-section
 
@@ -180,9 +255,11 @@ body {
 
 .review {
 	padding-block: 180px;
+
 	.review-content {
 		margin-top: 72px;
-		h5{
+
+		h5 {
 			color: #EFF2F6;
 			font-weight: 700;
 		}
@@ -191,27 +268,33 @@ body {
 
 .work-process-section {
 	padding-block: 180px;
+
 	.wps-heading {
 		margin-block-start: 150px;
 		margin-block-end: 72px;
 	}
+
 	.wps-service-section {
 		.services-title {
 			color: #383A3E;
 			font-size: 36px;
 			font-weight: 700;
 		}
+
 		.services-text {
 			color: #515457;
 			font-size: 24px;
 			font-weight: 400;
 		}
+
 		.services-list {
 			font-size: 20px;
 			font-weight: 500;
 			color: #383A3E;
 
-			li{margin-bottom: 16px;}
+			li {
+				margin-bottom: 16px;
+			}
 		}
 	}
 }
@@ -232,23 +315,9 @@ body {
 	}
 }
 
-.pricing-section {
-	padding-block: 180px;
-
-	.pricing-text-box {
-		padding-block: 24px;
-		padding-inline: 24px;
-		border-radius: 20px;
-
-		ul.pricing-list-item {
-			list-style-type: none;
-			li::before {
-				
-			}
-		}
-	}
-}
-
+@import url(./styles/pricing-section.scss);
+@import url(./styles/testimonial.scss);
+@import url(./styles//contact-section.scss);
 
 .footer {
 

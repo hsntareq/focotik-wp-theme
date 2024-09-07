@@ -1,0 +1,83 @@
+.testimonial-card-grid {
+    gap: 8px;
+}
+
+.testimonial-2-card-grid {
+    gap: 32px;
+}
+
+.testimonial-2-review {
+    figure {
+        margin-top: 8px;
+    }
+}
+
+.testimonial-3-row-item {
+    gap: 32px;
+}
+
+.portfolio-section {
+    .p-grid {
+        row-gap: 72px;
+        column-gap: 32px;
+    }
+}
+
+.faq .foco-accordion {
+    details {
+        padding-bottom: 48px;
+        summary {
+            font-size: 32px !important;
+            font-weight: 600;
+            padding: 0;
+            margin: 0;
+        }
+
+        p {
+            width: 879px;
+            font-size: 20px;
+            font-weight: 400;
+            padding: 0;
+            line-height: 28px;
+            letter-spacing: -0.01em;
+            text-align: left;
+        }
+    }
+}
+
+.home-services .foco-accordion {
+    width: 525px;
+
+    details {
+        padding-bottom: 32px !important;
+
+        summary {
+            font-size: 32px !important;
+            font-weight: 600;
+            padding: 0;
+            margin: 0;
+        }
+
+        p {
+            width: 453px;
+            padding-top: 16px!important;
+            padding-bottom: 32px!important;
+            margin: 0;
+            letter-spacing: -0.01em;
+            text-align: left;
+        }
+    }
+}
+
+.blogandnews {
+    .wp-block-media-text {
+        .wp-block-media-text__media {
+            height: 40px;
+            width: 40px;
+        }
+
+        .wp-block-media-text__content {
+            padding-inline: 0;
+        }
+    }
+}

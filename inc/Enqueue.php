@@ -17,7 +17,8 @@ if (!defined('ABSPATH')) {
 /**
  * Plugin_Main Class
  */
-class Enqueue {
+class Enqueue
+{
 	use Traits\Singleton, Traits\PluginData; // Use the Singleton and PluginData trait.
 
 	/**
@@ -25,24 +26,33 @@ class Enqueue {
 	 *
 	 * @return void
 	 */
-	private function __construct() {
+	private function __construct()
+	{
 		// All the initialization tasks.
 		$this->init();
 	}
-    
-	public function init() {
+
+	public function init()
+	{
 		// Enqueue style for frontend
 		add_action('enqueue_block_assets', array($this, 'enqueue_frontend_style'));
 	}
-	
+
 	/**
 	 * Enqueue style for frontend.
 	 *
 	 * @return void
 	 */
-	public function enqueue_frontend_style() {
+	public function enqueue_frontend_style()
+	{
 		wp_enqueue_style('frontend-style', get_stylesheet_directory_uri() . '/build/frontend.css', array(), '1.0.0', 'all');
+		wp_enqueue_script(
+			'focotik-script',
+			get_stylesheet_directory_uri() . '/build/frontend.js',
+			array(),
+			'1.0.0',
+			true
+		);
+		wp_localize_script('focotik-script', 'focotik', array('assets_url' => FOCOTIK_ASSETS_URI));
 	}
-
-
 }
