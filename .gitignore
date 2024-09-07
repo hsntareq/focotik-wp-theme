@@ -4,5 +4,5 @@ node_modules
 *.log
 *.zip
 build
-*lock.json
+*ck.json
 vendor
