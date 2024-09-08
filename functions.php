@@ -18,6 +18,12 @@ if (file_exists(__DIR__ . '/vendor/autoload.php')) {
 
 Focotik\Theme_Main::get_instance();
 
+function pr($data)
+{
+	echo '<pre>';
+	print_r($data);
+	echo '</pre>';
+}
 
 function wpdocs_register_multiple_blocks()
 {
@@ -52,3 +58,17 @@ function create_pages_if_not_exist() {
     }
 }
 add_action('after_switch_theme', 'create_pages_if_not_exist');
+
+
+// Helper function to get a page by title
+function foco_page_by_title($title) {
+    $pages = get_posts(array(
+        'post_type' => 'page',
+        'title'     => $title,
+        'numberposts' => 1
+    ));
+    return !empty($pages) ? $pages[0] : null;
+}
+
+
+// foco_page_by_title('About Us');die;
