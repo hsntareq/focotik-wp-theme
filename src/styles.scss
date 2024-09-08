@@ -11,6 +11,11 @@ body {
 .gap8 {
 	gap: 8px!important;
 }
+.header-dark {
+	padding-top: 24px!important;
+	padding-bottom: 108px!important;
+	background-color: transparent!important;
+}
 
 .foco-accordion {
 	details {
@@ -108,8 +113,9 @@ body {
 	}
 
 	.white-header {
-		margin-bottom: 108px;
-		padding-block: 24px;
+		margin-bottom: 108px!important;
+		padding-block: 24px!important;
+		background-color: transparent;
 	}
 
 	.hero-text-content {
