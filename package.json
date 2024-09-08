@@ -17,6 +17,7 @@
 				"lint:sh:fix": "wp-scripts lint-sh --fix",
 				"lint:yaml": "wp-scripts lint-yaml",
 				"lint:yaml:fix": "wp-scripts lint-yaml --fix",
+				"zip": "node bundle.js",
 				"test": "echo \"Error: no test specified\" && exit 1"
 		},
 		"keywords": [],
@@ -25,6 +26,7 @@
 		"description": "",
 		"devDependencies": {
 				"@wordpress/scripts": "^28.3.0",
-				"concurrently": "^8.2.2"
+				"concurrently": "^8.2.2",
+				"dir-archiver": "^2.1.0"
 		}
 }
