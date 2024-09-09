@@ -1,0 +1,30 @@
+<?php
+
+/**
+ * Title: header dark
+ * Slug: focotik/header-dark
+ * Categories: hidden
+ * Inserter: no
+ */
+?>
+<!-- wp:group {"className":"header-dark has-text-color has-background has-link-color"} -->
+<div class="wp-block-group header-dark has-text-color has-background has-link-color"><!-- wp:group {"metadata":{"name":"Header"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+	<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+		<div class="wp-block-group"><!-- wp:image {"id":25,"width":"169px","sizeSlug":"full","linkDestination":"none"} -->
+			<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI); ?>assets/images/logo.png" alt="" class="wp-image-25" style="width:169px" /></figure>
+			<!-- /wp:image -->
+
+			<?php echo generate_navigation_html(); ?>
+		</div>
+		<!-- /wp:group -->
+
+		<!-- wp:buttons -->
+		<div class="wp-block-buttons"><!-- wp:button {"style":{"color":{"background":"#eb6945"}}} -->
+			<div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" style="background-color:#eb6945">Let's Talk -&gt;</a></div>
+			<!-- /wp:button -->
+		</div>
+		<!-- /wp:buttons -->
+	</div>
+	<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
