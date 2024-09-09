@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group {"metadata":{"name":"Hero Section"},"className":"hero-section","layout":{"type":"default"}} -->
-<div class="wp-block-group hero-section"><!-- wp:template-part {"slug":"header-white","theme":"focotik-wp-theme","tagName":"header"} /-->
+<div class="wp-block-group hero-section"><!-- wp:template-part {"slug":"header-white","area":"header"} /-->
 
 <!-- wp:group {"metadata":{"name":"Hero Content"},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Container"},"layout":{"type":"constrained","contentSize":"1170px"}} -->

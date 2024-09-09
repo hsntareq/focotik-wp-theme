@@ -11,7 +11,6 @@
 <div class="wp-block-group header-dark has-text-color has-background has-link-color" style="color:#eff2f6;background-color:transparent"><!-- wp:group {"metadata":{"name":"Header"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group"><!-- wp:site-logo {"shouldSyncIcon":false} /-->
-
 			<?php generate_navigation_html(); ?>
 		</div>
 		<!-- /wp:group -->
