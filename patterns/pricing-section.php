@@ -6,7 +6,7 @@
  */
 ?>
 
-<!-- wp:group {"metadata":{"name":"pricing section"},"className":"pricing-section","style":{"color":{"background":"#181a1d"},"spacing":{"margin":{"top":"0","bottom":"0"}},"background":{"backgroundImage":{"url":"https://focotik.test/wp-content/uploads/2024/08/bg-review.png","id":301,"source":"file","title":"bg-review"},"backgroundPosition":"100% 0%","backgroundSize":"auto","backgroundRepeat":"no-repeat"}},"layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"pricing section"},"className":"pricing-section","style":{"color":{"background":"#181a1d"},"spacing":{"margin":{"top":"0","bottom":"0"}},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/bg-review.png","id":301,"source":"file","title":"bg-review"},"backgroundPosition":"100% 0%","backgroundSize":"auto","backgroundRepeat":"no-repeat"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group pricing-section has-background" style="background-color:#181a1d;margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"pricing section Content"},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"container"},"layout":{"type":"constrained","wideSize":"1170px"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained","wideSize":"626px"}} -->
@@ -23,7 +23,7 @@
 <div class="wp-block-group pricing-item-row"><!-- wp:group {"className":"pricing-text-box","style":{"color":{"background":"#272b2f"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group pricing-text-box has-background" style="background-color:#272b2f"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":374,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/pricing-img-1.png" alt="" class="wp-image-374"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/pricing-img-1.png" alt="" class="wp-image-374"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"color":{"text":"#d6d8dc"},"elements":{"link":{"color":{"text":"#d6d8dc"}}},"typography":{"fontSize":"24px"}}} -->
@@ -79,7 +79,7 @@
 <!-- wp:group {"className":"pricing-text-box","style":{"color":{"background":"#272b2f"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group pricing-text-box has-background" style="background-color:#272b2f"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":408,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/09/pricing-img-2.png" alt="" class="wp-image-408"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/pricing-img-2.png" alt="" class="wp-image-408"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"color":{"text":"#d6d8dc"},"elements":{"link":{"color":{"text":"#d6d8dc"}}},"typography":{"fontSize":"24px"}}} -->
@@ -135,7 +135,7 @@
 <!-- wp:group {"className":"pricing-text-box","style":{"color":{"background":"#272b2f"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group pricing-text-box has-background" style="background-color:#272b2f"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":409,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/09/pricing-img-3.png" alt="" class="wp-image-409"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/pricing-img-3.png" alt="" class="wp-image-409"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"color":{"text":"#d6d8dc"},"elements":{"link":{"color":{"text":"#d6d8dc"}}},"typography":{"fontSize":"24px"}}} -->

@@ -29,7 +29,7 @@
 <!-- wp:group {"className":"d-grid p-grid","layout":{"type":"grid","columnCount":3,"minimumColumnWidth":null}} -->
 <div class="wp-block-group d-grid p-grid"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":589,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/service-card-5-1024x800.png" alt="" class="wp-image-589" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-5-1024x800.png" alt="" class="wp-image-589" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -39,7 +39,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":588,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/service-card-4-1024x800.png" alt="" class="wp-image-588" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-4-1024x800.png" alt="" class="wp-image-588" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -49,7 +49,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":785,"width":"auto","height":"294px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/portfolio-sec2-image-3.png" alt="" class="wp-image-785" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/portfolio-sec2-image-3.png" alt="" class="wp-image-785" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -59,7 +59,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":586,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/service-card-2-1024x800.png" alt="" class="wp-image-586" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-2-1024x800.png" alt="" class="wp-image-586" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -69,7 +69,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":585,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -79,7 +79,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":587,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/servcie-card-3-1024x800.png" alt="" class="wp-image-587" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/servcie-card-3-1024x800.png" alt="" class="wp-image-587" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -89,7 +89,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":586,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/service-card-2-1024x800.png" alt="" class="wp-image-586" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-2-1024x800.png" alt="" class="wp-image-586" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -99,7 +99,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":585,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -109,7 +109,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":587,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/servcie-card-3-1024x800.png" alt="" class="wp-image-587" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/servcie-card-3-1024x800.png" alt="" class="wp-image-587" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -119,7 +119,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":586,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/service-card-2-1024x800.png" alt="" class="wp-image-586" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-2-1024x800.png" alt="" class="wp-image-586" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -129,7 +129,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":585,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -139,7 +139,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":587,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/servcie-card-3-1024x800.png" alt="" class="wp-image-587" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/servcie-card-3-1024x800.png" alt="" class="wp-image-587" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->

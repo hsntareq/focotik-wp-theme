@@ -23,7 +23,7 @@
 <div class="wp-block-group"><!-- wp:group {"className":"testimonial-2-card-grid is-style-gradient-border","style":{"spacing":{"padding":{"bottom":"0px"}}},"layout":{"type":"grid","columnCount":"4","minimumColumnWidth":null}} -->
 <div class="wp-block-group testimonial-2-card-grid is-style-gradient-border" style="padding-bottom:0px"><!-- wp:group {"className":"is-style-default","style":{"color":{"text":"#eff2f6"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"}},"border":{"radius":"4px"},"elements":{"link":{"color":{"text":"#eff2f6"}}},"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"500"},"layout":{"columnSpan":1,"rowSpan":1},"dimensions":{"minHeight":"188px"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group is-style-default has-text-color has-link-color" style="border-radius:4px;color:#eff2f6;min-height:188px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;font-size:20px;font-style:normal;font-weight:500"><!-- wp:image {"id":724,"width":"24px","height":"24px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/testimonial-2-review-circle.png" alt="" class="wp-image-724" style="object-fit:cover;width:24px;height:24px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/testimonial-2-review-circle.png" alt="" class="wp-image-724" style="object-fit:cover;width:24px;height:24px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"left","level":5,"fontSize":"large"} -->
@@ -37,7 +37,7 @@
 
 <!-- wp:group {"style":{"color":{"text":"#eff2f6"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"}},"border":{"radius":"4px"},"elements":{"link":{"color":{"text":"#eff2f6"}}},"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"500"},"layout":{"columnSpan":1,"rowSpan":1},"dimensions":{"minHeight":"188px"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group has-text-color has-link-color" style="border-radius:4px;color:#eff2f6;min-height:188px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;font-size:20px;font-style:normal;font-weight:500"><!-- wp:image {"id":724,"width":"24px","height":"24px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/testimonial-2-review-circle.png" alt="" class="wp-image-724" style="object-fit:cover;width:24px;height:24px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/testimonial-2-review-circle.png" alt="" class="wp-image-724" style="object-fit:cover;width:24px;height:24px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"left","level":5,"fontSize":"large"} -->
@@ -51,7 +51,7 @@
 
 <!-- wp:group {"style":{"color":{"text":"#eff2f6"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"}},"border":{"radius":"4px"},"elements":{"link":{"color":{"text":"#eff2f6"}}},"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"500"},"layout":{"columnSpan":1,"rowSpan":1},"dimensions":{"minHeight":"188px"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group has-text-color has-link-color" style="border-radius:4px;color:#eff2f6;min-height:188px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;font-size:20px;font-style:normal;font-weight:500"><!-- wp:image {"id":724,"width":"24px","height":"24px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/testimonial-2-review-circle.png" alt="" class="wp-image-724" style="object-fit:cover;width:24px;height:24px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/testimonial-2-review-circle.png" alt="" class="wp-image-724" style="object-fit:cover;width:24px;height:24px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"left","level":5,"fontSize":"large"} -->
@@ -65,7 +65,7 @@
 
 <!-- wp:group {"style":{"color":{"text":"#eff2f6"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"}},"border":{"radius":"4px"},"elements":{"link":{"color":{"text":"#eff2f6"}}},"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"500"},"layout":{"columnSpan":1,"rowSpan":1},"dimensions":{"minHeight":"188px"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group has-text-color has-link-color" style="border-radius:4px;color:#eff2f6;min-height:188px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;font-size:20px;font-style:normal;font-weight:500"><!-- wp:image {"id":724,"width":"24px","height":"24px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/testimonial-2-review-circle.png" alt="" class="wp-image-724" style="object-fit:cover;width:24px;height:24px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/testimonial-2-review-circle.png" alt="" class="wp-image-724" style="object-fit:cover;width:24px;height:24px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"left","level":5,"fontSize":"large"} -->
@@ -82,10 +82,10 @@
 <div style="height:84px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"className":"testimonial-2-review","style":{"border":{"radius":"16px"},"spacing":{"padding":{"top":"48px","bottom":"48px","left":"56px","right":"56px"}},"background":{"backgroundSize":"476px","backgroundImage":{"url":"https://focotik.test/wp-content/uploads/2024/09/testimonial-2-review-background.png","id":713,"source":"file","title":"testimonial-2-review-background"},"backgroundPosition":"100% 100%","backgroundRepeat":"no-repeat"}},"backgroundColor":"white","layout":{"type":"default"}} -->
+<!-- wp:group {"className":"testimonial-2-review","style":{"border":{"radius":"16px"},"spacing":{"padding":{"top":"48px","bottom":"48px","left":"56px","right":"56px"}},"background":{"backgroundSize":"476px","backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/testimonial-2-review-background.png","id":713,"source":"file","title":"testimonial-2-review-background"},"backgroundPosition":"100% 100%","backgroundRepeat":"no-repeat"}},"backgroundColor":"white","layout":{"type":"default"}} -->
 <div class="wp-block-group testimonial-2-review has-white-background-color has-background" style="border-radius:16px;padding-top:48px;padding-right:56px;padding-bottom:48px;padding-left:56px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":701,"width":"280px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/testimonial-review.png" alt="" class="wp-image-701" style="width:280px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/testimonial-review.png" alt="" class="wp-image-701" style="width:280px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -98,7 +98,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":710,"width":"auto","height":"40px","sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-full is-resized is-style-default"><img src="https://focotik.test/wp-content/uploads/2024/09/testimonial-2-review-logo.png" alt="" class="wp-image-710" style="width:auto;height:40px"/></figure>
+<figure class="wp-block-image size-full is-resized is-style-default"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/testimonial-2-review-logo.png" alt="" class="wp-image-710" style="width:auto;height:40px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

@@ -72,13 +72,13 @@
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":585,"width":"auto","height":"440px","sizeSlug":"large","linkDestination":"none","className":"is-style-default","style":{"layout":{"columnSpan":"1"}}} -->
-<figure class="wp-block-image size-large is-resized is-style-default"><img src="https://focotik.test/wp-content/uploads/2024/09/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:440px"/></figure>
+<figure class="wp-block-image size-large is-resized is-style-default"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:440px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":585,"width":"auto","height":"440px","sizeSlug":"large","linkDestination":"none","className":"is-style-default","style":{"layout":{"columnSpan":"1"}}} -->
-<figure class="wp-block-image size-large is-resized is-style-default"><img src="https://focotik.test/wp-content/uploads/2024/09/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:440px"/></figure>
+<figure class="wp-block-image size-large is-resized is-style-default"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:440px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -192,7 +192,7 @@
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":585,"width":"auto","height":"440px","sizeSlug":"large","linkDestination":"none","className":"is-style-default","style":{"layout":{"columnSpan":"1"}}} -->
-<figure class="wp-block-image size-large is-resized is-style-default"><img src="https://focotik.test/wp-content/uploads/2024/09/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:440px"/></figure>
+<figure class="wp-block-image size-large is-resized is-style-default"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:440px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

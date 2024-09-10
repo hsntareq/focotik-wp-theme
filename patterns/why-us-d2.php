@@ -6,7 +6,7 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"metadata":{"name":"why us d2"},"className":"why-us-d2","style":{"color":{"background":"#eb6945"},"spacing":{"margin":{"top":"0","bottom":"0"}},"background":{"backgroundImage":{"url":"https://focotik.test/wp-content/uploads/2024/08/cta-img-right-top.png","id":247,"source":"file","title":"cta-img-right-top"},"backgroundPosition":"100% 0%","backgroundSize":"auto","backgroundRepeat":"no-repeat"}},"layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"why us d2"},"className":"why-us-d2","style":{"color":{"background":"#eb6945"},"spacing":{"margin":{"top":"0","bottom":"0"}},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/cta-img-right-top.png","id":247,"source":"file","title":"cta-img-right-top"},"backgroundPosition":"100% 0%","backgroundSize":"auto","backgroundRepeat":"no-repeat"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group why-us-d2 has-background" style="background-color:#eb6945;margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"why us d2 Content"},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"container"},"layout":{"type":"constrained","contentSize":"1170px"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"why-us-d2-heading","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
@@ -37,7 +37,7 @@
 <p>Crafting unparalleled digital journeys for top-tier brands, we seamlessly integrate the power of artificial intelligence.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group --></div><figure class="wp-block-media-text__media"><img src="https://focotik.test/wp-content/uploads/2024/08/why-us-d2-img-1.png" alt="" class="wp-image-352 size-full"/></figure></div>
+<!-- /wp:group --></div><figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/why-us-d2-img-1.png" alt="" class="wp-image-352 size-full"/></figure></div>
 <!-- /wp:media-text --></div>
 <!-- /wp:group -->
 
@@ -57,7 +57,7 @@
 <p>Crafting unparalleled digital journeys for top-tier brands, we seamlessly integrate the power of artificial intelligence.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group --></div><figure class="wp-block-media-text__media"><img src="https://focotik.test/wp-content/uploads/2024/08/why-us-d2-img-2.png" alt="" class="wp-image-354 size-full"/></figure></div>
+<!-- /wp:group --></div><figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/why-us-d2-img-2.png" alt="" class="wp-image-354 size-full"/></figure></div>
 <!-- /wp:media-text --></div>
 <!-- /wp:group -->
 
@@ -77,7 +77,7 @@
 <p>Crafting unparalleled digital journeys for top-tier brands, we seamlessly integrate the power of artificial intelligence.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group --></div><figure class="wp-block-media-text__media"><img src="https://focotik.test/wp-content/uploads/2024/08/why-us-d2-img-3.png" alt="" class="wp-image-345 size-full"/></figure></div>
+<!-- /wp:group --></div><figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/why-us-d2-img-3.png" alt="" class="wp-image-345 size-full"/></figure></div>
 <!-- /wp:media-text --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

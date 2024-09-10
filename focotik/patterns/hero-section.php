@@ -33,7 +33,7 @@
 
 <!-- wp:group {"className":"success-state","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group success-state"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/themes/focotik-wp-theme/assets/images/clutch.png" alt=""/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/imagesthemes/focotik-wp-theme/assets/images/clutch.png" alt=""/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"48px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -81,10 +81,10 @@ https://youtu.be/uOHOgI66C28?si=OkGMaQmaC6mBAnI4
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","metadata":{"name":"Hero top-left image"},"className":"img-left-top"} -->
-<figure class="wp-block-image size-full img-left-top"><img src="https://focotik.test/wp-content/themes/focotik-wp-theme/assets/images/hero-left.png" alt=""/></figure>
+<figure class="wp-block-image size-full img-left-top"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/imagesthemes/focotik-wp-theme/assets/images/hero-left.png" alt=""/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","metadata":{"name":"Hero top-right image"},"className":"img-right-top "} -->
-<figure class="wp-block-image size-full img-right-top"><img src="https://focotik.test/wp-content/themes/focotik-wp-theme/assets/images/hero-right.png" alt=""/></figure>
+<figure class="wp-block-image size-full img-right-top"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/imagesthemes/focotik-wp-theme/assets/images/hero-right.png" alt=""/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
