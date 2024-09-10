@@ -385,4 +385,4 @@ https://youtu.be/uOHOgI66C28?si=OkGMaQmaC6mBAnI4
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","theme":"focotik-wp-theme","tagName":"footer"} /-->
+<!-- wp:template-part {"slug":"footer","theme":"focotik-wp-theme","area":"footer"} /-->
