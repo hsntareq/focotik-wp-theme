@@ -10,10 +10,9 @@
 
 <!-- wp:group {"metadata":{"name":"Hero Section"},"className":"hero-section","layout":{"type":"default"}} -->
 <div class="wp-block-group hero-section"><!-- wp:template-part {"slug":"header-white","area":"header"} /-->
-
-    <!-- wp:group {"metadata":{"name":"Hero Content"},"layout":{"type":"default"}} -->
-    <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Container"},"layout":{"type":"constrained","contentSize":"1170px"}} -->
-        <div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
+   <!-- wp:group {"metadata":{"name":"Hero Content"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"Container"},"style":{"padding":{"top":"108px","bottom":"108px"},"spacing":{"padding":{"top":"108px"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1170px"}} -->
+    <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:108px"><!-- wp:group {"layout":{"type":"default"}} -->
             <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
                 <div class="wp-block-group"><!-- wp:group {"className":"hero-text-content","style":{"layout":{"selfStretch":"fixed"},"spacing":{"padding":{"right":"120px"}}},"layout":{"type":"default"}} -->
                     <div class="wp-block-group hero-text-content" style="padding-right:120px"><!-- wp:heading {"className":"hero-heading","style":{"typography":{"fontSize":"72px","lineHeight":"1.2","letterSpacing":"-1.9px"}}} -->
@@ -29,10 +28,8 @@
                 <!-- /wp:group -->
 
                 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-                <div class="wp-block-buttons" style="margin-top:0;margin-bottom:0"><!-- wp:button {"className":"is-style-btn-orange-color","style":{"spacing":{"padding":{"left":"0","right":"0","top":"0","bottom":"0"}}}} -->
-                    <div class="wp-block-button is-style-btn-orange-color"><a class="wp-block-button__link wp-element-button flex items-center gap8" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">Schedule a Meeting <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.84375 8L23.1563 8M23.1563 8L16.375 1M23.1563 8L16.375 15" stroke="#EFF2F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg></a></div>
+                <div class="wp-block-buttons" style="margin-top:0;margin-bottom:0"><!-- wp:button {"style":{"color":{"background":"#eb6945"}}} -->
+                    <div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" style="background-color:#eb6945">Schedule a Meeting<img class="wp-image-1309" style="width: 24px;" src="<?php echo FOCOTIK_THEME_URI ?>/assets/images/arrow.png" alt=""></a></div>
                     <!-- /wp:button -->
                 </div>
                 <!-- /wp:buttons -->

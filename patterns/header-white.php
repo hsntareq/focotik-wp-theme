@@ -22,10 +22,7 @@
 
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons"><!-- wp:button {"style":{"color":{"background":"#eb6945"}}} -->
-			<div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button flex items-center gap8">Let's Talk <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M1.84375 8L23.1563 8M23.1563 8L16.375 1M23.1563 8L16.375 15" stroke="#EFF2F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-					</svg>
-				</a></div>
+			<div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" style="background-color:#eb6945">Let's Talk <img class="wp-image-1309" style="width: 24px;" src="https://focotik.test/wp-content/themes/focotik-wp-theme/assets/images/arrow.png" alt="arrow"></a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->

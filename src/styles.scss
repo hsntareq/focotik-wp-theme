@@ -135,7 +135,7 @@ body {
 		.success-item {
 			display: flex;
 			flex-direction: column;
-			gap: 4px;
+			gap: 4p;
 			.success-heading {
 				font-size: 32px;
 				font-weight: 700;
@@ -171,10 +171,11 @@ body {
 	padding-block: 108px;
 
 	.brands-logo-wrap {
-		margin-top: 56px;
+		margin-top: 64px;
 
 		.brands-logo-list {
 			gap: 52px;
+			margin-bottom: 40px;
 		}
 	}
 }
