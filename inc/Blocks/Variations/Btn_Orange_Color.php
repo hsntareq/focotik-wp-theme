@@ -15,7 +15,7 @@ class Btn_Orange_Color
 				background-color: #EB6945;
 				color: #EFF2F6;
 				border-radius: 40px;
-				padding: 12px 24px;
+				padding: 16px 24px;
 			}'
         ));
     }

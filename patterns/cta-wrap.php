@@ -6,8 +6,8 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"metadata":{"name":"CTA Wrap"},"className":"cta","style":{"color":{"background":"#e7e7e7"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group cta has-background" style="background-color:#e7e7e7;margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"cta content"},"layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"CTA Wrap"},"className":"cta","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group cta has-background" style="margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"cta content"},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"container"},"layout":{"type":"constrained","contentSize":"1170px"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"cta-text","style":{"color":{"background":"#eb6945"},"border":{"radius":"24px"},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/cta-img-right-top.png","id":247,"source":"file","title":"cta-img-right-top"},"backgroundPosition":"100% 0%","backgroundSize":"auto","backgroundRepeat":"no-repeat"}},"layout":{"type":"constrained","contentSize":"801px"}} -->
 <div class="wp-block-group cta-text has-background" style="border-radius:24px;background-color:#eb6945"><!-- wp:heading {"textAlign":"center","level":4,"style":{"color":{"text":"#383a3e"},"elements":{"link":{"color":{"text":"#383a3e"}}},"spacing":{"margin":{"right":"0","left":"0"},"padding":{"right":"0","left":"0"}}}} -->

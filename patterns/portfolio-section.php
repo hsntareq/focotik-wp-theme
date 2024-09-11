@@ -22,6 +22,7 @@
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
+
 <!-- wp:spacer {"height":"60px"} -->
 <div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -29,7 +30,7 @@
 <!-- wp:group {"className":"d-grid p-grid","layout":{"type":"grid","columnCount":3,"minimumColumnWidth":null}} -->
 <div class="wp-block-group d-grid p-grid"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":589,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-5-1024x800.png" alt="" class="wp-image-589" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-5.png" alt="" class="wp-image-589" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -39,7 +40,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":588,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-4-1024x800.png" alt="" class="wp-image-588" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-4.png" alt="" class="wp-image-588" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -59,7 +60,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":586,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-2-1024x800.png" alt="" class="wp-image-586" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-2.png" alt="" class="wp-image-586" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -69,7 +70,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":585,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1.png" alt="" class="wp-image-585" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -79,7 +80,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":587,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/servcie-card-3-1024x800.png" alt="" class="wp-image-587" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/servcie-card-3.png" alt="" class="wp-image-587" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -89,7 +90,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":586,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-2-1024x800.png" alt="" class="wp-image-586" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-2.png" alt="" class="wp-image-586" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -99,7 +100,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":585,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1.png" alt="" class="wp-image-585" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -109,7 +110,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":587,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/servcie-card-3-1024x800.png" alt="" class="wp-image-587" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/servcie-card-3.png" alt="" class="wp-image-587" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -119,7 +120,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":586,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-2-1024x800.png" alt="" class="wp-image-586" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-2.png" alt="" class="wp-image-586" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -129,7 +130,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":585,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1.png" alt="" class="wp-image-585" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->
@@ -139,7 +140,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":587,"width":"auto","height":"294px","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/servcie-card-3-1024x800.png" alt="" class="wp-image-587" style="width:auto;height:294px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/servcie-card-3.png" alt="" class="wp-image-587" style="width:auto;height:294px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":5,"style":{"spacing":{"margin":{"top":"22px"}}},"fontSize":"medium"} -->

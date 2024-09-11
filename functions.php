@@ -46,7 +46,7 @@ add_action('init', 'wpdocs_register_multiple_blocks');
 
 function create_pages_if_not_exist()
 {
-    $pages = ['Home', 'About Us', 'Services', 'Clients', 'Work', 'Blog V1', 'Blog Details', 'Contact', 'Product Redesign', 'MVP', 'Team Extention', 'Case Study'];
+    $pages = ['Home', 'About', 'Services', 'Clients', 'Works','Contact', 'Product Redesign', 'MVP', 'Team Extention', 'Case Study'];
     foreach ($pages as $slug) {
         $existing_page = get_page_by_path(strtolower($slug));
         if (!$existing_page) {
@@ -65,7 +65,7 @@ function generate_navigation_html()
 {
     // Define the array of page titles
     $pages = array(
-        'Work',
+        'Works',
         'Clients',
         'Services',
         'About Us',

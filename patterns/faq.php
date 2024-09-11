@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group {"metadata":{"name":"FAQ"},"className":"faq","style":{"color":{"background":"#e7e7e7"},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/works-img-right-top.png","id":238,"source":"file","title":"works-img-right-top"},"backgroundSize":"343px","backgroundPosition":"100% 0%","backgroundRepeat":"no-repeat"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group faq has-background" style="background-color:#e7e7e7;margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"padding":{"top":"180px","bottom":"180px"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
+<div class="wp-block-group faq has-background contact-section-faq" style="background-color:#e7e7e7;margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"padding":{"top":"180px","bottom":"180px"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:180px;padding-bottom:180px"><!-- wp:group {"layout":{"type":"constrained","wideSize":"880px","justifyContent":"left"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"color":{"text":"#383a3e"},"elements":{"link":{"color":{"text":"#383a3e"}}}}} -->
 <h3 class="wp-block-heading has-text-color has-link-color" style="color:#383a3e">Have any questions in mind?  <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">Feel free to ask!</mark></h3>
