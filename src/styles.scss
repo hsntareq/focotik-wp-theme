@@ -25,10 +25,11 @@ body {
 		overflow: hidden;
 		transition: height 0.3s ease, padding-bottom 0.3s ease;
 		border-bottom: 1px solid #D6D8DC;
-		padding-block: 48px;
+		padding-bottom: 48px;
+		margin-bottom: 48px;
 		height: auto !important;
 		margin-block-start: 0;
-
+		border: 1px solid #56595C;
 		&[open] {
 			summary::after {
 				content: url(../assets/images/svg-icons/arrow-up.svg);

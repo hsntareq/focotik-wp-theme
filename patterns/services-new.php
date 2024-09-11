@@ -11,8 +11,8 @@
 <div class="wp-block-group home-services" style="margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"padding":{"top":"180px","bottom":"180px"},"margin":{"top":"0","bottom":"0"}},"color":{"background":"#181a1d","text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
 <div class="wp-block-group has-text-color has-background has-link-color" style="color:#eff2f6;background-color:#181a1d;margin-top:0;margin-bottom:0;padding-top:180px;padding-bottom:180px"><!-- wp:group {"metadata":{"name":"testimonial-3-second-part"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained","wideSize":"452px"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"align":"left","style":{"elements":{"link":{"color":{"text":"#eff2f6"}}},"color":{"text":"#eff2f6"},"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"1.2"}},"fontSize":"3x-large"} -->
-<p class="has-text-align-left has-text-color has-link-color has-3-x-large-font-size" style="color:#eff2f6;font-style:normal;font-weight:700;line-height:1.2"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">Service</mark> we provides</p>
+<div class="wp-block-group"><!-- wp:paragraph {"align":"left","style":{"elements":{"link":{"color":{"text":"#eff2f6"}}},"color":{"text":"#eff2f6"},"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"1.2","letterSpacing":"-0.035em"}},"fontSize":"3x-large"} -->
+<p class="has-text-align-left has-text-color has-link-color has-3-x-large-font-size" style="color:#eff2f6;font-style:normal;font-weight:700;letter-spacing:-0.035em;line-height:1.2"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">Service</mark> we provides</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"116px","width":"0px","style":{"layout":[]}} -->
