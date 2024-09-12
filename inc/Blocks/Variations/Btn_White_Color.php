@@ -15,7 +15,7 @@ class Btn_White_Color
 				background-color: #EFF2F6 !important;
 				color: #272B2F !important;
 				border-radius: 40px !important;
-				padding: 12px 24px !important;
+				padding: 16px 24px !important;
 			}'
 		));
 	}

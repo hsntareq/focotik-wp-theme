@@ -22,13 +22,33 @@ body {
 	background-color: transparent;
 }
 
+.works {
+	.wp-block-button__link {
+		line-height: 20px;
+	}
+	.wp-block-heading.main-heading {
+		font-style: normal;
+		font-weight: 600;
+		letter-spacing: -0.025em;
+	}
+	.wp-block-heading {
+		padding-top: 10px;
+		font-style: normal;
+		font-weight: 600;
+		letter-spacing: -0.02em;
+	}
+	.hr {
+		border-top: 1px solid #C6CBCE;
+	}
+}
+
 .foco-accordion {
 	details {
 		overflow: hidden;
 		transition: height 0.3s ease, padding-bottom 0.3s ease;
 		border-bottom: 1px solid #D6D8DC;
-		padding-bottom: 48px;
-		margin-bottom: 48px;
+		margin-bottom: 32px;
+		padding-bottom: 32px !important;
 		height: auto !important;
 		margin-block-start: 0;
 		border: 1px solid #56595C;
@@ -74,7 +94,6 @@ body {
 
 .details {
 	border-bottom: 1px solid #D6D8DC;
-	padding-bottom: 48px;
 
 	summary {
 		cursor: pointer;
@@ -297,17 +316,20 @@ body {
 			color: #EFF2F6;
 			font-weight: 700;
 		}
-		.wp-block-media-text{
+
+		.wp-block-media-text {
 			grid-template-columns: 60px auto !important;
-			margin-top: 16px!important;
+			margin-top: 16px !important;
 		}
-		.wp-block-media-text__media{
+
+		.wp-block-media-text__media {
 			width: 60px;
 			height: 60px;
 			border-radius: 50%;
 		}
-		.wp-block-media-text__content{
-			padding-inline:12px;
+
+		.wp-block-media-text__content {
+			padding-inline: 12px;
 		}
 	}
 }

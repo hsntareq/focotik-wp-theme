@@ -66,9 +66,8 @@ function generate_navigation_html()
     // Define the array of page titles
     $pages = array(
         'Works',
-        'Clients',
         'Services',
-        'About Us',
+        'About',
         'Contact'
     );
 
