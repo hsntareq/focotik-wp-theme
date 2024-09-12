@@ -10,8 +10,8 @@
 <div class="wp-block-group why-us-d2 has-background" style="background-color:#eb6945;margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"why us d2 Content"},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"container"},"layout":{"type":"constrained","contentSize":"1170px"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"why-us-d2-heading","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group why-us-d2-heading"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"#eff2f6"}}},"color":{"text":"#eff2f6"}}} -->
-<h3 class="wp-block-heading has-text-color has-link-color" style="color:#eff2f6">In the era of technology we are named <mark style="background-color:rgba(0, 0, 0, 0);color:#383a3e" class="has-inline-color">FocoTik for a reason</mark></h3>
+<div class="wp-block-group why-us-d2-heading"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"#eff2f6"}}},"color":{"text":"#eff2f6"},"typography":{"letterSpacing":"-0.035em"}}} -->
+<h3 class="wp-block-heading has-text-color has-link-color" style="color:#eff2f6;letter-spacing:-0.035em">In the era of technology we are named <mark style="background-color:rgba(0, 0, 0, 0);color:#383a3e" class="has-inline-color">FocoTik for a reason</mark></h3>
 <!-- /wp:heading -->
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"}}}} -->
