@@ -66,19 +66,19 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"18px","fontStyle":"normal","fontWeight":"500","textDecoration":"underline"},"spacing":{"padding":{"bottom":"0"},"margin":{"top":"32px"}}}} -->
-<p style="margin-top:32px;padding-bottom:0;font-size:18px;font-style:normal;font-weight:500;text-decoration:underline"><a href="https://focotik.test/works/" data-type="page" data-id="15"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">Get Services -&gt;</mark></a></p>
+<p style="margin-top:32px;padding-bottom:0;font-size:18px;font-style:normal;font-weight:500;text-decoration:underline"><a href="/works/" data-type="page" data-id="15"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">Get Services -&gt;</mark></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":585,"width":"auto","height":"440px","sizeSlug":"large","linkDestination":"none","className":"is-style-default","style":{"layout":{"columnSpan":"1"}}} -->
-<figure class="wp-block-image size-large is-resized is-style-default"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:440px"/></figure>
+<figure class="wp-block-image size-large is-resized is-style-default"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1.png" alt="" class="wp-image-585" style="width:auto;height:440px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":585,"width":"auto","height":"440px","sizeSlug":"large","linkDestination":"none","className":"is-style-default","style":{"layout":{"columnSpan":"1"}}} -->
-<figure class="wp-block-image size-large is-resized is-style-default"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:440px"/></figure>
+<figure class="wp-block-image size-large is-resized is-style-default"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1.png" alt="" class="wp-image-585" style="width:auto;height:440px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -132,7 +132,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"18px","fontStyle":"normal","fontWeight":"500","textDecoration":"underline"},"spacing":{"padding":{"bottom":"0"},"margin":{"top":"32px"}}}} -->
-<p style="margin-top:32px;padding-bottom:0;font-size:18px;font-style:normal;font-weight:500;text-decoration:underline"><a href="https://focotik.test/works/" data-type="page" data-id="15"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">Get Services -&gt;</mark></a></p>
+<p style="margin-top:32px;padding-bottom:0;font-size:18px;font-style:normal;font-weight:500;text-decoration:underline"><a href="/works/" data-type="page" data-id="15"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">Get Services -&gt;</mark></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -186,13 +186,13 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"18px","fontStyle":"normal","fontWeight":"500","textDecoration":"underline"},"spacing":{"padding":{"bottom":"0"},"margin":{"top":"32px"}}}} -->
-<p style="margin-top:32px;padding-bottom:0;font-size:18px;font-style:normal;font-weight:500;text-decoration:underline"><a href="https://focotik.test/works/" data-type="page" data-id="15"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">Get Services -&gt;</mark></a></p>
+<p style="margin-top:32px;padding-bottom:0;font-size:18px;font-style:normal;font-weight:500;text-decoration:underline"><a href="/works/" data-type="page" data-id="15"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">Get Services -&gt;</mark></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":585,"width":"auto","height":"440px","sizeSlug":"large","linkDestination":"none","className":"is-style-default","style":{"layout":{"columnSpan":"1"}}} -->
-<figure class="wp-block-image size-large is-resized is-style-default"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1-1024x800.png" alt="" class="wp-image-585" style="width:auto;height:440px"/></figure>
+<figure class="wp-block-image size-large is-resized is-style-default"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/service-card-1.png" alt="" class="wp-image-585" style="width:auto;height:440px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
