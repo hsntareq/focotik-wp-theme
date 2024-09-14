@@ -44,7 +44,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"id":355,"width":"491px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/why-us-d2-img-1-1.png" alt="" class="wp-image-355" style="width:491px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/why-us-d2-img-1.png" alt="" class="wp-image-355" style="width:491px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
