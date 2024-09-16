@@ -1,4 +1,5 @@
 import './styles.scss';
+// import './libs/gsap'
 console.log('Hello, world! 123');
 // import './blocks/blocks.js';
 

@@ -20,7 +20,7 @@
                         <!-- /wp:heading -->
 
                         <!-- wp:paragraph {"className":"hero-text","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.42","letterSpacing":"-0.23px"}},"fontSize":"large"} -->
-                        <p class="hero-text has-large-font-size" style="margin-top:0;margin-bottom:0;line-height:1.42;letter-spacing:-0.23px;">We are a strategic partner for fast-growing tech companies in need of a<br>scalable website.We are a strategic partner for fast-growing tech companies in need of a<br>scalable website.</p>
+                        <p class="hero-text has-large-font-size" style="margin-top:0;margin-bottom:0;line-height:1.42;letter-spacing:-0.23px;">We are a strategic partner for fast-growing tech companies in need of a scalable website.We are a strategic partner for fast-growing tech companies in need of a scalable website.</p>
                         <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
@@ -39,8 +39,8 @@
                     <figure class="wp-block-image size-full"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/clutch.png" alt="" /></figure>
                     <!-- /wp:image -->
 
-                    <!-- wp:group {"style":{"spacing":{"blockGap":"48px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-                    <div class="wp-block-group"><!-- wp:group {"className":"success-item","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+                    <!-- wp:group {"className":"success-item-list","style":{"spacing":{"blockGap":"48px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+                    <div class="wp-block-group success-item-list"><!-- wp:group {"className":"success-item","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
                         <div class="wp-block-group success-item"><!-- wp:heading {"className":"success-heading"} -->
                             <h2 class="wp-block-heading success-heading">300+</h2>
                             <!-- /wp:heading -->

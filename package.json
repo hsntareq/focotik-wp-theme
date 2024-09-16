@@ -28,5 +28,9 @@
 				"@wordpress/scripts": "^28.3.0",
 				"concurrently": "^8.2.2",
 				"dir-archiver": "^2.1.0"
+		},
+		"dependencies": {
+				"@gsap/react": "^2.1.1",
+				"gsap": "^3.12.5"
 		}
 }

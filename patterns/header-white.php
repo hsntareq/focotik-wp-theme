@@ -11,10 +11,8 @@
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Header"},"style":{"spacing":{"padding":{"top":"24px","bottom":"24px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group" style="padding-top:24px;padding-bottom:24px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group gap40">
-			<!-- wp:image {"id":25,"width":"169px","sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full is-resized"><img
-					src="<?php echo esc_url(FOCOTIK_THEME_URI); ?>assets/images/logo.png" alt="" class="wp-image-25"
-					style="width:169px" /></figure>
+			<!-- wp:image {"lightbox":{"enabled":false},"id":25,"width":"169px","sizeSlug":"full","linkDestination":"custom"} -->
+			<figure class="wp-block-image size-full is-resized"><a href="/"><img src="<?php echo esc_url(FOCOTIK_THEME_URI); ?>assets/images/logo.png" alt="" class="wp-image-25" style="width:169px" /></a></figure>
 			<!-- /wp:image -->
 			<?php echo generate_navigation_html(); ?>
 		</div>

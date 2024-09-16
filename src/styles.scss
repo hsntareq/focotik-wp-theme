@@ -1,4 +1,5 @@
-@import url(./styles/lib.scss);
+@import './styles/lib.scss';
+@import './styles/hero-section.scss';
 
 body {
 	background-color: #E7E7E7;
@@ -26,17 +27,20 @@ body {
 	.wp-block-button__link {
 		line-height: 20px;
 	}
+
 	.wp-block-heading.main-heading {
 		font-style: normal;
 		font-weight: 600;
 		letter-spacing: -0.025em;
 	}
+
 	.wp-block-heading {
 		padding-top: 10px;
 		font-style: normal;
 		font-weight: 600;
 		letter-spacing: -0.02em;
 	}
+
 	.hr {
 		border-top: 1px solid #C6CBCE;
 	}
@@ -150,6 +154,10 @@ body {
 		.hero-heading {
 			margin-bottom: 32px;
 		}
+
+		.hero-text {
+			max-width: 987px;
+		}
 	}
 
 	.success-state {
@@ -198,8 +206,9 @@ body {
 		margin-top: 64px;
 
 		.brands-logo-list {
-			gap: 52px;
-			margin-bottom: 40px;
+			padding-inline: 12px;
+			flex-wrap: wrap;
+			justify-content: center;
 		}
 	}
 }
@@ -289,14 +298,12 @@ body {
 	}
 }
 
-.works {}
 
 .cta {
 
 	.cta-text {
 		padding-block: 96px;
 
-		h4 {}
 	}
 }
 
