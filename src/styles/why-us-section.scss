@@ -20,7 +20,7 @@ $headingFontSizeMobile: 36px;
         flex-wrap: wrap;
         justify-content: center;
 
-        @include below(small) {
+        @include below(medium) {
             flex-direction: column;
             align-items: center;
         }

@@ -10,7 +10,7 @@
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"padding":{"bottom":"108px"}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
 <div class="wp-block-group" style="padding-bottom:108px"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":1065,"width":"1170px","height":"714px","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://focotik.test/wp-content/uploads/2024/09/case-study-img-1-1024x625.png" alt="" class="wp-image-1065" style="object-fit:cover;width:1170px;height:714px"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/case-study-img-2.png" alt="" class="wp-image-1065" style="object-fit:cover;width:1170px;height:714px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"60px","style":{"layout":[]}} -->

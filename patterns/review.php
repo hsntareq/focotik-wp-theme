@@ -9,8 +9,8 @@
 <!-- wp:group {"metadata":{"name":"Review"},"className":"review","style":{"color":{"background":"#272b2f"},"spacing":{"margin":{"top":"0","bottom":"0"}},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/bg-review.png","id":301,"source":"file","title":"bg-review"},"backgroundPosition":"100% 0%","backgroundSize":"auto","backgroundRepeat":"no-repeat"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group review has-background" style="background-color:#272b2f;margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"Review Content"},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"container"},"layout":{"type":"constrained","contentSize":"1170px"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":3,"style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}},"typography":{"letterSpacing":"-0.035em","lineHeight":"1.17"}}} -->
-<h3 class="wp-block-heading has-text-align-left has-text-color has-link-color" style="color:#eff2f6;letter-spacing:-0.035em;line-height:1.17">Visual Storytelling, Creative Design <br><mark style="background-color:rgba(0, 0, 0, 0);color:#eb6945" class="has-inline-color">makes clients happy</mark></h3>
+<div class="wp-block-group"><!-- wp:heading {"className":"review-main-heading","textAlign":"left","level":3,"style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}},"typography":{"letterSpacing":"-0.035em","lineHeight":"1.17"}}} -->
+<h3 class="wp-block-heading has-text-align-left has-text-color has-link-color review-main-heading" style="color:#eff2f6;letter-spacing:-0.035em;line-height:1.17">Visual Storytelling, Creative Design <mark style="background-color:rgba(0, 0, 0, 0);color:#eb6945" class="has-inline-color">makes clients happy</mark></h3>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"review-content","layout":{"type":"default"}} -->

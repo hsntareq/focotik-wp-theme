@@ -12,7 +12,7 @@ $headingFontSizeMobile: 36px;
             flex-direction: column;
         }
     }
-    .main-heading{
+    .wp-block-heading.main-heading{
         max-width: 700px;
         text-align: left;
         @include below(medium) {

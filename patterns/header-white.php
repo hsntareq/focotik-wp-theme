@@ -20,7 +20,7 @@
 
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons"><!-- wp:button {"style":{"color":{"background":"#eb6945"}}} -->
-			<div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" style="background-color:#eb6945">Let's Talk <img class="wp-image-1309" style="width: 24px;" src="https://focotik.test/wp-content/themes/focotik-wp-theme/assets/images/arrow.png" alt="arrow"></a></div>
+			<div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" style="background-color:#eb6945">Let's Talk <img class="wp-image-1309" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/arrow.png" alt="arrow"></a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->

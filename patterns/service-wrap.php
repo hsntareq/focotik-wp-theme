@@ -70,7 +70,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"400"},"elements":{"link":{"color":{"text":"var:preset|color|hover"}}}},"textColor":"hover"} -->
-<p class="has-hover-color has-text-color has-link-color" style="font-size:20px;font-style:normal;font-weight:400"><a href="https://focotik.test/contact/" data-type="page" data-id="17">View Details</a>  -&gt;</p>
+<p class="has-hover-color has-text-color has-link-color" style="font-size:20px;font-style:normal;font-weight:400"><a href="/contact/" data-type="page" data-id="17">View Details</a>  -&gt;</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

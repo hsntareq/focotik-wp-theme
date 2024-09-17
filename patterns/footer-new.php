@@ -158,11 +158,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="https://focotik.test/about-us/" data-type="page" data-id="8">Privacy Policy </a></p>
+<p><a href="/about-us/" data-type="page" data-id="8">Privacy Policy </a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="https://focotik.test/service2/" data-type="page" data-id="1112">Policy Terms &amp; Condition</a></p>
+<p><a href="/service2/" data-type="page" data-id="1112">Policy Terms &amp; Condition</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

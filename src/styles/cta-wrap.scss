@@ -1,0 +1,35 @@
+@import './mixins/library';
+
+$Size: 72px;
+$SizeTab: 48px;
+$SizeMobile: 36px;
+
+.cta {
+    &-text {
+        @include below(small) {
+            padding-block: $SizeMobile!important;
+        }
+        @include below(medium) {
+            padding-block: $SizeTab!important;
+        }
+        .wp-block-heading {
+            @include below(medium) {
+                font-size: $SizeMobile !important;
+                padding-inline: 12px !important;
+                max-width: 500px;
+            }
+    
+            @include below(small) {
+                font-size: 24px !important;
+                padding-inline: 12px !important;
+                max-width: 400px;
+            }
+        }
+    }
+
+    .wp-block-button.is-style-btn-white-color .wp-block-button__link {
+        padding-inline: 16px !important;
+        padding-block: 8px !important;
+        font-size: 16px;
+    }
+}
