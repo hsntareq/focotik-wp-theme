@@ -11,7 +11,7 @@
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"180px","bottom":"180px"}}},"layout":{"type":"constrained","contentSize":"1170px"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:180px;padding-bottom:180px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"className":"main-heading","style":{"color":{"text":"#383a3e"},"elements":{"link":{"color":{"text":"#383a3e"}}}}} -->
-<h3 class="wp-block-heading main-heading has-text-color has-link-color" style="color:#383a3e">Intuitive works boosting <br><mark style="background-color:rgba(0, 0, 0, 0);color:#eb6945" class="has-inline-color">conversions by 800%</mark></h3>
+<h3 class="wp-block-heading main-heading has-text-color has-link-color" style="color:#383a3e">Intuitive works boosting <mark style="background-color:rgba(0, 0, 0, 0);color:#eb6945" class="has-inline-color">conversions by 800%</mark></h3>
 <!-- /wp:heading -->
 
 <!-- wp:buttons -->
@@ -25,8 +25,8 @@
 <div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"className":"gap32","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
-<div class="wp-block-group gap32" style="margin-top:0;margin-bottom:0"><!-- wp:group {"style":{"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"default"}} -->
+<!-- wp:group {"className":"gap32 grid-column-auto","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
+<div class="wp-block-group gap32 grid-column-auto" style="margin-top:0;margin-bottom:0"><!-- wp:group {"style":{"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":945,"width":"569px","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"8px"}}} -->
 <figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>/assets/images/work-img-1.png" alt="" class="wp-image-945" style="border-radius:8px;width:569px"/></figure>
 <!-- /wp:image -->
@@ -102,8 +102,8 @@ strategy and website.</h5>
 <div style="margin-top:80px;height:80px" aria-hidden="true" class="wp-block-spacer hr"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"className":"gap32","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
-<div class="wp-block-group gap32" style="margin-top:0;margin-bottom:0"><!-- wp:group {"style":{"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"default"}} -->
+<!-- wp:group {"className":"gap32 grid-column-auto","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
+<div class="wp-block-group gap32 grid-column-auto" style="margin-top:0;margin-bottom:0"><!-- wp:group {"style":{"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":945,"width":"569px","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"8px"}}} -->
 <figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>/assets/images/work-img-1.png" alt="" class="wp-image-945" style="border-radius:8px;width:569px"/></figure>
 <!-- /wp:image -->

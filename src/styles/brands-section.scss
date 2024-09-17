@@ -1,0 +1,11 @@
+@import './mixins/library';
+
+$headingFontSize: 72px;
+$headingFontSizeTab: 48px;
+$headingFontSizeMobile: 36px;
+
+.brands-content .wp-block-heading {
+    @include below(small) {
+        font-size: 24px !important;
+    }
+}

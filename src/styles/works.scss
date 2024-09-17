@@ -1,0 +1,52 @@
+@import './mixins/library';
+
+$headingFontSize: 72px;
+$headingFontSizeTab: 48px;
+$headingFontSizeMobile: 36px;
+
+.works{
+    .is-nowrap{
+        @include below(large) {
+            flex-wrap: wrap;
+            text-align: center;
+            flex-direction: column;
+        }
+    }
+    .main-heading{
+        max-width: 700px;
+        text-align: left;
+        @include below(medium) {
+            font-size: $headingFontSizeTab !important;
+            text-align: center;
+        }
+
+        @include below(small) {
+            font-size: $headingFontSizeMobile !important;
+        }
+    }
+    .grid-column-auto{
+        @include below(medium) {
+            grid-template-columns: auto;
+            justify-content: center;
+        }
+    }
+    .wp-block-buttons-is-layout-flex{
+        @include below(medium) {
+            justify-content: center;
+        }
+    }
+    .wp-block-heading{
+        @include below(medium) {
+            font-size: 22px !important;
+            text-align: center;
+            margin-top: 0!important;
+            padding-inline: 10px;
+        }
+    }
+    .wp-block-spacer{
+        @include below(medium) {
+            height: 32px!important;
+            margin-top: 32px!important;
+        }
+    }
+}

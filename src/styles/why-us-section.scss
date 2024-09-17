@@ -1,0 +1,111 @@
+@import './mixins/library';
+
+$headingFontSize: 72px;
+$headingFontSizeTab: 48px;
+$headingFontSizeMobile: 36px;
+
+.why-us {
+    .wp-block-heading {
+        @include below(medium) {
+            font-size: $headingFontSizeTab !important;
+            text-align: center;
+        }
+
+        @include below(small) {
+            font-size: $headingFontSizeMobile !important;
+        }
+    }
+
+    .why-us-content {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        @include below(small) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .item-content-wrap .text {
+            max-width: 288px;
+
+            @include below(medium) {
+                align-items: start;
+
+            }
+
+            .wp-block-heading {
+                @include below(large) {
+                    font-size: 22px !important;
+                    text-align: start;
+                }
+            }
+        }
+    }
+}
+
+.home-services {
+    .testimonial-3-second-part {
+        @include below(medium) {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .has-3-x-large-font-size{
+            @include below(large) {
+                font-size: 48px !important;
+            }
+        }
+        .wp-block-spacer{
+            @include below(medium) {
+                height: 24px!important;
+            }
+        }
+    }
+}
+
+.works{
+    .is-nowrap{
+        @include below(large) {
+            flex-wrap: wrap;
+            text-align: center;
+            flex-direction: column;
+        }
+    }
+    .main-heading{
+        max-width: 700px;
+        text-align: left;
+        @include below(medium) {
+            font-size: $headingFontSizeTab !important;
+            text-align: center;
+        }
+
+        @include below(small) {
+            font-size: $headingFontSizeMobile !important;
+        }
+    }
+    .grid-column-auto{
+        @include below(medium) {
+            grid-template-columns: auto;
+            justify-content: center;
+        }
+    }
+    .wp-block-buttons-is-layout-flex{
+        @include below(medium) {
+            justify-content: center;
+        }
+    }
+    .wp-block-heading{
+        @include below(medium) {
+            font-size: 22px !important;
+            text-align: center;
+            margin-top: 0!important;
+            padding-inline: 10px;
+        }
+    }
+    .wp-block-spacer{
+        @include below(medium) {
+            height: 32px!important;
+            margin-top: 32px!important;
+        }
+    }
+}
