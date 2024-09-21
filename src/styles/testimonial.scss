@@ -1,16 +1,88 @@
-
 @import './mixins/library';
 
-.testimonial-2-card-grid {
-    gap: 32px;
-}
+$testimonialHeadingFontSize: 72px;
+$testimonialHeadingFontSizeTab: 48px;
+$testimonialHeadingFontSizeMobile: 36px;
 
-.testimonial-2-review {
-    figure {
-        margin-top: 8px;
+.testimonial,
+.testimonial-2 {
+    .main-heading {
+        @include below(medium) {
+            font-size: $testimonialHeadingFontSizeTab !important;
+            font-size: $testimonialHeadingFontSizeMobile !important;
+        }
+    }
+
+    &-card-grid {
+        @if &=='.testimonial' {
+            @include below(large) {
+                grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+            }
+
+            @include below(medium) {
+                grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+            }
+        }
+
+        @else {
+            gap: 32px;
+
+            @include below(large) {
+                grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+            }
+        }
+
+        @include below(small) {
+            grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+        }
+    }
+
+    @if &=='.testimonial-2' {
+        &-review {
+            figure {
+                margin-top: 8px;
+            }
+        }
     }
 }
-
+.testimonial-2-review {
+    @include below(small) {
+        padding: 20px!important;
+    }
+}
+.review-row {
+    @include below(medium) {
+        flex-direction: column;
+        align-items: center;
+    }
+    &-content{
+        @include below(medium) {
+            text-align: center;
+        }
+        h5{
+            @include below(large) {
+                font-size: 26px !important;
+            }
+            @include below(medium) {
+                font-size: 24px !important;
+            }
+            @include below(small) {
+                font-size: 20px !important;
+            }
+        }
+        p{
+            @include below(large) {
+                font-size: 22px !important;
+            }
+            @include below(medium) {
+                font-size: 20px !important;
+            }
+            @include below(small) {
+                font-size: 16px !important;
+            }
+        }
+    }
+}
 .testimonial-3-row-item {
     gap: 32px;
 }
@@ -25,6 +97,7 @@
 .faq .foco-accordion {
     details {
         padding-bottom: 32px;
+
         summary {
             font-size: 32px !important;
             font-weight: 600;
@@ -46,7 +119,7 @@
 
 .home-services .foco-accordion {
     max-width: 525px;
-    margin-top:-4px;
+    margin-top: -4px;
 
     details {
 
@@ -61,8 +134,8 @@
 
         p {
             max-width: 453px;
-            padding-top: 12px!important;
-            padding-bottom: 24px!important;
+            padding-top: 12px !important;
+            padding-bottom: 24px !important;
             margin: 0;
             letter-spacing: -0.01em;
             text-align: left;

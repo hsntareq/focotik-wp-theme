@@ -7,11 +7,11 @@
  */
 ?>
 
-<!-- wp:group {"metadata":{"name":"testimonial"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"padding":{"top":"180px","bottom":"180px"}},"color":{"background":"#272b2f"}},"layout":{"type":"constrained","justifyContent":"center","wideSize":"1170px"}} -->
+<!-- wp:group {"className":"testimonial","metadata":{"name":"testimonial"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group testimonial" style="margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"padding":{"top":"180px","bottom":"180px"}},"color":{"background":"#272b2f"}},"layout":{"type":"constrained","justifyContent":"center","wideSize":"1170px"}} -->
 <div class="wp-block-group has-background" style="background-color:#272b2f;padding-top:180px;padding-bottom:180px"><!-- wp:group {"layout":{"type":"constrained","wideSize":"770px","justifyContent":"center"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","align":"wide","style":{"typography":{"fontSize":"64px"}}} -->
-<h2 class="wp-block-heading alignwide has-text-align-center" style="font-size:64px"><mark style="background-color:rgba(0, 0, 0, 0);color:#eff2f6" class="has-inline-color">Still not convinced? See what</mark><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color"> our clients says</mark></h2>
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","align":"wide","className":"main-heading","style":{"typography":{"fontSize":"64px"},"elements":{"link":{"color":{"text":"#eff2f6"}}},"color":{"text":"#eff2f6"}}} -->
+<h2 class="wp-block-heading alignwide has-text-align-center main-heading has-text-color has-link-color" style="color:#eff2f6;font-size:64px">Still not convinced? See what<mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color"> our clients says</mark></h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"24px"} -->
