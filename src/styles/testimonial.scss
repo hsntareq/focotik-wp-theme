@@ -45,50 +45,85 @@ $testimonialHeadingFontSizeMobile: 36px;
         }
     }
 }
+
 .testimonial-2-review {
     @include below(small) {
-        padding: 20px!important;
+        padding: 20px !important;
     }
 }
+
 .review-row {
     @include below(medium) {
         flex-direction: column;
         align-items: center;
     }
-    &-content{
+
+    &-content {
         @include below(medium) {
             text-align: center;
         }
-        h5{
+
+        h5 {
             @include below(large) {
                 font-size: 26px !important;
             }
+
             @include below(medium) {
                 font-size: 24px !important;
             }
+
             @include below(small) {
                 font-size: 20px !important;
             }
         }
-        p{
+
+        p {
             @include below(large) {
                 font-size: 22px !important;
             }
+
             @include below(medium) {
                 font-size: 20px !important;
             }
+
             @include below(small) {
                 font-size: 16px !important;
             }
         }
     }
 }
+
+.testimonial-3-second-part {
+    @include below(medium) {
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .section-one {
+        @include below(medium) {
+            text-align: center;
+        }
+
+        p {
+            @include below(medium) {
+                font-size: 48px !important;
+                text-align: center;
+            }
+
+            @include below(small) {
+                font-size: 32 !important;
+                text-align: center;
+            }
+        }
+    }
+}
+
 .testimonial-3-row-item {
     gap: 32px;
 }
 
 .portfolio-section {
-    .p-grid {
+    .portfolio-grid {
         row-gap: 72px;
         column-gap: 32px;
     }

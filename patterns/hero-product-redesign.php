@@ -11,7 +11,7 @@
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-right:0;padding-left:0"><!-- wp:group {"layout":{"type":"constrained","wideSize":"553px","justifyContent":"left"}} -->
 <div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"lineHeight":"1.2","letterSpacing":"-0.04em"},"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}},"fontSize":"3x-large"} -->
-<h2 class="wp-block-heading has-text-color has-link-color has-3-x-large-font-size" style="color:#eff2f6;letter-spacing:-0.04em;line-height:1.2">Product<mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">redesign</mark><br> that makes an <br> impact.</h2>
+<h2 class="wp-block-heading has-text-color has-link-color has-3-x-large-font-size" style="color:#eff2f6;letter-spacing:-0.04em;line-height:1.2">Product <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color"> redesign </mark> that makes an impact.</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"2rem"}},"color":{"text":"#d6d8dc"},"elements":{"link":{"color":{"text":"#d6d8dc"}}}},"fontSize":"small"} -->
@@ -26,7 +26,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"constrained","wideSize":"505px","justifyContent":"left"}} -->
-<div class="wp-block-group"><!-- wp:image {"id":1449,"width":"505px","height":"280px","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<div class="wp-block-group"><!-- wp:image {"id":1449,"width":"505px","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/hero-product-redesign.png" alt="" class="wp-image-1449" style="object-fit:cover;width:505px;"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>

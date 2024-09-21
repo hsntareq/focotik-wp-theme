@@ -7,16 +7,16 @@
  */
 ?>
 
-<!-- wp:group {"metadata":{"name":"Product viability 3"},"style":{"color":{"background":"#272b2f"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group has-background" style="background-color:#272b2f"><!-- wp:group {"style":{"spacing":{"padding":{"top":"180px","bottom":"180px"}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
+<!-- wp:group {"metadata":{"name":"Product viability 3"},"style":{"color":{"background":"#272b2f"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group has-background" style="background-color:#272b2f;margin-top:0;margin-bottom:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"180px","bottom":"180px"}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
 <div class="wp-block-group" style="padding-top:180px;padding-bottom:180px"><!-- wp:group {"style":{"spacing":{"padding":{"bottom":"72px","top":"0px"}}},"layout":{"type":"constrained","wideSize":"860px","justifyContent":"left"}} -->
 <div class="wp-block-group" style="padding-top:0px;padding-bottom:72px"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"},"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}}} -->
-<h3 class="wp-block-heading has-text-color has-link-color" style="color:#eff2f6;font-style:normal;font-weight:700">MVP design<br>creation <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">process</mark></h3>
+<h3 class="wp-block-heading has-text-color has-link-color" style="color:#eff2f6;font-style:normal;font-weight:700">MVP design creation <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">process</mark></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"wide","className":"flex ","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"160px"}}},"layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
-<div class="wp-block-group alignwide flex" style="margin-top:0px;margin-bottom:160px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"default"}} -->
+<!-- wp:group {"className":"product-vialbility-3-grid","align":"wide","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"160px"}}},"layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
+<div class="wp-block-group alignwide product-vialbility-3-grid" style="margin-top:0px;margin-bottom:160px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"32px"}},"color":{"text":"#aeaeae"},"elements":{"link":{"color":{"text":"#aeaeae"}}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group has-text-color has-link-color" style="color:#aeaeae;margin-bottom:32px"><!-- wp:heading {"level":5,"fontSize":"large"} -->
 <h5 class="wp-block-heading has-large-font-size">Mobile application UI UX</h5>

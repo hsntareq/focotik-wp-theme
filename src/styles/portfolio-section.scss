@@ -1,0 +1,55 @@
+@import './mixins/library.scss';
+
+$portfolioHeadingTab : 48px;
+$portfolioHeadingMobile : 36px;
+
+.portfolio-section {
+    .heading-row {
+        @include below(medium) {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        h3 {
+            @include below(large) {
+                max-width: 480px;
+            }
+
+            @include below(medium) {
+                max-width: 450px;
+                font-size: $portfolioHeadingTab !important;
+            }
+
+            @include below(small) {
+                font-size: $portfolioHeadingMobile !important;
+            }
+        }
+    }
+
+    .portfolio-grid {
+        @include below(medium) {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            text-align: center;
+        }
+
+        @include below(small) {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+            text-align: center;
+
+        }
+
+        h5 {
+            @include below(medium) {
+                max-width: 350px;
+            }
+        }
+    }
+}
+
+.product-vialbility-3-grid{
+    @include below(medium) {
+        grid-template-columns: 1fr!important;
+        text-align: center;
+    }
+}

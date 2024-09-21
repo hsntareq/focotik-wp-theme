@@ -9,10 +9,10 @@
 
 <!-- wp:group {"metadata":{"name":"Testimonial 3"},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"top":"180px","bottom":"180px"}},"color":{"background":"#181a1d","text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
-<div class="wp-block-group has-text-color has-background has-link-color" style="color:#eff2f6;background-color:#181a1d;padding-top:180px;padding-bottom:180px"><!-- wp:group {"metadata":{"name":"testimonial-3-second-part"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
-<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"align":"left","style":{"elements":{"link":{"color":{"text":"#eff2f6"}}},"color":{"text":"#eff2f6"},"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"1.2"}},"fontSize":"3x-large"} -->
-<p class="has-text-align-left has-text-color has-link-color has-3-x-large-font-size" style="color:#eff2f6;font-style:normal;font-weight:600;line-height:1.2"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">Redesign</mark> is<br>not your only<br>concern, right?</p>
+<div class="wp-block-group has-text-color has-background has-link-color" style="color:#eff2f6;background-color:#181a1d;padding-top:180px;padding-bottom:180px"><!-- wp:group {"className":"testimonial-3-second-part","metadata":{"name":"testimonial-3-second-part"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div class="wp-block-group testimonial-3-second-part"><!-- wp:group {"className":"section-one","layout":{"type":"default"}} -->
+<div class="wp-block-group section-one"><!-- wp:paragraph {"align":"left","style":{"elements":{"link":{"color":{"text":"#eff2f6"}}},"color":{"text":"#eff2f6"},"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"1.2"}},"fontSize":"3x-large"} -->
+<p class="has-text-align-left has-text-color has-link-color has-3-x-large-font-size" style="color:#eff2f6;font-style:normal;font-weight:600;line-height:1.2"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">Redesign</mark> is not your only concern, right?</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"116px","width":"0px","style":{"layout":[]}} -->
