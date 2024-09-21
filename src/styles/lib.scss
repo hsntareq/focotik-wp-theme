@@ -1,3 +1,4 @@
+@import './mixins/library';
 .flex {
     display: flex;
 }
@@ -39,4 +40,9 @@
 }
 .rowGap72{
     row-gap: 72px;
+}
+.md-flex-col{
+    @include below(medium) {
+        flex-direction: column;
+    }
 }

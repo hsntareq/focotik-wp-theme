@@ -39,19 +39,16 @@ $reviewheadingFontSizeMobile: 36px;
             }
         }
 
-        // .wp-block-media-text {
-        //     @include below(medium) {
-        //         flex-direction: column;
-        //         text-align: center;
-        //         gap: 12px;
-        //     }
-
         .wp-block-media-text {
-            display: inline-flex;
-            align-items: center;
-            flex-direction: column;
+            @include below(medium) {
+
+                display: inline-flex;
+                align-items: center;
+                flex-direction: column;
+                margin-inline: 0 !important;
+            }
+
             gap: 12px;
-            margin-inline: 0 !important;
 
             .wp-block-media-text__media {
                 width: 48px !important;
@@ -70,8 +67,6 @@ $reviewheadingFontSizeMobile: 36px;
             .wp-block-media-text__content {
                 padding-inline: 0px !important;
             }
-
-            // }
         }
     }
 }

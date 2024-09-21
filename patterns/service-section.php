@@ -7,10 +7,10 @@
  */
 ?>
 
-<!-- wp:group {"metadata":{"name":"service section"},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained","wideSize":"1170px"}} -->
-<div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Heading"},"style":{"spacing":{"padding":{"top":"108px","bottom":"108px"}}},"layout":{"type":"constrained","wideSize":"860px","justifyContent":"left"}} -->
-<div class="wp-block-group" style="padding-top:108px;padding-bottom:108px"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0px","bottom":"0px"}}},"layout":{"type":"default"}} -->
+<!-- wp:group {"className":"service-section","metadata":{"name":"service section"},"layout":{"type":"default"}} -->
+<div class="wp-block-group service-section"><!-- wp:group {"layout":{"type":"constrained","wideSize":"1170px"}} -->
+<div class="wp-block-group"><!-- wp:group {"className":"main-heading","metadata":{"name":"Heading"},"style":{"spacing":{"padding":{"top":"108px","bottom":"108px"}}},"layout":{"type":"constrained","wideSize":"860px","justifyContent":"left"}} -->
+<div class="wp-block-group main-heading" style="padding-top:108px;padding-bottom:108px"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0px","bottom":"0px"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="padding-top:0px;padding-bottom:0px"><!-- wp:heading {"style":{"typography":{"fontSize":"72px","fontStyle":"normal","fontWeight":"800"}}} -->
 <h2 class="wp-block-heading" style="font-size:72px;font-style:normal;font-weight:800">Here we show casing our <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">latest visual shots</mark></h2>
 <!-- /wp:heading --></div>
@@ -23,8 +23,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"flex ","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"160px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group flex" style="margin-top:0px;margin-bottom:160px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"default"}} -->
+<!-- wp:group {"className":"flex md-flex-col ","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"160px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group flex md-flex-col" style="margin-top:0px;margin-bottom:160px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"32px"}}},"layout":{"type":"constrained","wideSize":"469px"}} -->
 <div class="wp-block-group" style="margin-bottom:32px"><!-- wp:heading {"level":5,"fontSize":"large"} -->
 <h5 class="wp-block-heading has-large-font-size">Mobile application UI UX</h5>
@@ -65,8 +65,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"flex ","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"160px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group flex" style="margin-top:0px;margin-bottom:160px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<!-- wp:group {"className":"flex md-flex-col ","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"160px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group flex md-flex-col" style="margin-top:0px;margin-bottom:160px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":586,"width":"auto","height":"485px","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI)?>assets/images/service-card-2.png" alt="" class="wp-image-586" style="width:auto;height:485px"/></figure>
 <!-- /wp:image --></div>
@@ -107,8 +107,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"flex ","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"160px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group flex" style="margin-top:0px;margin-bottom:160px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"default"}} -->
+<!-- wp:group {"className":"flex md-flex-col ","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"160px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group flex md-flex-col" style="margin-top:0px;margin-bottom:160px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"32px"}}},"layout":{"type":"constrained","wideSize":"469px"}} -->
 <div class="wp-block-group" style="margin-bottom:32px"><!-- wp:heading {"level":5,"fontSize":"large"} -->
 <h5 class="wp-block-heading has-large-font-size">Web design UI UX</h5>
@@ -149,8 +149,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 <!-- wp:pattern {"slug":"focotik/cta-small-orange"} /-->
-<!-- wp:group {"className":"flex ","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"160px","bottom":"160px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group flex" style="margin-top:160px;margin-bottom:160px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<!-- wp:group {"className":"flex md-flex-col ","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"160px","bottom":"160px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group flex md-flex-col" style="margin-top:160px;margin-bottom:160px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":588,"width":"auto","height":"485px","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI)?>assets/images/service-card-4.png" alt="" class="wp-image-588" style="width:auto;height:485px"/></figure>
 <!-- /wp:image --></div>
@@ -191,8 +191,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"flex ","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"160px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group flex" style="margin-top:0px;margin-bottom:160px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"default"}} -->
+<!-- wp:group {"className":"flex md-flex-col ","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"160px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group flex md-flex-col" style="margin-top:0px;margin-bottom:160px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"32px"}}},"layout":{"type":"constrained","wideSize":"469px"}} -->
 <div class="wp-block-group" style="margin-bottom:32px"><!-- wp:heading {"level":5,"fontSize":"large"} -->
 <h5 class="wp-block-heading has-large-font-size">Web design UI UX</h5>
@@ -233,8 +233,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"flex ","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"160px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group flex" style="margin-top:0px;margin-bottom:160px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<!-- wp:group {"className":"flex md-flex-col ","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"160px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group flex md-flex-col" style="margin-top:0px;margin-bottom:160px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":588,"width":"auto","height":"485px","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI)?>assets/images/service-card-4.png" alt="" class="wp-image-588" style="width:auto;height:485px"/></figure>
 <!-- /wp:image --></div>
@@ -275,8 +275,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"flex ","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"108px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group flex" style="margin-top:0px;margin-bottom:108px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"default"}} -->
+<!-- wp:group {"className":"flex md-flex-col ","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"108px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group flex md-flex-col" style="margin-top:0px;margin-bottom:108px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"32px"}}},"layout":{"type":"constrained","wideSize":"469px"}} -->
 <div class="wp-block-group" style="margin-bottom:32px"><!-- wp:heading {"level":5,"fontSize":"large"} -->
 <h5 class="wp-block-heading has-large-font-size">Web design UI UX</h5>
