@@ -1,8 +1,8 @@
 @import './mixins/library';
 
-$headingFontSize: 72px;
-$headingFontSizeTab: 48px;
-$headingFontSizeMobile: 36px;
+$worksheadingFontSize: 72px;
+$worksheadingFontSizeTab: 48px;
+$worksheadingFontSizeMobile: 36px;
 
 .works{
     .is-nowrap{
@@ -16,12 +16,12 @@ $headingFontSizeMobile: 36px;
         max-width: 700px;
         text-align: left;
         @include below(medium) {
-            font-size: $headingFontSizeTab !important;
+            font-size: $worksheadingFontSizeTab !important;
             text-align: center;
         }
 
         @include below(small) {
-            font-size: $headingFontSizeMobile !important;
+            font-size: $worksheadingFontSizeMobile !important;
         }
     }
     .grid-column-auto{

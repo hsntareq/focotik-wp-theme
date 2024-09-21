@@ -1,8 +1,8 @@
 @import './mixins/library';
 
-$headingFontSize: 72px;
-$headingFontSizeTab: 48px;
-$headingFontSizeMobile: 36px;
+$serviceheadingFontSize: 72px;
+$serviceheadingFontSizeTab: 48px;
+$serviceheadingFontSizeMobile: 36px;
 
 .home-services {
     .testimonial-3-second-part {
@@ -11,14 +11,30 @@ $headingFontSizeMobile: 36px;
             align-items: center;
             text-align: center;
         }
-        .has-3-x-large-font-size{
-            @include below(large) {
-                font-size: 48px !important;
+
+        .has-3-x-large-font-size {
+            @include below(medium) {
+                font-size: $serviceheadingFontSizeTab !important;
+            }
+
+            @include below(small) {
+                font-size: $serviceheadingFontSizeMobile !important;
             }
         }
-        .wp-block-spacer{
+
+        .wp-block-spacer {
             @include below(medium) {
-                height: 24px!important;
+                height: 24px !important;
+            }
+        }
+    }
+
+    .foco-accordion {
+        & details {
+            summary {
+                @include below(medium) {
+                    font-size: 24px !important;
+                }
             }
         }
     }

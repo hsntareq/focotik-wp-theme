@@ -1,24 +1,28 @@
 @import './mixins/library';
 
-$headingFontSize: 72px;
-$headingFontSizeTab: 48px;
-$headingFontSizeMobile: 36px;
+$whyUsheadingFontSize: 72px;
+$whyUsheadingFontSizeTab: 48px;
+$whyUsheadingFontSizeMobile: 36px;
 
 .why-us {
     .wp-block-heading {
         @include below(medium) {
-            font-size: $headingFontSizeTab !important;
+            font-size: $whyUsheadingFontSizeTab !important;
             text-align: center;
         }
 
         @include below(small) {
-            font-size: $headingFontSizeMobile !important;
+            font-size: $whyUsheadingFontSizeMobile !important;
         }
     }
 
     .why-us-content {
-        flex-wrap: wrap;
         justify-content: center;
+        align-items: normal;
+
+        @include below(large) {
+            gap: 12px;
+        }
 
         @include below(medium) {
             flex-direction: column;
@@ -35,7 +39,22 @@ $headingFontSizeMobile: 36px;
 
             .wp-block-heading {
                 @include below(large) {
-                    font-size: 22px !important;
+                    font-size: 18px !important;
+                    text-align: start;
+                }
+                @include below(medium) {
+                    font-size: 28px !important;
+                    text-align: start;
+                }
+            }
+
+            p {
+                @include between(900px, 1200px) {
+                    font-size: 16px !important;
+                    text-align: start;
+                }
+                @include below(small) {
+                    font-size: 16px !important;
                     text-align: start;
                 }
             }
@@ -50,30 +69,34 @@ $headingFontSizeMobile: 36px;
             align-items: center;
             text-align: center;
         }
-        .has-3-x-large-font-size{
+
+        .has-3-x-large-font-size {
             @include below(large) {
                 font-size: 48px !important;
             }
         }
-        .wp-block-spacer{
+
+        .wp-block-spacer {
             @include below(medium) {
-                height: 24px!important;
+                height: 24px !important;
             }
         }
     }
 }
 
-.works{
-    .is-nowrap{
+.works {
+    .is-nowrap {
         @include below(large) {
             flex-wrap: wrap;
             text-align: center;
             flex-direction: column;
         }
     }
-    .main-heading{
+
+    .main-heading {
         max-width: 700px;
         text-align: left;
+
         @include below(medium) {
             font-size: $headingFontSizeTab !important;
             text-align: center;
@@ -83,29 +106,33 @@ $headingFontSizeMobile: 36px;
             font-size: $headingFontSizeMobile !important;
         }
     }
-    .grid-column-auto{
+
+    .grid-column-auto {
         @include below(medium) {
             grid-template-columns: auto;
             justify-content: center;
         }
     }
-    .wp-block-buttons-is-layout-flex{
+
+    .wp-block-buttons-is-layout-flex {
         @include below(medium) {
             justify-content: center;
         }
     }
-    .wp-block-heading{
+
+    .wp-block-heading {
         @include below(medium) {
             font-size: 22px !important;
             text-align: center;
-            margin-top: 0!important;
+            margin-top: 0 !important;
             padding-inline: 10px;
         }
     }
-    .wp-block-spacer{
+
+    .wp-block-spacer {
         @include below(medium) {
-            height: 32px!important;
-            margin-top: 32px!important;
+            height: 32px !important;
+            margin-top: 32px !important;
         }
     }
 }

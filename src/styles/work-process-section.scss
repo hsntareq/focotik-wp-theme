@@ -1,0 +1,53 @@
+@import './mixins/library';
+
+$workProcessheadingFontSize: 64px;
+$workProcessheadingFontSizeTab: 48px;
+$workProcessheadingFontSizeMobile: 32px;
+
+.work-process-section {
+    .wps-heading {
+        @include below(large) {
+            text-align: center;
+        }
+
+        @include below(medium) {
+            font-size: 40px !important;
+            text-align: center;
+        }
+
+        @include below(small) {
+            font-size: $workProcessheadingFontSizeMobile !important;
+            text-align: center;
+        }
+    }
+
+    .wps-service-section {
+        .services-list {
+            @include below(medium) {
+                padding-left: 16px;
+            }
+        }
+
+        .wp-block-columns {
+            @include below(medium) {
+                flex-direction: column;
+                align-items: start !important;
+                padding-top: 16px !important;
+                padding-bottom: 16px !important;
+            }
+
+            .wp-block-column {
+                @include below(medium) {
+                    padding-left: 0px !important;
+                }
+
+            }
+
+            .wp-block-column:first-child {
+                @include below(large) {
+                    padding-right: 64px !important;
+                }
+            }
+        }
+    }
+}

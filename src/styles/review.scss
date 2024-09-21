@@ -1,36 +1,77 @@
 @import './mixins/library';
 
-$headingFontSize: 72px;
-$headingFontSizeTab: 48px;
-$headingFontSizeMobile: 36px;
+$reviewheadingFontSize: 72px;
+$reviewheadingFontSizeTab: 48px;
+$reviewheadingFontSizeMobile: 36px;
 
 .review {
     &-main-heading {
         @include below(large) {
-            font-size: $headingFontSizeTab !important;
+            font-size: $reviewheadingFontSizeTab !important;
             text-align: center;
             max-width: 700px !important;
         }
 
         @include below(small) {
-            font-size: $headingFontSizeMobile !important;
+            font-size: $reviewheadingFontSizeMobile !important;
             text-align: center;
         }
     }
 
     &-content {
         .wp-block-heading {
+            @include below(large) {
+                font-size: 28px !important;
+            }
+
             @include below(medium) {
                 font-size: 24px !important;
             }
         }
 
-        .is_nowrap {
-            @include below(large) {
-                flex-wrap: wrap;
-                text-align: center;
+        .is-nowrap {
+            @include below(medium) {
+                flex-wrap: wrap !important;
                 flex-direction: column;
+                align-items: center;
+                gap: 68px;
+                text-align: center;
             }
+        }
+
+        // .wp-block-media-text {
+        //     @include below(medium) {
+        //         flex-direction: column;
+        //         text-align: center;
+        //         gap: 12px;
+        //     }
+
+        .wp-block-media-text {
+            display: inline-flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 12px;
+            margin-inline: 0 !important;
+
+            .wp-block-media-text__media {
+                width: 48px !important;
+                height: 48px !important;
+                border-radius: 50%;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+            }
+
+            .wp-block-media-text__content {
+                padding-inline: 0px !important;
+            }
+
+            // }
         }
     }
 }

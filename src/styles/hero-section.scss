@@ -1,24 +1,24 @@
 @import './mixins/library';
 
-$headingFontSize: 72px;
-$headingFontSizeTab: 48px;
-$headingFontSizeMobile: 36px;
+$contactheadingFontSize: 72px;
+$contactheadingFontSizeTab: 48px;
+$contactheadingFontSizeMobile: 36px;
 
 .hero-section {
     .hero-text-content {
         @include below(medium) {
-            font-size: $headingFontSizeTab !important;
+            font-size: $contactheadingFontSizeTab !important;
             padding-right: 0 !important;
         }
 
         .hero-heading {
             @include below(medium) {
-                font-size: $headingFontSizeTab !important;
+                font-size: $contactheadingFontSizeTab !important;
                 text-align: center;
             }
 
             @include below(small) {
-                font-size: $headingFontSizeMobile !important;
+                font-size: $contactheadingFontSizeMobile !important;
             }
         }
 

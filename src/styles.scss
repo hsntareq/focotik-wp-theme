@@ -2,10 +2,13 @@
 @import './styles/hero-section.scss';
 @import './styles/brands-section.scss';
 @import './styles/why-us-section.scss';
-@import './styles/services.scss';
+@import './styles/why-us-d2.scss';
 @import './styles/works.scss';
 @import './styles/cta-wrap.scss';
 @import './styles/review.scss';
+@import './styles/work-process-section.scss';
+@import './styles/footer.scss';
+
 
 body {
 	background-color: #E7E7E7;
@@ -331,7 +334,8 @@ body {
 		}
 
 		.wp-block-media-text {
-			grid-template-columns: 60px auto !important;
+			display: flex;
+			align-items: center;
 			margin-top: 16px !important;
 		}
 
@@ -396,9 +400,11 @@ body {
 	}
 }
 
-@import url(./styles/pricing-section.scss);
-@import url(./styles/testimonial.scss);
-@import url(./styles//contact-section.scss);
+@import './styles/pricing-section.scss';
+@import './styles/testimonial.scss';
+@import './styles/faq.scss';
+@import './styles/services.scss';
+@import './styles//contact-section.scss';
 
 .footer {
 

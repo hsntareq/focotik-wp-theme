@@ -1,24 +1,57 @@
 
+@import './mixins/library';
+
 .pricing-section {
 	padding-block: 180px;
-    p.has-text-color.has-link-color.has-medium-font-size {
-        margin-bottom: 16px;
-    }
-	.pricing-item-row{
-		column-gap: 32px;
-		
+
+	p.has-text-color.has-link-color.has-medium-font-size {
+		margin-bottom: 16px;
 	}
+
+	.pricing-item-row {
+		column-gap: 32px;
+
+	}
+
 	.pricing-text-box {
 		padding-block: 24px;
 		padding-inline: 24px;
 		border-radius: 20px;
-        flex:1;
-        margin-top: 16px;
+		flex: 1;
+		margin-top: 16px;
 
 		ul.pricing-list-item {
 			list-style-type: none;
-			li::before {
-				
+		}
+	}
+
+	h3 {
+		@include below(medium) {
+			font-size: 32px !important;
+		}
+
+		+p {
+			@include below(medium) {
+				font-size: 20px !important;
+			}
+		}
+	}
+
+	.pricing-item-row {
+		@include between(medium, large) {
+			gap: 12px;
+		}
+
+		@include below(medium) {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.pricing-text-box {
+			.wp-block-heading {
+				@include below(large) {
+					font-size: 22px !important;
+				}
 			}
 		}
 	}

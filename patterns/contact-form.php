@@ -7,16 +7,16 @@
  */
 ?>
 
-<!-- wp:group {"className":"contact-section","layout":{"type":"default"}} -->
-<div class="wp-block-group contact-section"><!-- wp:columns -->
+<!-- wp:group {"className":"contact-form","layout":{"type":"default"}} -->
+<div class="wp-block-group contact-form"><!-- wp:columns -->
     <div class="wp-block-columns"><!-- wp:column {"width":"752px"} -->
         <div class="wp-block-column" style="flex-basis:752px"><!-- wp:group {"style":{"border":{"radius":"8px"},"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"32px","bottom":"32px"}},"color":{"background":"#383a3e","text":"#929498"},"elements":{"link":{"color":{"text":"#929498"}}}},"layout":{"type":"default"}} -->
             <div class="wp-block-group has-text-color has-background has-link-color" style="border-radius:8px;color:#929498;background-color:#383a3e;padding-top:32px;padding-right:var(--wp--preset--spacing--50);padding-bottom:32px;padding-left:var(--wp--preset--spacing--50)"><!-- wp:shortcode -->
                 [contact-form-7 id="f23718d" title="Contact Us"]
                 <!-- /wp:shortcode -->
 
-                <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","orientation":"horizontal","justifyContent":"space-between"}} -->
-                <div class="wp-block-group"><!-- wp:paragraph {"className":"shrink-0","style":{"elements":{"link":{"color":{"text":"#929498"}}},"color":{"text":"#929498"},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"}}} -->
+                <!-- wp:group {"className":"contact-info","layout":{"type":"flex","flexWrap":"nowrap","orientation":"horizontal","justifyContent":"space-between"}} -->
+                <div class="wp-block-group contact-info"><!-- wp:paragraph {"className":"shrink-0","style":{"elements":{"link":{"color":{"text":"#929498"}}},"color":{"text":"#929498"},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"}}} -->
                     <p class="shrink-0 has-text-color has-link-color" style="color:#929498;font-size:16px;font-style:normal;font-weight:400">Hate contact forms? Direct Contact!</p>
                     <!-- /wp:paragraph -->
 

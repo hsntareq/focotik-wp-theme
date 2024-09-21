@@ -1,4 +1,6 @@
 
+@import './mixins/library';
+
 .testimonial-2-card-grid {
     gap: 32px;
 }
@@ -31,7 +33,7 @@
         }
 
         p {
-            width: 879px;
+            max-width: 879px;
             font-size: 20px;
             font-weight: 400;
             padding: 0;
@@ -43,7 +45,7 @@
 }
 
 .home-services .foco-accordion {
-    width: 525px;
+    max-width: 525px;
     margin-top:-4px;
 
     details {
@@ -58,7 +60,7 @@
         }
 
         p {
-            width: 453px;
+            max-width: 453px;
             padding-top: 12px!important;
             padding-bottom: 24px!important;
             margin: 0;
