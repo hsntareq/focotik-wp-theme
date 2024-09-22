@@ -1,25 +1,25 @@
 <?php
 /**
  * Title: Product Viability
- * Slug: product-viability
+ * Slug: focotik/product-viability
  * Categories: hidden
  * Inserter: no
  */
 ?>
 
 
-<!-- wp:group {"metadata":{"name":"Product Viability"},"style":{"color":{"background":"#eb6945"},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/cta-img-right-top.png","id":247,"source":"file","title":"cta-img-right-top"},"backgroundPosition":"100% 0%","backgroundSize":"275px","backgroundRepeat":"no-repeat"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group has-background" style="background-color:#eb6945;margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"padding":{"top":"180px","bottom":"180px"}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
-<div class="wp-block-group" style="padding-top:180px;padding-bottom:180px"><!-- wp:heading {"textAlign":"center","style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}}} -->
-<h2 class="wp-block-heading has-text-align-center has-text-color has-link-color" style="color:#eff2f6">Meet <mark style="background-color:rgba(0, 0, 0, 0);color:#383a3e" class="has-inline-color">business goals</mark> <br>with a redesign.</h2>
+<!-- wp:group {"className":"product-viability","metadata":{"name":"Product Viability"},"style":{"color":{"background":"#eb6945"},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/cta-img-right-top.png","id":247,"source":"file","title":"cta-img-right-top"},"backgroundPosition":"100% 0%","backgroundSize":"275px","backgroundRepeat":"no-repeat"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group has-background product-viability" style="background-color:#eb6945;margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"padding":{"top":"180px","bottom":"180px"}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
+<div class="wp-block-group" style="padding-top:180px;padding-bottom:180px"><!-- wp:heading {"className":"main-heading","textAlign":"center","style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}}} -->
+<h2 class="wp-block-heading has-text-align-center has-text-color has-link-color main-heading" style="color:#eff2f6">Meet <mark style="background-color:rgba(0, 0, 0, 0);color:#383a3e" class="has-inline-color">business goals</mark> <br>with a redesign.</h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"24px"} -->
 <div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"className":"gap32","layout":{"type":"grid","columnCount":"3","minimumColumnWidth":null}} -->
-<div class="wp-block-group gap32"><!-- wp:group {"style":{"color":{"background":"#d3e7ff"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"}},"border":{"radius":"16px"},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/img-services.png","id":230,"source":"file","title":"img-services"},"backgroundPosition":"100% 0%","backgroundSize":"75px","backgroundRepeat":"no-repeat"}},"layout":{"type":"default"}} -->
+<!-- wp:group {"className":"gap32 viability-grid","layout":{"type":"grid","columnCount":"3","minimumColumnWidth":null}} -->
+<div class="wp-block-group gap32 viability-grid"><!-- wp:group {"style":{"color":{"background":"#d3e7ff"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"}},"border":{"radius":"16px"},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/img-services.png","id":230,"source":"file","title":"img-services"},"backgroundPosition":"100% 0%","backgroundSize":"75px","backgroundRepeat":"no-repeat"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group has-background" style="border-radius:16px;background-color:#d3e7ff;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px"><!-- wp:image {"id":710,"width":"161px","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/testimonial-2-review-logo.png" alt="" class="wp-image-710" style="width:161px"/></figure>
 <!-- /wp:image -->
@@ -29,7 +29,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":5,"style":{"color":{"text":"#383a3e"},"elements":{"link":{"color":{"text":"#383a3e"}}},"spacing":{"margin":{"top":"8px"}}},"fontSize":"large"} -->
-<h5 class="wp-block-heading has-text-color has-link-color has-large-font-size" style="color:#383a3e;margin-top:8px">Improved user satisfaction</h5>
+<h5 class="wp-block-heading has-text-color has-link-color has-large-font-size" style="color:#383a3e;margin-top:8px">Improvedsasdf user satisfaction</h5>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"20px"}}}} -->

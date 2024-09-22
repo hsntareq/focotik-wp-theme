@@ -46,10 +46,3 @@ $portfolioHeadingMobile : 36px;
         }
     }
 }
-
-.product-vialbility-3-grid{
-    @include below(medium) {
-        grid-template-columns: 1fr!important;
-        text-align: center;
-    }
-}

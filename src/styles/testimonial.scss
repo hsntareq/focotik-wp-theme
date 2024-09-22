@@ -100,13 +100,18 @@ $testimonialHeadingFontSizeMobile: 36px;
     }
 
     .section-one {
+        max-width: 460px;
         @include below(medium) {
+            max-width: 500px;
             text-align: center;
         }
 
         p {
-            @include below(medium) {
+            @include below(large) {
                 font-size: 48px !important;
+            }
+
+            @include below(medium) {
                 text-align: center;
             }
 

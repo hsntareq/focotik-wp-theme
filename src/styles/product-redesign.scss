@@ -1,0 +1,14 @@
+@import './mixins/library';
+$heroHeadingTab : 48px;
+
+.redesign-hero {
+    h2 {
+        @include between(900px, 1200px) {
+            font-size: $heroHeadingTab !important;
+        }
+    }
+
+    @include below(medium) {
+        flex-direction: column;
+    }
+}

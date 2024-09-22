@@ -1,0 +1,85 @@
+@import './mixins/library';
+
+$viabilityHeadingFontSize: 72px;
+$viabilityHeadingFontSizeTab: 48px;
+$viabilityHeadingFontSizeMobile: 36px;
+
+.product-viability {
+    .main-heading {
+        @include below(medium) {
+            font-size: $viabilityHeadingFontSizeTab !important;
+        }
+
+        @include below(small) {
+            font-size: $viabilityHeadingFontSizeMobile !important;
+        }
+    }
+
+    .viability-grid {
+        @include below(large) {
+            gap: 12px !important;
+        }
+
+        @include below(medium) {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+    }
+}
+
+.product-viability-2 {
+    .main-heading {
+        max-width: 831px;
+        text-align: center;
+
+        @include below(medium) {
+            font-size: $viabilityHeadingFontSizeTab !important;
+        }
+
+        @include below(small) {
+            font-size: $viabilityHeadingFontSizeMobile !important;
+        }
+    }
+
+    .viability-2-card {
+        @include below(medium) {
+            gap: 12px;
+        }
+
+        h5 {
+            @include below(medium) {
+                font-size: 22px !important;
+            }
+        }
+
+        @include below(small) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .viability-heading {
+        @include below(medium) {
+            font-size: $viabilityHeadingFontSizeTab !important;
+        }
+
+        @include below(small) {
+            font-size: $viabilityHeadingFontSizeMobile !important;
+        }
+    }
+}
+
+.product-viability-3 {
+    .main-heading{
+        @include below(medium){
+            font-size: $viabilityHeadingFontSizeTab!important;
+        }
+        @include below(small){
+            font-size: $viabilityHeadingFontSizeMobile!important;
+        }
+    }
+    &-grid {
+        @include below(medium) {
+            grid-template-columns: 1fr !important;
+            text-align: center;
+        }
+    }
+}
