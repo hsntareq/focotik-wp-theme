@@ -14,9 +14,14 @@
 <h3 class="wp-block-heading has-text-color has-link-color main-heading" style="color:#eff2f6;font-style:normal;font-weight:700">MVP design creation <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">process</mark></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
+ <!-- wp:group {"style":{"spacing":{"padding":{"bottom":"108px"}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
+<div class="wp-block-group" style="padding-bottom:108px"><!-- wp:image {"id":1536,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url(FOCOTIK_THEME_URI)?>assets/images/product-viability-diagram.png" alt="" class="wp-image-1536"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
 
-<!-- wp:group {"className":"product-vialbility-3-grid","align":"wide","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"160px"}}},"layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
-<div class="wp-block-group alignwide product-vialbility-3-grid" style="margin-top:0px;margin-bottom:160px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"default"}} -->
+<!-- wp:group {"className":"product-viability-3-grid","align":"wide","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"160px"}}},"layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
+<div class="wp-block-group alignwide product-viability-3-grid" style="margin-top:0px;margin-bottom:160px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"32px"}},"color":{"text":"#aeaeae"},"elements":{"link":{"color":{"text":"#aeaeae"}}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group has-text-color has-link-color" style="color:#aeaeae;margin-bottom:32px"><!-- wp:heading {"level":5,"fontSize":"large"} -->
 <h5 class="wp-block-heading has-large-font-size">Mobile application UI UX</h5>
@@ -27,8 +32,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:list {"className":"is-style-list-with-gradient-bullet","style":{"color":{"text":"#aeaeae"},"elements":{"link":{"color":{"text":"#aeaeae"}}},"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"600","lineHeight":"2"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontFamily":"manrope"} -->
+<!-- wp:group {"className":"viability-3-service-row","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group viability-3-service-row"><!-- wp:list {"className":"is-style-list-with-gradient-bullet","style":{"color":{"text":"#aeaeae"},"elements":{"link":{"color":{"text":"#aeaeae"}}},"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"600","lineHeight":"2"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontFamily":"manrope"} -->
 <ul style="color:#aeaeae;margin-top:0;margin-bottom:0;font-size:20px;font-style:normal;font-weight:600;line-height:2" class="wp-block-list is-style-list-with-gradient-bullet has-text-color has-link-color has-manrope-font-family"><!-- wp:list-item {"style":{"spacing":{"margin":{"top":"0","bottom":"0px"}}},"fontSize":"small"} -->
 <li style="margin-top:0;margin-bottom:0px" class="has-small-font-size">Briefing &amp; onboarding</li>
 <!-- /wp:list-item -->
@@ -93,8 +98,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:list {"className":"is-style-list-with-gradient-bullet","style":{"color":{"text":"#aeaeae"},"elements":{"link":{"color":{"text":"#aeaeae"}}},"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"600","lineHeight":"2"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontFamily":"manrope"} -->
+<!-- wp:group {"className":"viability-3-service-row","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group viability-3-service-row"><!-- wp:list {"className":"is-style-list-with-gradient-bullet","style":{"color":{"text":"#aeaeae"},"elements":{"link":{"color":{"text":"#aeaeae"}}},"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"600","lineHeight":"2"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontFamily":"manrope"} -->
 <ul style="color:#aeaeae;margin-top:0;margin-bottom:0;font-size:20px;font-style:normal;font-weight:600;line-height:2" class="wp-block-list is-style-list-with-gradient-bullet has-text-color has-link-color has-manrope-font-family"><!-- wp:list-item {"style":{"spacing":{"margin":{"top":"0","bottom":"0px"}}},"fontSize":"small"} -->
 <li style="margin-top:0;margin-bottom:0px" class="has-small-font-size">Briefing &amp; onboarding</li>
 <!-- /wp:list-item -->
@@ -147,8 +152,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:list {"className":"is-style-list-with-gradient-bullet","style":{"color":{"text":"#aeaeae"},"elements":{"link":{"color":{"text":"#aeaeae"}}},"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"600","lineHeight":"2"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontFamily":"manrope"} -->
+<!-- wp:group {"className":"viability-3-service-row","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group viability-3-service-row"><!-- wp:list {"className":"is-style-list-with-gradient-bullet","style":{"color":{"text":"#aeaeae"},"elements":{"link":{"color":{"text":"#aeaeae"}}},"typography":{"fontSize":"20px","fontStyle":"normal","fontWeight":"600","lineHeight":"2"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontFamily":"manrope"} -->
 <ul style="color:#aeaeae;margin-top:0;margin-bottom:0;font-size:20px;font-style:normal;font-weight:600;line-height:2" class="wp-block-list is-style-list-with-gradient-bullet has-text-color has-link-color has-manrope-font-family"><!-- wp:list-item {"style":{"spacing":{"margin":{"top":"0","bottom":"0px"}}},"fontSize":"small"} -->
 <li style="margin-top:0;margin-bottom:0px" class="has-small-font-size">Briefing &amp; onboarding</li>
 <!-- /wp:list-item -->

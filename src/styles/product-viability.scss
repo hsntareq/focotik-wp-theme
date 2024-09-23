@@ -3,6 +3,7 @@
 $viabilityHeadingFontSize: 72px;
 $viabilityHeadingFontSizeTab: 48px;
 $viabilityHeadingFontSizeMobile: 36px;
+$viabilityHeadingFontSizeXsMobile: 26px;
 
 .product-viability {
     .main-heading {
@@ -11,7 +12,7 @@ $viabilityHeadingFontSizeMobile: 36px;
         }
 
         @include below(small) {
-            font-size: $viabilityHeadingFontSizeMobile !important;
+            font-size: $viabilityHeadingFontSizeXsMobile !important;
         }
     }
 
@@ -27,19 +28,6 @@ $viabilityHeadingFontSizeMobile: 36px;
 }
 
 .product-viability-2 {
-    .main-heading {
-        max-width: 831px;
-        text-align: center;
-
-        @include below(medium) {
-            font-size: $viabilityHeadingFontSizeTab !important;
-        }
-
-        @include below(small) {
-            font-size: $viabilityHeadingFontSizeMobile !important;
-        }
-    }
-
     .viability-2-card {
         @include below(medium) {
             gap: 12px;
@@ -56,30 +44,101 @@ $viabilityHeadingFontSizeMobile: 36px;
         }
     }
 
+    
+}
+.viability-green {
+    @include below(medium) {
+        padding: 10px !important;
+    }
     .viability-heading {
         @include below(medium) {
             font-size: $viabilityHeadingFontSizeTab !important;
         }
 
         @include below(small) {
-            font-size: $viabilityHeadingFontSizeMobile !important;
+            font-size: $viabilityHeadingFontSizeXsMobile !important;
         }
-    }
-}
 
+    } 
+}
 .product-viability-3 {
-    .main-heading{
-        @include below(medium){
-            font-size: $viabilityHeadingFontSizeTab!important;
+    .main-heading {
+        @include below(medium) {
+            font-size: $viabilityHeadingFontSizeTab !important;
+            text-align: center;
         }
-        @include below(small){
-            font-size: $viabilityHeadingFontSizeMobile!important;
+
+        @include below(small) {
+            font-size: $viabilityHeadingFontSizeMobile !important;
+            text-align: center;
         }
     }
+
     &-grid {
         @include below(medium) {
             grid-template-columns: 1fr !important;
             text-align: center;
+        }
+    }
+
+    .is-nowrap.is-layout-flex {
+        @include below(medium) {
+            justify-content: center;
+        }
+    }
+
+    p {
+        @include below(medium) {
+            max-width: 500px;
+            margin: auto;
+        }
+    }
+
+    .viability-3-service-row {
+        @include below(medium) {
+            flex-direction: column;
+            align-items: start;
+        }
+    }
+}
+
+.product-viability-4 {
+    .main-heading {
+        max-width: 831px;
+        text-align: center;
+
+        @include below(medium) {
+            font-size: $viabilityHeadingFontSizeTab !important;
+        }
+
+        @include below(small) {
+            font-size: 28px !important;
+        }
+    }
+
+    .viability-4-card-three {
+        @include between(900px, 1200px) {
+            gap: 12px;
+        }
+
+        @include below(medium) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .viability-4-card-two {
+        @include below(medium) {
+            gap: 12px;
+        }
+
+        @include below(small) {
+            grid-template-columns: 1fr;
+        }
+
+        h5 {
+            @include below(medium) {
+                font-size: 20px !important;
+            }
         }
     }
 }

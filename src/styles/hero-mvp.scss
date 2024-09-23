@@ -2,7 +2,7 @@
 $heroHeadingTab : 48px;
 $heroHeadingMobile: 32px;
 
-.hero-redesign {
+.hero-mvp {
     h2 {
         @include between(900px, 1200px) {
             font-size: $heroHeadingTab !important;
