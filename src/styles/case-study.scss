@@ -4,27 +4,40 @@ $caseStudyHeadingFontSize: 72px;
 $caseStudyHeadingFontSizeTab: 48px;
 $caseStudyHeadingFontSizeMobile: 36px;
 
-.case-study{
-    .main-heading{
-        @include below(medium){
+.case-study {
+    .main-heading {
+        @include below(medium) {
             font-size: $caseStudyHeadingFontSizeTab !important;
         }
-        @include below(small){
+
+        @include below(small) {
             font-size: $caseStudyHeadingFontSizeMobile !important;
         }
-            
+
     }
-    .case-study-grid{
-        @include below(medium){
+
+    .case-study-grid {
+        @include below(medium) {
             grid-template-columns: 1fr;
             text-align: center;
         }
-        h5{
-            @include below(medium){
+
+        h5 {
+            @include below(medium) {
                 font-size: 24px;
                 max-width: 550px;
                 margin: auto;
             }
         }
     }
+
+
+}
+
+.circle-item-index {
+    width: 96px!important;
+    height: 48px!important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }

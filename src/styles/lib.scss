@@ -2,7 +2,9 @@
 .flex {
     display: flex;
 }
-
+.items-start{
+    align-items: start!important;
+}
 .items-center {
     align-items: center;
 }
@@ -33,13 +35,16 @@
     gap: 72px !important;;
 }
 .gap40{
-    gap: 40px;
+    gap: 40px!important;
 }
 .rowGap16{
     row-gap: 16px!important;
 }
 .rowGap72{
     row-gap: 72px;
+}
+.rowGap108{
+    row-gap: 108px!important;
 }
 .md-flex-col{
     @include below(medium) {

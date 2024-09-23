@@ -49,18 +49,36 @@
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"40px"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group" style="margin-top:40px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:group {"className":"gap16","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group gap16"><!-- wp:group {"style":{"border":{"radius":"100px","color":"#e7e7e7","width":"1px"},"layout":{"selfStretch":"fixed","flexSize":"48px"},"dimensions":{"minHeight":"48px"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group has-border-color" style="border-color:#e7e7e7;border-width:1px;border-radius:100px;min-height:48px"><!-- wp:heading {"style":{"color":{"text":"#eb6945"},"elements":{"link":{"color":{"text":"#eb6945"}}}}} -->
-<h2 class="wp-block-heading has-text-color has-link-color" style="color:#eb6945">1</h2>
+<!-- wp:group {"style":{"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"color":"#e7e7e7"},"left":{"width":"0px","style":"none"}},"spacing":{"padding":{"bottom":"40px"},"margin":{"top":"40px"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-color:#e7e7e7;border-left-style:none;border-left-width:0px;margin-top:40px;padding-bottom:40px"><!-- wp:group {"layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
+<div class="wp-block-group"><!-- wp:group {"className":"gap16 items-start","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group gap16 items-start"><!-- wp:group {"className":"circle-item-index","style":{"border":{"radius":"100%","color":"#e7e7e7","width":"1px"},"layout":{"selfStretch":"fit","flexSize":""},"dimensions":{"minHeight":""},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group circle-item-index has-border-color" style="border-color:#e7e7e7;border-width:1px;border-radius:100%;margin-top:0;margin-bottom:0"><!-- wp:heading {"style":{"color":{"text":"#eb6945"},"elements":{"link":{"color":{"text":"#eb6945"}}},"typography":{"lineHeight":"1.34","letterSpacing":"-0.02em"}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-text-color has-link-color has-large-font-size" style="color:#eb6945;letter-spacing:-0.02em;line-height:1.34">1</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"gap16","layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group gap16"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"1.34","letterSpacing":"-0.02em"},"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}},"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600;letter-spacing:-0.02em;line-height:1.34">1</h2>
+<!-- wp:group {"className":"gap12","layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group gap12"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"1.34","letterSpacing":"-0.02em"},"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600;letter-spacing:-0.02em;line-height:1.34">Problem</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"4px"}}}} -->
+<p style="margin-top:4px">Users are Often confused in calt1JIating how much they have to pay when they shop together, so sometimes the distribution is not balanced.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"gap16 items-start","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group gap16 items-start"><!-- wp:group {"className":"circle-item-index","style":{"border":{"radius":"100%","color":"#e7e7e7","width":"1px"},"layout":{"selfStretch":"fit","flexSize":""},"dimensions":{"minHeight":""},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group circle-item-index has-border-color" style="border-color:#e7e7e7;border-width:1px;border-radius:100%;margin-top:0;margin-bottom:0"><!-- wp:heading {"style":{"color":{"text":"#eb6945"},"elements":{"link":{"color":{"text":"#eb6945"}}},"typography":{"lineHeight":"1.34","letterSpacing":"-0.02em"}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-text-color has-link-color has-large-font-size" style="color:#eb6945;letter-spacing:-0.02em;line-height:1.34">1</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"gap12","layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group gap12"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"1.34","letterSpacing":"-0.02em"},"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600;letter-spacing:-0.02em;line-height:1.34">Solution</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"4px"}}}} -->
@@ -69,6 +87,68 @@
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"40px"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="margin-top:40px"><!-- wp:group {"layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
+<div class="wp-block-group"><!-- wp:group {"className":"gap16 items-start","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group gap16 items-start"><!-- wp:group {"className":"circle-item-index","style":{"border":{"radius":"100%","color":"#e7e7e7","width":"1px"},"layout":{"selfStretch":"fit","flexSize":""},"dimensions":{"minHeight":""},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group circle-item-index has-border-color" style="border-color:#e7e7e7;border-width:1px;border-radius:100%;margin-top:0;margin-bottom:0"><!-- wp:heading {"style":{"color":{"text":"#eb6945"},"elements":{"link":{"color":{"text":"#eb6945"}}},"typography":{"lineHeight":"1.34","letterSpacing":"-0.02em"}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-text-color has-link-color has-large-font-size" style="color:#eb6945;letter-spacing:-0.02em;line-height:1.34">2</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"gap12","layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group gap12"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"1.34","letterSpacing":"-0.02em"},"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600;letter-spacing:-0.02em;line-height:1.34">Problem</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"4px"}}}} -->
+<p style="margin-top:4px">Users are Often confused in calt1JIating how much they have to pay when they shop together, so sometimes the distribution is not balanced.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"gap16 items-start","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group gap16 items-start"><!-- wp:group {"className":"circle-item-index","style":{"border":{"radius":"100%","color":"#e7e7e7","width":"1px"},"layout":{"selfStretch":"fit","flexSize":""},"dimensions":{"minHeight":""},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group circle-item-index has-border-color" style="border-color:#e7e7e7;border-width:1px;border-radius:100%;margin-top:0;margin-bottom:0"><!-- wp:heading {"style":{"color":{"text":"#eb6945"},"elements":{"link":{"color":{"text":"#eb6945"}}},"typography":{"lineHeight":"1.34","letterSpacing":"-0.02em"}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-text-color has-link-color has-large-font-size" style="color:#eb6945;letter-spacing:-0.02em;line-height:1.34">2</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"gap12","layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group gap12"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"1.34","letterSpacing":"-0.02em"},"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;font-style:normal;font-weight:600;letter-spacing:-0.02em;line-height:1.34">Solution</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"4px"}}}} -->
+<p style="margin-top:4px">Users are Often confused in calt1JIating how much they have to pay when they shop together, so sometimes the distribution is not balanced.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"60px","style":{"layout":[]}} -->
+<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"className":"gap40 rowGap108","layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
+<div class="wp-block-group gap40 rowGap108"><!-- wp:image {"id":1069,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/case-study-img-5.png" alt="" class="wp-image-1069"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1070,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/case-study-img-6.png" alt="" class="wp-image-1070"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1070,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/case-study-img-6.png" alt="" class="wp-image-1070"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":1067,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/case-study-img-3.png" alt="" class="wp-image-1067"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
