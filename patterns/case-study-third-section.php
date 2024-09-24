@@ -10,8 +10,8 @@
 <!-- wp:group {"metadata":{"name":"Case Study third section"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"padding":{"bottom":"108px"}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
 <div class="wp-block-group" style="padding-bottom:108px"><!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:image {"id":1065,"width":"1170px","height":"714px","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/case-study-img-3.png" alt="" class="wp-image-1065" style="object-fit:cover;width:1170px;height:714px"/></figure>
+<div class="wp-block-group"><!-- wp:image {"id":1065,"width":"1170px","height":"auto","aspectRatio":"16/9","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/case-study-img-3.png" alt="" class="wp-image-1065" style="object-fit:cover;width:1170px;height:auto;aspect-ratio:16/9"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"60px","style":{"layout":[]}} -->
@@ -50,9 +50,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"color":"#e7e7e7"},"left":{"width":"0px","style":"none"}},"spacing":{"padding":{"bottom":"40px"},"margin":{"top":"40px"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-color:#e7e7e7;border-left-style:none;border-left-width:0px;margin-top:40px;padding-bottom:40px"><!-- wp:group {"layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
-<div class="wp-block-group"><!-- wp:group {"className":"gap16 items-start","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group gap16 items-start"><!-- wp:group {"className":"circle-item-index","style":{"border":{"radius":"100%","color":"#e7e7e7","width":"1px"},"layout":{"selfStretch":"fit","flexSize":""},"dimensions":{"minHeight":""},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-color:#e7e7e7;border-left-style:none;border-left-width:0px;margin-top:40px;padding-bottom:40px"><!-- wp:group {"className":"md-col-span-1","layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
+<div class="wp-block-group md-col-span-1"><!-- wp:group {"className":"gap16 items-start","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group gap16 items-start "><!-- wp:group {"className":"circle-item-index","style":{"border":{"radius":"100%","color":"#e7e7e7","width":"1px"},"layout":{"selfStretch":"fit","flexSize":""},"dimensions":{"minHeight":""},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group circle-item-index has-border-color" style="border-color:#e7e7e7;border-width:1px;border-radius:100%;margin-top:0;margin-bottom:0"><!-- wp:heading {"style":{"color":{"text":"#eb6945"},"elements":{"link":{"color":{"text":"#eb6945"}}},"typography":{"lineHeight":"1.34","letterSpacing":"-0.02em"}},"fontSize":"large"} -->
 <h2 class="wp-block-heading has-text-color has-link-color has-large-font-size" style="color:#eb6945;letter-spacing:-0.02em;line-height:1.34">1</h2>
 <!-- /wp:heading --></div>
@@ -90,8 +90,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"40px"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group" style="margin-top:40px"><!-- wp:group {"layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
-<div class="wp-block-group"><!-- wp:group {"className":"gap16 items-start","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group" style="margin-top:40px"><!-- wp:group {"className":"md-col-span-1","layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
+<div class="wp-block-group md-col-span-1"><!-- wp:group {"className":"gap16 items-start","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group gap16 items-start"><!-- wp:group {"className":"circle-item-index","style":{"border":{"radius":"100%","color":"#e7e7e7","width":"1px"},"layout":{"selfStretch":"fit","flexSize":""},"dimensions":{"minHeight":""},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group circle-item-index has-border-color" style="border-color:#e7e7e7;border-width:1px;border-radius:100%;margin-top:0;margin-bottom:0"><!-- wp:heading {"style":{"color":{"text":"#eb6945"},"elements":{"link":{"color":{"text":"#eb6945"}}},"typography":{"lineHeight":"1.34","letterSpacing":"-0.02em"}},"fontSize":"large"} -->
 <h2 class="wp-block-heading has-text-color has-link-color has-large-font-size" style="color:#eb6945;letter-spacing:-0.02em;line-height:1.34">2</h2>
@@ -133,8 +133,8 @@
 <div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"className":"gap40 rowGap108","layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
-<div class="wp-block-group gap40 rowGap108"><!-- wp:image {"id":1069,"sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:group {"className":"gap40 rowGap108 section-3-images-four","layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
+<div class="wp-block-group gap40 rowGap108 section-3-images-four"><!-- wp:image {"id":1069,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/case-study-img-5.png" alt="" class="wp-image-1069"/></figure>
 <!-- /wp:image -->
 

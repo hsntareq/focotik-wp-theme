@@ -1,10 +1,13 @@
 @import './mixins/library';
+
 .flex {
     display: flex;
 }
-.items-start{
-    align-items: start!important;
+
+.items-start {
+    align-items: start !important;
 }
+
 .items-center {
     align-items: center;
 }
@@ -16,38 +19,78 @@
 .justify-between {
     justify-content: space-between;
 }
-.shrink0{
+
+.shrink0 {
     flex-shrink: 0;
 }
-.gap4{
-    gap:4px;
+
+.gap4 {
+    gap: 4px;
 }
+
 .gap16 {
     gap: 16px;
 }
-.gap32{
+
+.gap32 {
     gap: 32px;
 }
-.gap12{
-    gap: 12px!important;
+
+.gap12 {
+    gap: 12px !important;
 }
-.gap72{
-    gap: 72px !important;;
+
+.gap72 {
+    gap: 72px !important;
+    ;
 }
-.gap40{
-    gap: 40px!important;
+
+.gap90 {
+    gap: 90px !important;
 }
-.rowGap16{
-    row-gap: 16px!important;
+
+.gap40 {
+    gap: 40px !important;
 }
-.rowGap72{
+
+.rowGap16 {
+    row-gap: 16px !important;
+}
+
+.rowGap72 {
     row-gap: 72px;
 }
-.rowGap108{
-    row-gap: 108px!important;
+
+.rowGap108 {
+    row-gap: 108px !important;
 }
-.md-flex-col{
+
+.md-flex-col {
     @include below(medium) {
         flex-direction: column;
+    }
+}
+
+.md-col-span-1 {
+    @include below(medium) {
+        grid-template-columns: 1fr!important;
+    }
+}
+
+.md-col-span-2 {
+    @include below(medium) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+.sm-col-span-1 {
+    @include below(small) {
+        grid-template-columns: 1fr!important;
+    }
+}
+
+.sm-col-span-2 {
+    @include below(small) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }

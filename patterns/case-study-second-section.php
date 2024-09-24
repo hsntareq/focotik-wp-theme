@@ -9,8 +9,8 @@
 <!-- wp:group {"metadata":{"name":"Case Study second section"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"padding":{"bottom":"108px"}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
 <div class="wp-block-group" style="padding-bottom:108px"><!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:image {"id":1065,"width":"1170px","height":"714px","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/case-study-img-2.png" alt="" class="wp-image-1065" style="object-fit:cover;width:1170px;height:714px"/></figure>
+<div class="wp-block-group"><!-- wp:image {"id":1065,"width":"1170px","height":"auto","aspectRatio":"16/9","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/case-study-img-2.png" alt="" class="wp-image-1065" style="object-fit:cover;width:1170px;height:auto;aspect-ratio:16/9"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"60px","style":{"layout":[]}} -->

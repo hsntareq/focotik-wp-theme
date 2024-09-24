@@ -34,10 +34,38 @@ $caseStudyHeadingFontSizeMobile: 36px;
 
 }
 
+.hero-case-study {
+    h5 {
+        @include below(medium) {
+            font-size: 24px !important;
+        }
+    }
+
+    .gap72 {
+        @include below(medium) {
+            gap: 24px !important;
+            row-gap: 24px !important;
+        }
+    }
+}
+
 .circle-item-index {
-    width: 96px!important;
-    height: 48px!important;
+    width: 96px !important;
+    height: 48px !important;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+
+.section-3-images-four {
+    @include below(medium) {
+        gap: 1;
+    }
+}
+
+.gap40.rowGap108 {
+    @include below(medium) {
+        gap: 12px !important;
+        row-gap: 12px !important;
+    }
 }

@@ -9,8 +9,8 @@
 <!-- wp:group {"metadata":{"name":"Case Study first section"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"padding":{"top":"108px","bottom":"108px"}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
 <div class="wp-block-group" style="padding-top:108px;padding-bottom:108px"><!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:image {"id":1065,"width":"1170px","height":"714px","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/case-study-img-1.png" alt="" class="wp-image-1065" style="object-fit:cover;width:1170px;height:714px"/></figure>
+<div class="wp-block-group"><!-- wp:image {"id":1065,"width":"1170px","height":"auto","aspectRatio":"16/9","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/case-study-img-1.png" alt="" class="wp-image-1065" style="object-fit:cover;width:1170px;height:auto;aspect-ratio:16/9"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"60px","style":{"layout":[]}} -->
@@ -55,7 +55,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"66.67%"} -->
-<div class="wp-block-column" style="flex-basis:66.67%"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
+<div class="wp-block-column" style="flex-basis:66.67%"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"gap12","layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group gap12"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.34","fontStyle":"normal","fontWeight":"600","letterSpacing":"-0.02em"}},"fontSize":"large"} -->
 <p class="has-large-font-size" style="font-style:normal;font-weight:600;letter-spacing:-0.02em;line-height:1.34">Client</p>
