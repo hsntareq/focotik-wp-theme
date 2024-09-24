@@ -69,3 +69,41 @@ $caseStudyHeadingFontSizeMobile: 36px;
         row-gap: 12px !important;
     }
 }
+
+.is-style-case-study-query-loop {
+    ul {
+        @include below(medium) {
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+
+        h5 {
+            @include below(medium) {
+                font-size: 24px;
+                max-width: 550px;
+                margin: auto;
+            }
+        }
+
+        column-gap: 32px;
+        row-gap: 72px;
+
+        .case-study-post-image img {
+            border-radius: 8px;
+            object-fit: cover;
+            width: 569px;
+            height: 430px;
+        }
+
+        .case-study-post-title {
+            color: #383a3e;
+            margin-top: 32px;
+            font-style: normal;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            line-height: 1.25;
+            font-size: 32px !important;
+        }
+    }
+
+}

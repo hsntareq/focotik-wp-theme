@@ -26,8 +26,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"constrained","wideSize":"505px","justifyContent":"left"}} -->
-<div class="wp-block-group"><!-- wp:image {"id":1449,"width":"505px","height":"280px","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/hero-team-extention.png" alt="" class="wp-image-1449" style="object-fit:cover;width:505px;"/></figure>
+<div class="wp-block-group"><!-- wp:image {"id":1449,"width":"505px","height":"auto","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/hero-team-extention.png" alt="" class="wp-image-1449" style="object-fit:cover;width:505px;height:auto"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
