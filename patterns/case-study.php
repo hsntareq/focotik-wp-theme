@@ -10,7 +10,7 @@
 <!-- wp:group {"metadata":{"name":"Case Study"},"className":"case-study","style":{"spacing":{"padding":{"top":"0px","bottom":"108px"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group case-study" style="padding-top:0px;padding-bottom:108px"><!-- wp:group {"metadata":{"name":"container"},"layout":{"type":"constrained","wideSize":"1170px"}} -->
 <div class="wp-block-group"><!-- wp:heading {"className":"main-heading","style":{"typography":{"lineHeight":"1.2","letterSpacing":"-0.04em"},"color":{"text":"#383a3e"},"elements":{"link":{"color":{"text":"#383a3e"}}}},"fontSize":"3x-large"} -->
-<h2 class="wp-block-heading main-heading has-text-color has-link-color has-3-x-large-font-size" style="color:#383a3e;letter-spacing:-0.04em;line-height:1.2">Case Studies Loozz</h2>
+<h2 class="wp-block-heading main-heading has-text-color has-link-color has-3-x-large-font-size" style="color:#383a3e;letter-spacing:-0.04em;line-height:1.2">Case Studies</h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"24px"} -->

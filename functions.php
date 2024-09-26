@@ -46,7 +46,7 @@ add_action('init', 'wpdocs_register_multiple_blocks');
 
 function create_pages_if_not_exist()
 {
-    $pages = ['Home', 'About', 'Services', 'Clients', 'Works','Contact', 'Product Redesign', 'MVP', 'Team Extention', 'Case Study'];
+    $pages = ['Home', 'About', 'Services', 'Clients', 'Works','Contact', 'Product Redesign', 'MVP', 'Team Extention', 'Case Study','Blog'];
     foreach ($pages as $slug) {
         $existing_page = get_page_by_path(strtolower($slug));
         if (!$existing_page) {
@@ -103,3 +103,9 @@ HTML;
     // Print the final HTML
     return $html;
 }
+
+function add_reset_filter_link($content){
+    $reset_link = '<li class="cat-item' . (is_home() ? ' current-cat' : '') . '"><a href="' . home_url('/blog') . '">All topics</a></li>';
+    return $reset_link . $content;
+}
+add_filter('wp_list_categories', 'add_reset_filter_link');

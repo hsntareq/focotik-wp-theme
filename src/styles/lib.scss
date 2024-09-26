@@ -1,10 +1,17 @@
 @import './mixins/library';
-.mt-10{
-    margin-top: 10px!important;
+
+.mt-10 {
+    margin-top: 10px !important;
 }
-._w-100{
-    width: 100%!important;
+
+._w-100 {
+    width: 100% !important;
 }
+
+.w-1170 {
+    width: 1170px;
+}
+
 .flex {
     display: flex;
 }
@@ -33,6 +40,10 @@
     gap: 4px;
 }
 
+.gap12 {
+    gap: 12px !important;
+}
+
 .gap16 {
     gap: 16px;
 }
@@ -41,8 +52,8 @@
     gap: 32px;
 }
 
-.gap12 {
-    gap: 12px !important;
+.gap40 {
+    gap: 40px !important;
 }
 
 .gap72 {
@@ -52,10 +63,6 @@
 
 .gap90 {
     gap: 90px !important;
-}
-
-.gap40 {
-    gap: 40px !important;
 }
 
 .rowGap16 {
@@ -97,52 +104,5 @@
 .sm-col-span-2 {
     @include below(small) {
         grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
-.blog-list {
-    gap: 32px !important;
-
-    .blog-item {
-        gap: 0 !important;
-    }
-}
-
-.post-autor {
-    .wp-block-post-author__avatar {
-        width: 40px;
-        height: 40px;
-        margin-right: 0px !important;
-
-        img {
-            height: 100%;
-            width: 100%;
-            border-radius: 50%;
-        }
-    }
-
-    .wp-block-post-author__content {
-        display: none;
-    }
-
-    .author-info {
-        gap: 0 !important;
-
-        .wp-block-post-author-name {
-            font-size: 14px;
-            color: #383A3E;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 20px;
-            text-align: left;
-        }
-
-        .wp-block-post-date time {
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 20px;
-            text-align: left;
-            color: #6A6C70;
-        }
     }
 }
