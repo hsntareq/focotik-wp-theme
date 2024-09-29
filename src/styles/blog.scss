@@ -1,6 +1,6 @@
 @import './mixins/library';
 
-.blog-heading {
+.blog-heading,.blogs-to-blog-details {
     .main-heading {
         @include below(medium) {
             font-size: 64px!important;
@@ -9,6 +9,15 @@
         @include below(small) {
             font-size: 48px!important;
         }
+    }
+    .blog-title{
+        @include below(medium) {
+            font-size: 32px!important;
+        }
+        @include below(small) {
+            font-size: 24px!important;
+        }
+
     }
 }
 

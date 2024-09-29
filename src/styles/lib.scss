@@ -47,13 +47,22 @@
 .gap16 {
     gap: 16px;
 }
+._gap16 {
+    gap: 16px;
+}
 
 .gap32 {
     gap: 32px;
 }
+._gap32 {
+    gap: 32px!important;
+}
 
 .gap40 {
     gap: 40px !important;
+}
+.gap48 {
+    gap: 48px;
 }
 
 .gap72 {
