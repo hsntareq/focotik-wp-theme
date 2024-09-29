@@ -110,3 +110,41 @@ function add_reset_filter_link($content)
     return $reset_link . $content;
 }
 add_filter('wp_list_categories', 'add_reset_filter_link');
+
+function wpdocs_codex_case_studies_init() {
+	$labels = array(
+		'name'                  => _x( 'Case Studies', 'Post type general name', 'focotik' ),
+		'singular_name'         => _x( 'Case Study', 'Post type singular name', 'focotik' ),
+		'menu_name'             => _x( 'Case Studies', 'Admin Menu text', 'focotik' ),
+		'name_admin_bar'        => _x( 'New Case Study', 'Add New on Toolbar', 'focotik' ),
+		'add_new'               => _x( 'Add New', 'case study', 'focotik' ),
+		'add_new_item'          => __( 'Add New Case Study', 'focotik' ),
+		'edit_item'             => __( 'Edit Case Study', 'focotik' ),
+		'new_item'              => __( 'New Case Study', 'focotik' ),
+		'view_item'             => __( 'View Case Study', 'focotik' ),
+		'all_items'             => __( 'All Case Studies', 'focotik' ),
+		'search_items'          => __( 'Search Case Studies', 'focotik' ),
+		'not_found'             => __( 'No case studies found.', 'focotik' ),
+		'not_found_in_trash'    => __( 'No case studies found in Trash.', 'focotik' ),
+	);
+
+	$args = array(
+		'labels'             => $labels,
+		'public'             => true,
+		'publicly_queryable' => true,
+		'show_ui'            => true,
+		'show_in_menu'       => true,
+		'query_var'          => true,
+		'rewrite'            => array( 'slug' => 'case-studies' ),
+		'capability_type'    => 'post',
+		'has_archive'        => true,
+		'hierarchical'       => false,
+		'menu_position'      => 5,
+		'menu_icon'          => 'dashicons-analytics',
+		'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+	);
+
+	register_post_type( 'case-studies', $args );
+}
+
+add_action( 'init', 'wpdocs_codex_case_studies_init' );

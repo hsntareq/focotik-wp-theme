@@ -33,3 +33,12 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+const sentenceElements = Array.from(document.querySelectorAll(".blog-title"));
+
+sentenceElements.forEach((el) => {
+  const sentence = el.innerText;
+  const words = sentence.split(" ");
+  const lastWord = words.pop();
+  el.innerHTML = `${words.join(" ")} <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">${lastWord}</mark>`;
+});
