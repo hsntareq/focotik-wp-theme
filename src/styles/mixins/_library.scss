@@ -1,18 +1,18 @@
 // Mixin for media queries
 @mixin above($breakpoint) {
-  @if $breakpoint == small {
+  @if $breakpoint ==small {
     @media (min-width: 601px) {
       @content;
     }
-  } @else if $breakpoint == medium {
+  } @else if $breakpoint ==medium {
     @media (min-width: 901px) {
       @content;
     }
-  } @else if $breakpoint == large {
+  } @else if $breakpoint ==large {
     @media (min-width: 1201px) {
       @content;
     }
-  } @else if $breakpoint == xlarge {
+  } @else if $breakpoint ==xlarge {
     @media (min-width: 1801px) {
       @content;
     }
@@ -20,19 +20,31 @@
 }
 
 @mixin below($breakpoint) {
-  @if $breakpoint == small {
+  @if $breakpoint ==small {
     @media (max-width: 600px) {
       @content;
     }
-  } @else if $breakpoint == medium {
+  }
+
+  @else if($breakpoint == xmedium) {
+    @media (max-width: 767px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint ==medium {
     @media (max-width: 900px) {
       @content;
     }
-  } @else if $breakpoint == large {
+  } @else if $breakpoint ==xlarge {
+    @media (max-width: 1000px) {
+      @content;
+    }
+  } @else if $breakpoint ==large {
     @media (max-width: 1200px) {
       @content;
     }
-  } @else if $breakpoint == xlarge {
+  } @else if $breakpoint ==xlarge {
     @media (max-width: 1800px) {
       @content;
     }

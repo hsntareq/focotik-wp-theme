@@ -177,6 +177,9 @@ $testimonialHeadingFontSizeMobile: 36px;
 
 .home-services .foco-accordion {
     width: 525px;
+    @include below(small) {
+        width: 100%;
+    }
 
     details {
 
