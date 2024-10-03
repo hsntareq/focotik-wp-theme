@@ -43,11 +43,11 @@ sentenceElements.forEach((el) => {
     el.innerHTML = `${words.join(" ")} <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">${lastWord}</mark>`;
 });
 document.addEventListener('DOMContentLoaded', function () {
-    const submenuToggles = document.querySelectorAll('.has-child');
+    const submenuToggles = document.querySelectorAll('.mega-services-dropdown');
     const megaDropdown = document.querySelector('.mega-dropdown');
     const mega = document.querySelector('.mega');
 
-    megaDropdown.style.display = 'none';
+    if(megaDropdown) megaDropdown.style.display = 'none';
     let isHovered = false;
     let isMegaHovered = false;
     let dropdownClicked = false;
@@ -55,8 +55,6 @@ document.addEventListener('DOMContentLoaded', function () {
     submenuToggles.forEach(toggle => {
         toggle.addEventListener('click', function (e) {
             e.preventDefault();
-            console.log('clicked on ');
-            
             dropdownClicked = !dropdownClicked;
             if (dropdownClicked) {
                 megaDropdown.style.display = 'flex';
@@ -66,23 +64,23 @@ document.addEventListener('DOMContentLoaded', function () {
         });
         toggle.addEventListener('mouseenter', function () {
             isHovered = true;
-            megaDropdown.style.display = 'flex';
+            if(megaDropdown) megaDropdown.style.display = 'flex';
             mega.style.display = 'flex';
         });
         toggle.addEventListener('mouseleave', function () {
             setTimeout(function () {
                 if (!isMegaHovered && !dropdownClicked) {
-                    megaDropdown.style.display = 'none';
+                    if(megaDropdown) megaDropdown.style.display = 'none';
                     mega.style.display = 'none';
                 }
             }, 300);
             isHovered = false;
         });
     });
-    megaDropdown.addEventListener('mouseenter', function () {
+    megaDropdown && megaDropdown.addEventListener('mouseenter', function () {
         isMegaHovered = true;
     });
-    megaDropdown.addEventListener('mouseleave', function () {
+    megaDropdown && megaDropdown.addEventListener('mouseleave', function () {
         setTimeout(function () {
             if (!isHovered && !dropdownClicked) {
                 megaDropdown.style.display = 'none';

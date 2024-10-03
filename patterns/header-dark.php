@@ -25,5 +25,6 @@
 		<!-- /wp:buttons -->
 	</div>
 	<!-- /wp:group -->
-</div>
+	<!-- wp:pattern {"slug":"focotik/mega-menu"} -->
+	</div>
 <!-- /wp:group -->
