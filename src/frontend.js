@@ -43,12 +43,9 @@ sentenceElements.forEach((el) => {
     el.innerHTML = `${words.join(" ")} <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">${lastWord}</mark>`;
 });
 document.addEventListener('DOMContentLoaded', function () {
-    const submenuContainer = document.querySelector('.wp-block-navigation__submenu-container.wp-block-navigation-submenu');
-    submenuContainer.style.display = 'none';
-
-
     const submenuToggles = document.querySelectorAll('.has-child');
     const megaDropdown = document.querySelector('.mega-dropdown');
+    const mega = document.querySelector('.mega');
 
     megaDropdown.style.display = 'none';
     let isHovered = false;
@@ -56,7 +53,10 @@ document.addEventListener('DOMContentLoaded', function () {
     let dropdownClicked = false;
 
     submenuToggles.forEach(toggle => {
-        toggle.addEventListener('click', function () {
+        toggle.addEventListener('click', function (e) {
+            e.preventDefault();
+            console.log('clicked on ');
+            
             dropdownClicked = !dropdownClicked;
             if (dropdownClicked) {
                 megaDropdown.style.display = 'flex';
@@ -67,11 +67,13 @@ document.addEventListener('DOMContentLoaded', function () {
         toggle.addEventListener('mouseenter', function () {
             isHovered = true;
             megaDropdown.style.display = 'flex';
+            mega.style.display = 'flex';
         });
         toggle.addEventListener('mouseleave', function () {
             setTimeout(function () {
                 if (!isMegaHovered && !dropdownClicked) {
                     megaDropdown.style.display = 'none';
+                    mega.style.display = 'none';
                 }
             }, 300);
             isHovered = false;

@@ -47,6 +47,7 @@
 .gap16 {
     gap: 16px;
 }
+
 ._gap16 {
     gap: 16px !important;
 }
@@ -54,13 +55,15 @@
 .gap32 {
     gap: 32px;
 }
+
 ._gap32 {
-    gap: 32px!important;
+    gap: 32px !important;
 }
 
 .gap40 {
     gap: 40px !important;
 }
+
 .gap48 {
     gap: 48px;
 }
@@ -115,3 +118,28 @@
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
+
+.wp-block-cover {
+    border-radius: 8px;
+  
+    .wp-block-cover__background,
+    .wp-block-cover__inner-container {
+      visibility: hidden;
+      transition: opacity 0.2s ease, transform 0.3s ease;
+    }
+  
+    a {
+      margin: auto;
+      padding: 16px 24px;
+      border-radius: 40px;
+      background-color: #EFF2F6;
+      z-index: 9999;
+    }
+  
+    &:hover {
+      .wp-block-cover__background,
+      .wp-block-cover__inner-container {
+        visibility: visible;
+      }
+    }
+  }  

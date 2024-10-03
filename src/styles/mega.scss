@@ -59,4 +59,11 @@
     left: 0;
     right: 0;
     padding-inline: 24px;
+    display: none;
+}
+
+.wp-block-navigation__submenu-container.wp-block-navigation-submenu {
+    @include above(small) {
+        display: none !important;
+    }
 }
