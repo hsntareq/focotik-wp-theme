@@ -30,6 +30,11 @@
         @include below(small) {
             grid-template-columns: 1fr;
         }
+
+        .wp-block-group:hover {
+            background: #E7E7E7;
+            border-radius: 8px;
+        }
     }
 
     .mega-solutions {
