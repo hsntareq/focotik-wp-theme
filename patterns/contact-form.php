@@ -37,7 +37,7 @@
                         <!-- /wp:image -->
 
                         <!-- wp:paragraph {"className":"shrink-0","style":{"elements":{"link":{"color":{"text":"#e6e8ed"}}},"color":{"text":"#e6e8ed"},"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"textDecoration":"underline"}}} -->
-                        <p class="shrink-0 has-text-color has-link-color" style="color:#e6e8ed;margin-top:0;margin-bottom:0;text-decoration:underline"><a href="/clients/" data-type="page" data-id="19">Schedule a call</a></p>
+                        <p class="shrink-0 has-text-color has-link-color" style="color:#e6e8ed;margin-top:0;margin-bottom:0;text-decoration:underline"><a href="https://calendly.com/hello-focotik/30min" data-type="page" data-id="19">Schedule a call</a></p>
                         <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
