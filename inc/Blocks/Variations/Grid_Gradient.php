@@ -13,7 +13,7 @@ class Grid_Gradient
 			'inline_style' => '
 				.wp-block-group.is-style-gradient-border > .wp-block-group {
 					background: linear-gradient(180deg, #737476 -158.33%, #272B2F 33.68%);
-					border-radius: 4px;
+					border-radius: 12px;
 					overflow: hidden;
 					position: relative;
 				}
