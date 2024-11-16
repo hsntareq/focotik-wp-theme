@@ -331,7 +331,9 @@ body {
 
 	.review-content {
 		margin-top: 72px;
-
+		@include below(medium) {
+			text-align: center;
+		}
 		.wp-block-heading {
 			letter-spacing: -0.02em;
 			line-height: 1.25;
