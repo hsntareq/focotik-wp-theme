@@ -68,6 +68,7 @@ function generate_navigation_html()
         'Works',
         'Services',
         'About',
+        'Blog',
         'Contact'
     );
 
