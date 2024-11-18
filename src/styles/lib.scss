@@ -88,6 +88,12 @@
 .rowGap108 {
     row-gap: 108px !important;
 }
+.rowGap160{
+    row-gap: 160px;
+}
+.columnGap80{
+    column-gap: 80px;
+}
 
 .md-flex-col {
     @include below(medium) {

@@ -44,7 +44,7 @@ $viabilityHeadingFontSizeXsMobile: 26px;
         }
     }
 
-    
+
 }
 .viability-green {
     @include below(medium) {
@@ -59,7 +59,7 @@ $viabilityHeadingFontSizeXsMobile: 26px;
             font-size: $viabilityHeadingFontSizeXsMobile !important;
         }
 
-    } 
+    }
 }
 .product-viability-3 {
     .main-heading {
@@ -75,8 +75,11 @@ $viabilityHeadingFontSizeXsMobile: 26px;
     }
 
     &-grid {
+        column-gap: 80px;
+        row-gap: 160px;
         @include below(medium) {
             grid-template-columns: 1fr !important;
+            row-gap: 80px;
             text-align: center;
         }
     }
