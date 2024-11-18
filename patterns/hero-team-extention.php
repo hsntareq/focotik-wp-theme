@@ -20,7 +20,7 @@
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","verticalAlignment":"center"}} -->
 <div class="wp-block-buttons" style="margin-top:0;margin-bottom:0"><!-- wp:button {"style":{"typography":{"fontStyle":"normal","fontWeight":"400","lineHeight":"1.4","letterSpacing":"-0.01em"}},"fontSize":"medium"} -->
-<div class="wp-block-button has-custom-font-size has-medium-font-size" style="font-style:normal;font-weight:400;letter-spacing:-0.01em;line-height:1.4"><a class="wp-block-button__link wp-element-button">Grow my team <img class="wp-image-1309" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/arrow.png" alt=""></a></div>
+<div class="wp-block-button has-custom-font-size has-medium-font-size" style="font-style:normal;font-weight:400;letter-spacing:-0.01em;line-height:1.4"><a class="wp-block-button__link wp-element-button">Grow my team <img class="wp-image-1309" style="width: 20px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/arrow.png" alt=""></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
