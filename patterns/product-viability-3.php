@@ -20,8 +20,8 @@
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"product-viability-3-grid","align":"wide","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"160px"}}},"layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
-<div class="wp-block-group alignwide product-viability-3-grid" style="margin-top:0px;margin-bottom:160px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"default"}} -->
+<!-- wp:group {"className":"product-viability-3-grid","align":"wide","style":{"spacing":{"padding":{"bottom":"0px"},"margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
+<div class="wp-block-group alignwide product-viability-3-grid" style="margin-top:0px;margin-bottom:0px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"32px"}},"color":{"text":"#aeaeae"},"elements":{"link":{"color":{"text":"#aeaeae"}}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group has-text-color has-link-color" style="color:#aeaeae;margin-bottom:32px"><!-- wp:heading {"level":5,"fontSize":"large"} -->
 <h5 class="wp-block-heading has-large-font-size">Mobile application UI UX</h5>
