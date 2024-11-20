@@ -18,11 +18,14 @@ if (file_exists(__DIR__ . '/vendor/autoload.php')) {
 
 Focotik\Theme_Main::get_instance();
 
-function pr($data)
+function pr($data, $die = false)
 {
     echo '<pre>';
     print_r($data);
     echo '</pre>';
+    if ($die) {
+        die();
+    }
 }
 
 function wpdocs_register_multiple_blocks()
