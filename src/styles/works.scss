@@ -26,7 +26,7 @@ $worksheadingFontSizeMobile: 36px;
     }
     .grid-column-auto{
         @include below(medium) {
-            grid-template-columns: auto;
+            grid-template-columns: auto!important;
             justify-content: center;
         }
     }
