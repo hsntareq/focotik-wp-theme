@@ -15,7 +15,9 @@
 .flex {
     display: flex;
 }
-
+.wrap{
+    flex-wrap: wrap;
+}
 .items-start {
     align-items: start !important;
 }
