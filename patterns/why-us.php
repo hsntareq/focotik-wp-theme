@@ -9,8 +9,8 @@
 ?>
 
 <!-- wp:group {"metadata":{"name":"why-us"},"className":"why-us","style":{"color":{"background":"#eb6945"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group why-us has-background" style="background-color:#eb6945;margin-top:0;margin-bottom:0"><!-- wp:image {"id":176,"sizeSlug":"full","linkDestination":"none","metadata":{"name":"Hero top-right image"},"className":"why-us-img-right-top"} -->
-    <figure class="wp-block-image size-full why-us-img-right-top"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/why-us-img-right-top.png" alt="" class="wp-image-176" /></figure>
+<div class="wp-block-group why-us has-background" style="background-color:#eb6945;margin-top:0;margin-bottom:0"><!-- wp:image {"id":302,"width":"322px","sizeSlug":"full","linkDestination":"none","metadata":{"name":"Hero top-right image"},"className":"why-us-img-right-top"} -->
+    <figure class="wp-block-image size-full is-resized why-us-img-right-top"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/why-us-bg.png" alt="" class="wp-image-302" style="width:322px" /></figure>
     <!-- /wp:image -->
 
 
@@ -22,8 +22,8 @@
             <!-- /wp:heading -->
 
             <!-- wp:group {"className":"why-us-content","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-            <div class="wp-block-group why-us-content"><!-- wp:group {"className":"why-us-item-wrap","style":{"border":{"color":"#ee9176","width":"1px","radius":"16px"},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/bg-why-us-item-1.png","id":179,"source":"file","title":"bg-why-us-item-1"},"backgroundSize":"auto","backgroundPosition":"100% 0%","backgroundRepeat":"no-repeat"}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
-                <div class="wp-block-group why-us-item-wrap has-border-color has-white-background-color has-background" style="border-color:#ee9176;border-width:1px;border-radius:16px"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+            <div class="wp-block-group why-us-content"><!-- wp:group {"className":"why-us-item-wrap","style":{"border":{"color":"#ee9176","width":"1px","radius":"16px"},"background":{"backgroundImage":{"url":"h<?php echo esc_url(FOCOTIK_THEME_URI) ?>/assets/images/bg-why-us-item-1.png","id":179,"source":"file","title":"bg-why-us-item-1"},"backgroundSize":"auto","backgroundPosition":"100% 0%","backgroundRepeat":"no-repeat"}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
+                <div class="wp-block-group why-us-item-wrap has-border-color has-white-background-color has-background" style="border-color:#ee9176;border-width:1px;border-radius:16px"><!-- wp:group -->
                     <div class="wp-block-group"><!-- wp:paragraph {"className":"heading"} -->
                         <p class="heading">FOR <br>STARTUPS</p>
                         <!-- /wp:paragraph -->
@@ -45,7 +45,7 @@
 
                             <!-- wp:buttons {"className":"btn-explore"} -->
                             <div class="wp-block-buttons btn-explore"><!-- wp:button {"style":{"border":{"radius":"40px"},"color":{"background":"#272b2f"},"typography":{"fontSize":"18px","lineHeight":"1.34","fontStyle":"normal","fontWeight":"400"}}} -->
-                                <div class="wp-block-button has-custom-font-size" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a class="wp-block-button__link has-background wp-element-button" style="border-radius:40px;background-color:#272b2f">Explore Now<img class="wp-image-1309" style="width: 24px;" src="<?php echo FOCOTIK_THEME_URI ?>assets/arrow.png" alt=""></a></div>
+                                <div class="wp-block-button has-custom-font-size" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a class="wp-block-button__link has-background wp-element-button" href="/mvp/" style="border-radius:40px;background-color:#272b2f">Explore Now -&gt;<img class="wp-image-1309" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/arrow.png" alt=""></a></div>
                                 <!-- /wp:button -->
                             </div>
                             <!-- /wp:buttons -->
@@ -55,8 +55,8 @@
                     <!-- /wp:group -->
                 </div>
                 <!-- /wp:group -->
-                <!-- wp:group {"className":"why-us-item-wrap","style":{"border":{"color":"#ee9176","width":"1px","radius":"16px"},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/bg-why-us-item-1.png","id":179,"source":"file","title":"bg-why-us-item-1"},"backgroundSize":"auto","backgroundPosition":"100% 0%","backgroundRepeat":"no-repeat"}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
-                <div class="wp-block-group why-us-item-wrap has-border-color has-white-background-color has-background" style="border-color:#ee9176;border-width:1px;border-radius:16px"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+                <!-- wp:group {"className":"why-us-item-wrap","style":{"border":{"color":"#ee9176","width":"1px","radius":"16px"},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/bg-why-us-item-2.png","id":304,"source":"file","title":"bg-why-us-item-2"},"backgroundSize":"auto","backgroundPosition":"100% 0%","backgroundRepeat":"no-repeat"}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
+                <div class="wp-block-group why-us-item-wrap has-border-color has-white-background-color has-background" style="border-color:#ee9176;border-width:1px;border-radius:16px"><!-- wp:group -->
                     <div class="wp-block-group"><!-- wp:paragraph {"className":"heading"} -->
                         <p class="heading">FOR STARTUPS &amp; <br>EXISTING COMPANIES</p>
                         <!-- /wp:paragraph -->
@@ -78,7 +78,7 @@
 
                             <!-- wp:buttons {"className":"btn-explore"} -->
                             <div class="wp-block-buttons btn-explore"><!-- wp:button {"style":{"border":{"radius":"40px"},"color":{"background":"#272b2f"},"typography":{"fontSize":"18px","lineHeight":"1.34","fontStyle":"normal","fontWeight":"400"}}} -->
-                                <div class="wp-block-button has-custom-font-size" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a class="wp-block-button__link has-background wp-element-button" style="border-radius:40px;background-color:#272b2f">Explore Now<img class="wp-image-1309" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/arrow.png" alt=""></a></div>
+                                <div class="wp-block-button has-custom-font-size" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a class="wp-block-button__link has-background wp-element-button" href="/product-redesign/" style="border-radius:40px;background-color:#272b2f">Explore Now -&gt;<img class="wp-image-1309" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/arrow.png" alt=""></a></div>
                                 <!-- /wp:button -->
                             </div>
                             <!-- /wp:buttons -->
@@ -88,8 +88,8 @@
                     <!-- /wp:group -->
                 </div>
                 <!-- /wp:group -->
-                <!-- wp:group {"className":"why-us-item-wrap","style":{"border":{"color":"#ee9176","width":"1px","radius":"16px"},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/bg-why-us-item-1.png","id":179,"source":"file","title":"bg-why-us-item-1"},"backgroundSize":"auto","backgroundPosition":"100% 0%","backgroundRepeat":"no-repeat"}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
-                <div class="wp-block-group why-us-item-wrap has-border-color has-white-background-color has-background" style="border-color:#ee9176;border-width:1px;border-radius:16px"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+                <!-- wp:group {"className":"why-us-item-wrap","style":{"border":{"color":"#ee9176","width":"1px","radius":"16px"},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/bg-why-us-item-3.png","id":305,"source":"file","title":"bg-why-us-item-3"},"backgroundSize":"auto","backgroundPosition":"100% 0%","backgroundRepeat":"no-repeat"}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
+                <div class="wp-block-group why-us-item-wrap has-border-color has-white-background-color has-background" style="border-color:#ee9176;border-width:1px;border-radius:16px"><!-- wp:group -->
                     <div class="wp-block-group"><!-- wp:paragraph {"className":"heading"} -->
                         <p class="heading">FOR EXISTING <br> COMPANIES</p>
                         <!-- /wp:paragraph -->
@@ -111,7 +111,7 @@
 
                             <!-- wp:buttons {"className":"btn-explore"} -->
                             <div class="wp-block-buttons btn-explore"><!-- wp:button {"style":{"border":{"radius":"40px"},"color":{"background":"#272b2f"},"typography":{"fontSize":"18px","lineHeight":"1.34","fontStyle":"normal","fontWeight":"400"}}} -->
-                                <div class="wp-block-button has-custom-font-size" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a class="wp-block-button__link has-background wp-element-button" style="border-radius:40px;background-color:#272b2f">Explore Now<img class="wp-image-1309" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/arrow.png" alt=""></a></div>
+                                <div class="wp-block-button has-custom-font-size" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a class="wp-block-button__link has-background wp-element-button" href="/team-extention/" style="border-radius:40px;background-color:#272b2f">Explore Now -&gt;<img class="wp-image-1309" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/arrow.png" alt=""></a></div>
                                 <!-- /wp:button -->
                             </div>
                             <!-- /wp:buttons -->
