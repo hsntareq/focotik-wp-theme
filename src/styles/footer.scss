@@ -1,0 +1,47 @@
+@import './mixins/library';
+
+.footer {
+    .first-section {
+        @include below(medium) {
+            flex-direction: column;
+            align-items: start;
+        }
+
+        .wp-block-columns {
+            @include below(medium) {
+                // margin: 0 !important;
+            }
+        }
+
+        .whatsapp-row-2 {
+            figure {
+                @include below(medium) {
+                    width: 28px !important;
+                }
+            }
+
+            h5.has-large-font-size {
+                @include below(medium) {
+                    font-size: 18px!important;
+                }
+            }
+        }
+    }
+
+    .footer-copyright {
+        @include below(medium) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .copyright {
+            @include below(medium) {
+                gap: 12px;
+            }
+
+            @include below(small) {
+                flex-direction: column;
+            }
+        }
+    }
+}

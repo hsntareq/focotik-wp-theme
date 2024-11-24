@@ -79,6 +79,6 @@ trait PluginData {
 			require_once ABSPATH . 'wp-admin/includes/plugin.php';
 		}
 
-		return ( ! empty( $key ) ) ? get_plugin_data( FOCOTIK_FILE )[ $key ] : get_plugin_data( FOCOTIK_FILE );
+		return ( ! empty( $key ) ) ? get_plugin_data( FOCOTIK_THEME_PATH )[ $key ] : get_plugin_data( FOCOTIK_THEME_PATH );
 	}
 }

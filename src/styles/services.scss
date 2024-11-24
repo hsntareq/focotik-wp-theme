@@ -1,0 +1,41 @@
+@import './mixins/library';
+
+$serviceheadingFontSize: 72px;
+$serviceheadingFontSizeTab: 48px;
+$serviceheadingFontSizeMobile: 36px;
+
+.home-services {
+    .testimonial-3-second-part {
+        @include below(medium) {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .has-3-x-large-font-size {
+            @include below(medium) {
+                font-size: $serviceheadingFontSizeTab !important;
+            }
+
+            @include below(small) {
+                font-size: $serviceheadingFontSizeMobile !important;
+            }
+        }
+
+        .wp-block-spacer {
+            @include below(medium) {
+                height: 24px !important;
+            }
+        }
+    }
+
+    .foco-accordion {
+        & details {
+            summary {
+                @include below(medium) {
+                    font-size: 24px !important;
+                }
+            }
+        }
+    }
+}

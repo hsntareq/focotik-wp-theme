@@ -1,0 +1,74 @@
+@import './mixins/library';
+
+.mega-dropdown {
+    box-shadow: 0px 32px 64px 0px #00000024;
+    width: 100%;
+
+    figure {
+        height: 24px;
+        width: 24px;
+    }
+
+    @include below(large) {
+        padding-inline: 1rem !important;
+        gap: 12px !important;
+    }
+
+    @include below(xmedium) {
+        flex-direction: column;
+    }
+
+    .mega-services {
+        @include below(xlarge) {
+            grid-template-columns: 1fr;
+        }
+
+        @include below(xmedium) {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        @include below(small) {
+            grid-template-columns: 1fr;
+        }
+
+        .wp-block-group:hover {
+            background: #E7E7E7;
+            border-radius: 8px;
+        }
+    }
+
+    .mega-solutions {
+        @include below(small) {
+            width: 100% !important;
+        }
+
+        &-list {
+            @include below(xmedium) {
+                flex-direction: row;
+                gap: 12px !important;
+            }
+
+            @include below(small) {
+                flex-direction: column;
+                gap: 12px !important;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.mega {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.wp-block-navigation__submenu-container.wp-block-navigation-submenu {
+    @include above(small) {
+        display: none !important;
+    }
+}

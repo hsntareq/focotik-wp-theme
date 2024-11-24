@@ -1,0 +1,61 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-case-study-case-study {
+	background-color: #21759b;
+	color: #fff;
+	padding: 2px;
+	text-align: center;
+	margin: auto;
+}
+
+.posts-container {
+	.underline {
+		width: calc(100%);
+		background-image: linear-gradient(transparent calc(100% - 1px), #EB6945 1px);
+		background-repeat: no-repeat;
+		background-size: 0% 100%;
+		transition: background-size .5s;
+		padding-bottom: 5px;
+		line-height: 1.5;
+		color: #383A3E;
+	}
+
+	.post-thumbnail {
+		border-radius: 8px !important;
+		overflow: hidden;
+
+		&:hover img {
+			scale: 1.2;
+			transition: all 0.3s ease-in-out;
+		}
+	}
+
+	a:hover .underline {
+		background-size: 100% 100%;
+	}
+
+	.category-button {
+		background: transparent;
+		color: #383A3E;
+		border-radius: 40px;
+		border: 1px solid #B2B4B8;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 20px;
+		text-align: center;
+		color: #383A3E;
+		background-color: transparent;
+		padding: 4px 12px 4px 12px;
+	}
+
+	.wp-block-heading {
+		padding-top: 0px !important;
+		margin-top: 32px !important;
+		margin-bottom: 80px !important;
+	}
+}
