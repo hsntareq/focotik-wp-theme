@@ -33,7 +33,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">Talk to our experts -&gt;</a></div>
+<div class="wp-block-button is-style-fill"><a href="/contact" class="wp-block-button__link wp-element-button">Talk to our experts -&gt;</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></details>
 <!-- /wp:details -->
@@ -45,7 +45,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">Talk to our experts -&gt;</a></div>
+<div class="wp-block-button is-style-fill"><a href="/contact" class="wp-block-button__link wp-element-button">Talk to our experts -&gt;</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></details>
 <!-- /wp:details -->
@@ -57,7 +57,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">Talk to our experts -&gt;</a></div>
+<div class="wp-block-button is-style-fill"><a href="/contact" class="wp-block-button__link wp-element-button">Talk to our experts -&gt;</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></details>
 <!-- /wp:details -->
@@ -69,7 +69,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">Talk to our experts -&gt;</a></div>
+<div class="wp-block-button is-style-fill"><a href="/contact" class="wp-block-button__link wp-element-button">Talk to our experts -&gt;</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></details>
 <!-- /wp:details -->
@@ -81,7 +81,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">Talk to our experts -&gt;</a></div>
+<div class="wp-block-button is-style-fill"><a href="/contact" class="wp-block-button__link wp-element-button">Talk to our experts -&gt;</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></details>
 <!-- /wp:details -->
@@ -93,7 +93,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">Talk to our experts -&gt;</a></div>
+<div class="wp-block-button is-style-fill"><a href="/contact" class="wp-block-button__link wp-element-button">Talk to our experts -&gt;</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></details>
 <!-- /wp:details -->
@@ -105,7 +105,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">Talk to our experts -&gt;</a></div>
+<div class="wp-block-button is-style-fill"><a href="/contact" class="wp-block-button__link wp-element-button">Talk to our experts -&gt;</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></details>
 <!-- /wp:details -->
@@ -117,7 +117,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">Talk to our experts -&gt;</a></div>
+<div class="wp-block-button is-style-fill"><a href="/contact" class="wp-block-button__link wp-element-button">Talk to our experts -&gt;</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></details>
 <!-- /wp:details --></div>
