@@ -173,7 +173,7 @@ function render_post_item($post, $signle = false) {
     // Loop through categories
     if (!empty($post_categories)) {
         foreach ($post_categories as $category) {
-            $cat = get_category($category);
+            $cat    = get_category($category);
             $output .= '<div class="category-button"><a href="' . get_term_link($cat) . '">' . esc_html($cat->name) . '</a></div>';
         }
     }
@@ -188,3 +188,27 @@ function render_post_item($post, $signle = false) {
 
     return $output;
 }
+function add_placeholder_to_featured_image_block($block_content, $block) {
+    if ($block['blockName'] === 'core/cover') {
+        $image_url = esc_url(FOCOTIK_THEME_URI . 'assets/images/placeholder-images/570x430.svg');
+
+        if (strpos($block_content, '<img') === false) {
+            $img_tag = '<img class="wp-block-cover__image-background wp-post-image" src="' . $image_url . '" alt="Image before link" style="width:100%; height:100%;">';
+            $block_content = preg_replace(
+                '/(<div[^>]*class="wp-block-cover[^"]*"[^>]*>)(.*?<span[^>]*aria-hidden="true"[^>]*>.*?<\/span>)/s',
+                '$1$2' . $img_tag,
+                $block_content
+            );
+        }
+    }
+
+    if ($block['blockName'] === 'core/post-featured-image') {
+        if (!has_post_thumbnail()) {
+            $placeholder_url = esc_url(FOCOTIK_THEME_URI.'assets/images/placeholder-images/368x206.svg');
+            $block_content   = '<img style="border-radius:8px;max-height:518px;object-fit:cover;width:100%" src="' . $placeholder_url . '" alt="Placeholder Image" />';
+        }
+    }
+
+    return $block_content;
+}
+add_filter('render_block', 'add_placeholder_to_featured_image_block', 10, 2);
