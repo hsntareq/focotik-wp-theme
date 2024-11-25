@@ -7,12 +7,12 @@
  * Inserter: no
  */
 ?>
- <!-- wp:group {"metadata":{"name":"Hero Section"},"className":"hero-section","layout":{"type":"default"}} -->
-<div class="wp-block-group hero-section"><!-- wp:template-part {"slug":"header-white","theme":"focotik-wp-theme","area":"header"} /-->
+<!-- wp:group {"metadata":{"name":"Hero Section"},"className":"hero-section","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/hero-right.png","id":308,"source":"file","title":"hero-right"},"backgroundSize":"344px","backgroundPosition":"100% 0%","backgroundRepeat":"no-repeat"},"color":{"background":"#e7e7e7"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group hero-section has-background" style="background-color:#e7e7e7"><!-- wp:template-part {"slug":"header-white","theme":"focotik-wp-theme","area":"header"} /-->
 
 <!-- wp:group {"metadata":{"name":"Hero Content"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"Container"},"style":{"padding":{"top":"108px","bottom":"108px"},"spacing":{"padding":{"top":"108px"},"margin":{"top":"0","bottom":"0"}},"color":{"background":"#e7e7e7"}},"layout":{"type":"constrained","contentSize":"1170px"}} -->
-<div class="wp-block-group has-background" style="background-color:#e7e7e7;margin-top:0;margin-bottom:0;padding-top:108px"><!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"Container"},"style":{"padding":{"top":"108px","bottom":"108px"},"spacing":{"padding":{"top":"108px"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1170px"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:108px"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"hero-text-content","style":{"layout":{"selfStretch":"fixed"},"spacing":{"padding":{"right":"120px"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group hero-text-content" style="padding-right:120px"><!-- wp:heading {"className":"hero-heading","style":{"typography":{"fontSize":"72px","lineHeight":"1.2","letterSpacing":"-1.9px"},"color":{"text":"#383a3e"},"elements":{"link":{"color":{"text":"#383a3e"}}}}} -->
@@ -27,13 +27,13 @@
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 <div class="wp-block-buttons" style="margin-top:0;margin-bottom:0"><!-- wp:button {"style":{"color":{"background":"#eb6945"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" style="background-color:#eb6945">Schedule a Meeting<img class="wp-image-1309" style="width: 24px;" src="<?php esc_url(FOCOTIK_THEME_URI) ?>assets/images/arrow.png" alt=""></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" href="https://calendly.com/hello-focotik/30min" style="background-color:#eb6945" target="_blank" rel="noreferrer noopener">Schedule a Meeting<img class="wp-image-1309" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/arrow.png" alt=""></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
 <!-- wp:group {"className":"success-state","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group success-state"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php esc_url(FOCOTIK_THEME_URI) ?>assets/images/clutch.png" alt=""/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/clutch.png" alt=""/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"success-item-list","style":{"spacing":{"blockGap":"48px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -80,9 +80,5 @@ https://youtu.be/uOHOgI66C28?si=OkGMaQmaC6mBAnI4
 <!-- /wp:embed --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group -->
-
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","metadata":{"name":"Hero top-right image"},"className":"img-right-top "} -->
-<figure class="wp-block-image size-full img-right-top"><img src="<?php esc_url(FOCOTIK_THEME_URI) ?>assets/images/hero-right.png" alt=""/></figure>
-<!-- /wp:image --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
