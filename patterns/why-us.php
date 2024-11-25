@@ -22,7 +22,7 @@
             <!-- /wp:heading -->
 
             <!-- wp:group {"className":"why-us-content","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-            <div class="wp-block-group why-us-content"><!-- wp:group {"className":"why-us-item-wrap","style":{"border":{"color":"#ee9176","width":"1px","radius":"16px"},"background":{"backgroundImage":{"url":"h<?php echo esc_url(FOCOTIK_THEME_URI) ?>/assets/images/bg-why-us-item-1.png","id":179,"source":"file","title":"bg-why-us-item-1"},"backgroundSize":"auto","backgroundPosition":"100% 0%","backgroundRepeat":"no-repeat"}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
+            <div class="wp-block-group why-us-content"><!-- wp:group {"className":"why-us-item-wrap","style":{"border":{"color":"#ee9176","width":"1px","radius":"16px"},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/bg-why-us-item-1.png","id":179,"source":"file","title":"bg-why-us-item-1"},"backgroundSize":"auto","backgroundPosition":"100% 0%","backgroundRepeat":"no-repeat"}},"backgroundColor":"white","layout":{"type":"constrained"}} -->
                 <div class="wp-block-group why-us-item-wrap has-border-color has-white-background-color has-background" style="border-color:#ee9176;border-width:1px;border-radius:16px"><!-- wp:group -->
                     <div class="wp-block-group"><!-- wp:paragraph {"className":"heading"} -->
                         <p class="heading">FOR <br>STARTUPS</p>
