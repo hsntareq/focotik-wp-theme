@@ -6,7 +6,7 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Review"},"className":"review","style":{"color":{"background":"#272b2f"},"spacing":{"margin":{"top":"0","bottom":"0"}},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>/assets/images/bg-review.png","id":301,"source":"file","title":"bg-review"},"backgroundPosition":"100% 0%","backgroundSize":"auto","backgroundRepeat":"no-repeat"}},"layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"Review"},"className":"review","style":{"color":{"background":"#272b2f"},"spacing":{"margin":{"top":"0","bottom":"0"}},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/bg-review.png","id":301,"source":"file","title":"bg-review"},"backgroundPosition":"100% 0%","backgroundSize":"auto","backgroundRepeat":"no-repeat"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group review has-background" style="background-color:#272b2f;margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"Review Content"},"layout":{"type":"default"}} -->
     <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"container"},"layout":{"type":"constrained","contentSize":"1170px"}} -->
         <div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":3,"className":"review-main-heading","style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}},"typography":{"letterSpacing":"-0.035em","lineHeight":"1.17"}}} -->
@@ -22,7 +22,7 @@
 
                         <!-- wp:media-text {"mediaId":288,"mediaLink":"https://focotik.test/?attachment_id=288","mediaType":"image","mediaWidth":15,"style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}}} -->
                         <div class="wp-block-media-text is-stacked-on-mobile has-text-color has-link-color" style="color:#eff2f6;grid-template-columns:15% auto">
-                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>/assets/images/reviewer-2.png" alt="" class="wp-image-288 size-full" /></figure>
+                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/reviewer-2.png" alt="" class="wp-image-288 size-full" /></figure>
                             <div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0"}},"typography":{"fontSize":"20px"}}} -->
                                 <p style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;font-size:20px"><strong>Lily Sullivan</strong></p>
                                 <!-- /wp:paragraph -->
@@ -43,7 +43,7 @@
 
                         <!-- wp:media-text {"mediaId":289,"mediaLink":"https://focotik.test/?attachment_id=289","mediaType":"image","mediaWidth":15,"style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}}} -->
                         <div class="wp-block-media-text is-stacked-on-mobile has-text-color has-link-color" style="color:#eff2f6;grid-template-columns:15% auto">
-                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>/assets/images/reviewer-3.png" alt="" class="wp-image-289 size-full" /></figure>
+                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/reviewer-3.png" alt="" class="wp-image-289 size-full" /></figure>
                             <div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0"}},"typography":{"fontSize":"20px"}}} -->
                                 <p style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;font-size:20px"><strong>Lily Sullivan</strong></p>
                                 <!-- /wp:paragraph -->
@@ -64,7 +64,7 @@
 
                         <!-- wp:media-text {"mediaId":288,"mediaLink":"https://focotik.test/?attachment_id=288","mediaType":"image","mediaWidth":15,"style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}}} -->
                         <div class="wp-block-media-text is-stacked-on-mobile has-text-color has-link-color" style="color:#eff2f6;grid-template-columns:15% auto">
-                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>/assets/images/reviewer-2.png" alt="" class="wp-image-288 size-full" /></figure>
+                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/reviewer-2.png" alt="" class="wp-image-288 size-full" /></figure>
                             <div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0"}},"typography":{"fontSize":"20px"}}} -->
                                 <p style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;font-size:20px"><strong>Lily Sullivan</strong></p>
                                 <!-- /wp:paragraph -->
@@ -85,7 +85,7 @@
 
                         <!-- wp:media-text {"mediaId":289,"mediaLink":"https://focotik.test/?attachment_id=289","mediaType":"image","mediaWidth":15,"style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}}} -->
                         <div class="wp-block-media-text is-stacked-on-mobile has-text-color has-link-color" style="color:#eff2f6;grid-template-columns:15% auto">
-                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>/assets/images/reviewer-3.png" alt="" class="wp-image-289 size-full" /></figure>
+                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/reviewer-3.png" alt="" class="wp-image-289 size-full" /></figure>
                             <div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0"}},"typography":{"fontSize":"20px"}}} -->
                                 <p style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;font-size:20px"><strong>Lily Sullivan</strong></p>
                                 <!-- /wp:paragraph -->
@@ -106,7 +106,7 @@
 
                         <!-- wp:media-text {"mediaId":278,"mediaLink":"https://focotik.test/?attachment_id=278","mediaType":"image","mediaWidth":15,"style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}}} -->
                         <div class="wp-block-media-text is-stacked-on-mobile has-text-color has-link-color" style="color:#eff2f6;grid-template-columns:15% auto">
-                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>/assets/images/lily-sullivan.png" alt="" class="wp-image-278 size-full" /></figure>
+                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/lily-sullivan.png" alt="" class="wp-image-278 size-full" /></figure>
                             <div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0"}},"typography":{"fontSize":"20px"}}} -->
                                 <p style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;font-size:20px"><strong>Lily Sullivan</strong></p>
                                 <!-- /wp:paragraph -->
@@ -130,7 +130,7 @@
 
                         <!-- wp:media-text {"mediaId":287,"mediaLink":"https://focotik.test/?attachment_id=287","mediaType":"image","mediaWidth":15,"style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}}} -->
                         <div class="wp-block-media-text is-stacked-on-mobile has-text-color has-link-color" style="color:#eff2f6;grid-template-columns:15% auto">
-                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>/assets/images/reviewer-1.png" alt="" class="wp-image-287 size-full" /></figure>
+                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/reviewer-1.png" alt="" class="wp-image-287 size-full" /></figure>
                             <div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0"}},"typography":{"fontSize":"20px"}}} -->
                                 <p style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;font-size:20px"><strong>Lily Sullivan</strong></p>
                                 <!-- /wp:paragraph -->
@@ -151,7 +151,7 @@
 
                         <!-- wp:media-text {"mediaId":288,"mediaLink":"https://focotik.test/?attachment_id=288","mediaType":"image","mediaWidth":15,"style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}}} -->
                         <div class="wp-block-media-text is-stacked-on-mobile has-text-color has-link-color" style="color:#eff2f6;grid-template-columns:15% auto">
-                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>/assets/images/reviewer-2.png" alt="" class="wp-image-288 size-full" /></figure>
+                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/reviewer-2.png" alt="" class="wp-image-288 size-full" /></figure>
                             <div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0"}},"typography":{"fontSize":"20px"}}} -->
                                 <p style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;font-size:20px"><strong>Lily Sullivan</strong></p>
                                 <!-- /wp:paragraph -->
@@ -172,7 +172,7 @@
 
                         <!-- wp:media-text {"mediaId":289,"mediaLink":"https://focotik.test/?attachment_id=289","mediaType":"image","mediaWidth":15,"style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}}} -->
                         <div class="wp-block-media-text is-stacked-on-mobile has-text-color has-link-color" style="color:#eff2f6;grid-template-columns:15% auto">
-                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>/assets/images/reviewer-3.png" alt="" class="wp-image-289 size-full" /></figure>
+                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/reviewer-3.png" alt="" class="wp-image-289 size-full" /></figure>
                             <div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0"}},"typography":{"fontSize":"20px"}}} -->
                                 <p style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;font-size:20px"><strong>Lily Sullivan</strong></p>
                                 <!-- /wp:paragraph -->
@@ -193,7 +193,7 @@
 
                         <!-- wp:media-text {"mediaId":287,"mediaLink":"https://focotik.test/?attachment_id=287","mediaType":"image","mediaWidth":15,"style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}}} -->
                         <div class="wp-block-media-text is-stacked-on-mobile has-text-color has-link-color" style="color:#eff2f6;grid-template-columns:15% auto">
-                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>/assets/images/reviewer-1.png" alt="" class="wp-image-287 size-full" /></figure>
+                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/reviewer-1.png" alt="" class="wp-image-287 size-full" /></figure>
                             <div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0"}},"typography":{"fontSize":"20px"}}} -->
                                 <p style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;font-size:20px"><strong>Lily Sullivan</strong></p>
                                 <!-- /wp:paragraph -->
@@ -214,7 +214,7 @@
 
                         <!-- wp:media-text {"mediaId":278,"mediaLink":"https://focotik.test/?attachment_id=278","mediaType":"image","mediaWidth":15,"style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}}} -->
                         <div class="wp-block-media-text is-stacked-on-mobile has-text-color has-link-color" style="color:#eff2f6;grid-template-columns:15% auto">
-                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>/assets/images/lily-sullivan.png" alt="" class="wp-image-278 size-full" /></figure>
+                            <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/lily-sullivan.png" alt="" class="wp-image-278 size-full" /></figure>
                             <div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0"}},"typography":{"fontSize":"20px"}}} -->
                                 <p style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;font-size:20px"><strong>Lily Sullivan</strong></p>
                                 <!-- /wp:paragraph -->
