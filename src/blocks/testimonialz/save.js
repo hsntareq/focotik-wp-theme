@@ -16,20 +16,13 @@ import { useBlockProps } from '@wordpress/block-editor';
  * @return {Element} Element to render.
  */
 export default function save({ attributes }) {
-	const { title, titleImageUrl, contentVideoUrl, clientInfo, testimonial } = attributes;
+	// const { title, titleImageUrl, contentVideoUrl, clientInfo, testimonial } = attributes;
+    const blockProps = useBlockProps.save();
 
 	return (
-		<div {...useBlockProps.save()}>
-			{titleImageUrl ? (
-				<img src={titleImageUrl} alt={title} />
-			) : (
-				<RichText.Content value={title} />
-			)}
-			{contentVideoUrl && (
-				<video src={contentVideoUrl} controls />
-			)}
-			<p className="client-info">{clientInfo}</p>
-			<RichText.Content value={testimonial} />
-		</div>
+		<div {...blockProps} className="testimonial-item">
+            <RichText.Content tagName="p" value={attributes.content} />
+            <RichText.Content tagName="cite" value={attributes.author} />
+        </div>
 	);
 }
