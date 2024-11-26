@@ -2,7 +2,7 @@
 /**
  * @see https://github.com/WordPress/gutenberg/blob/trunk/docs/reference-guides/block-api/block-metadata.md#render
  */
-$case_studies = get_posts(array("post_type" => 'case-studies', 'posts_per_page' => 10));
+$case_studies = get_posts(array("post_type" => 'case-studies', 'posts_per_page' => 5));
 ?>
 <div class="works" style="background-color:#e7e7e7;margin-top:0;margin-bottom:0">
 	<!-- <div class="wp-block-group"> -->
