@@ -81,6 +81,9 @@ function generate_navigation_html() {
         return !empty($page) ? get_permalink($page[0]->ID) : null;
     }, $pages);
 
+    // Get the current page URL
+    $current_url = get_permalink(get_queried_object_id());
+
     // Start building the HTML output using heredoc
     $html = <<<HTML
 <!-- wp:navigation {"className":"header-navigation"} -->
@@ -89,8 +92,9 @@ HTML;
     // Loop through pages and generate links
     foreach ($pages as $index => $label) {
         if (!empty($page_urls[$index])) {
+            $active_class = ($page_urls[$index] === $current_url) ? ' is-active' : '';
             $html .= <<<HTML
-<!-- wp:navigation-link {"label":"{$label}","url":"{$page_urls[$index]}"} /-->
+<!-- wp:navigation-link {"label":"{$label}","url":"{$page_urls[$index]}","className":"header-nav-item{$active_class}"} /-->
 HTML;
         }
     }

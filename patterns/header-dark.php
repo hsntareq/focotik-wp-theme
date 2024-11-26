@@ -9,8 +9,8 @@
 ?>
 <!-- wp:group {"className":"header-dark has-text-color has-background has-link-color","layout":{"type":"constrained","wideSize":"1170px"}} -->
 <div class="wp-block-group header-dark has-text-color has-background has-link-color"><!-- wp:group {"metadata":{"name":"Header"},"style":{"spacing":{"padding":{"top":"24px","bottom":"24px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-	<div class="wp-block-group" style="padding-top:24px;padding-bottom:24px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-		<div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"id":25,"width":"169px","height":"auto","sizeSlug":"full","linkDestination":"custom"} -->
+	<div class="wp-block-group" style="padding-top:24px;padding-bottom:24px;"><!-- wp:group {"style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group has-text-color has-link-color" style="color:#eff2f6"><!-- wp:image {"lightbox":{"enabled":false},"id":25,"width":"169px","height":"auto","sizeSlug":"full","linkDestination":"custom"} -->
 			<figure class="wp-block-image size-full is-resized"><a href="/"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/logo-white.png" alt="" class="wp-image-25" style="width:169px;height:auto" /></a></figure>
 			<!-- /wp:image -->
 			<?php echo generate_navigation_html(); ?>
