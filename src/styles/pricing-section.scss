@@ -1,4 +1,3 @@
-
 @import './mixins/library';
 
 .pricing-section {
@@ -54,5 +53,42 @@
 				}
 			}
 		}
+	}
+
+	.pricing-text-box {
+		&:hover {
+			background-color: white !important;
+			color: #383A3E !important;
+			transition: all 0.3s ease;
+
+			h5 {
+				color: #383A3E !important;
+			}
+
+			p::first-child {
+				color: #b2b4b8 !important;
+			}
+
+			p {
+				color: #383A3E !important;
+			}
+
+			ul {
+				color: #515457 !important;
+
+				li::before {
+					content: "";
+					width: 24px;
+					height: 24px;
+					background-image: url(https://wpfocotik.local/wp-content/themes/focotik-wp-theme/assets/images/svg-icons/bullet-grayscale.svg);
+					background-size: contain;
+					background-repeat: no-repeat;
+					margin-right: 12px;
+					flex-shrink: 0;
+				}
+			}
+
+		}
+
 	}
 }

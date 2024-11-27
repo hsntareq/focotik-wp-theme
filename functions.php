@@ -93,6 +93,7 @@ HTML;
     // Loop through pages and generate links
     foreach ($pages as $index => $label) {
         if (!empty($page_urls[$index])) {
+            // Check if the current page is active
             $active_class = ($page_urls[$index] === $current_url) ? ' is-active' : '';
             $html .= <<<HTML
 <!-- wp:navigation-link {"label":"{$label}","url":"{$page_urls[$index]}","className":"header-nav-item{$active_class}"} /-->

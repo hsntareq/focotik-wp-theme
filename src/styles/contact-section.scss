@@ -1,5 +1,9 @@
 @import './mixins/library';
-
+.hero-contact {
+    .contact-section {
+        background-color: transparent !important;
+    }
+}
 .contact-section {
     .wpcf7-form * {
         box-sizing: border-box;

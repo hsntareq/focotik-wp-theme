@@ -14,9 +14,10 @@
 <!-- /wp:heading -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button">Lets Talk</a></div>
-<!-- /wp:button --></div>
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill","style":{"elements":{"link":{"color":{"text":"#272b2f"}}},"color":{"background":"#eff2f6","text":"#272b2f"}}} -->
+<div class="wp-block-button is-style-fill"><a href="/contact" class="wp-block-button__link has-text-color has-background has-link-color wp-element-button" style="color:#272b2f;background-color:#eff2f6">Lets Talk <img class="wp-image-449" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/arrow-black.png" alt=""></a></div>
+    <!-- /wp:button -->
+</div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

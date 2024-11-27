@@ -6,9 +6,9 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Blog Heading"},"className":"blog-heading","style":{"color":{"background":"#181a1d"},"spacing":{"margin":{"top":"0","bottom":"0"}},"background":{"backgroundImage":{"url":"<?php echo esc_url(FOCOTIK_THEME_URI)?>assets/images/bg-review.png","id":301,"source":"file","title":"bg-review"},"backgroundPosition":"100% 0%","backgroundSize":"275px","backgroundRepeat":"no-repeat"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group blog-heading has-background" style="background-color:#181a1d;margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"108px","bottom":"108px"}},"color":{"gradient":"linear-gradient(180deg,rgb(24,26,29) 56%,rgb(239,242,246) 56%)"}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
-<div class="wp-block-group has-background" style="background:linear-gradient(180deg,rgb(24,26,29) 56%,rgb(239,242,246) 56%);margin-top:0;margin-bottom:0;padding-top:108px;padding-bottom:108px"><!-- wp:group {"layout":{"type":"constrained","wideSize":"711px","justifyContent":"left"}} -->
+<!-- wp:group {"metadata":{"name":"Blog Heading"},"className":"blog-heading","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group blog-heading" style="margin-top:0;margin-bottom:0"><!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"108px","bottom":"0px"}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:108px;padding-bottom:0px"><!-- wp:group {"layout":{"type":"constrained","wideSize":"711px","justifyContent":"left"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"className":"main-heading","style":{"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}},"typography":{"lineHeight":"1.2","letterSpacing":"-0.035em","fontStyle":"normal","fontWeight":"800"}},"fontSize":"4x-large"} -->
 <h3 class="wp-block-heading main-heading has-text-color has-link-color has-4-x-large-font-size" style="color:#eff2f6;font-style:normal;font-weight:800;letter-spacing:-0.035em;line-height:1.2">Read our latest <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">blogs and resources</mark></h3>
 <!-- /wp:heading -->
@@ -20,10 +20,12 @@
 
 <!-- wp:spacer {"height":"28px"} -->
 <div style="height:28px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
+<!-- /wp:spacer --></div>
+<!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Featured Blog"},"layout":{"type":"constrained","justifyContent":"left","wideSize":"1170px"}} -->
-<div class="wp-block-group"><!-- wp:group {"className":{blog-heading-featured-image},"layout":{"type":"flex","orientation":"vertical","flexWrap":"wrap"}} -->
+<!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0px","bottom":"108px"}},"color":{"gradient":"linear-gradient(180deg,rgb(24,26,29) 56%,rgb(239,242,246) 56%)"}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
+<div class="wp-block-group has-background" style="background:linear-gradient(180deg,rgb(24,26,29) 56%,rgb(239,242,246) 56%);margin-top:0;margin-bottom:0;padding-top:0px;padding-bottom:108px"><!-- wp:group {"metadata":{"name":"Featured Blog"},"layout":{"type":"constrained","justifyContent":"left","wideSize":"1170px"}} -->
+<div class="wp-block-group"><!-- wp:group {"className":"blog-heading-featured-image"} -->
 <div class="wp-block-group blog-heading-featured-image"><!-- wp:post-featured-image {"width":"100%","height":"35rem","scale":"fill","style":{"border":{"radius":"16px"}}} /-->
 
 <!-- wp:group {"layout":{"type":"default"}} -->

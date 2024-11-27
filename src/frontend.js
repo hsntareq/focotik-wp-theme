@@ -53,15 +53,15 @@ document.addEventListener('DOMContentLoaded', function () {
     let dropdownClicked = false;
 
     submenuToggles.forEach(toggle => {
-        toggle.addEventListener('click', function (e) {
-            e.preventDefault();
-            dropdownClicked = !dropdownClicked;
-            if (dropdownClicked) {
-                megaDropdown.style.display = 'flex';
-            } else {
-                megaDropdown.style.display = 'none';
-            }
-        });
+        // toggle.addEventListener('click', function (e) {
+        //     e.preventDefault();
+        //     dropdownClicked = !dropdownClicked;
+        //     if (dropdownClicked) {
+        //         megaDropdown.style.display = 'flex';
+        //     } else {
+        //         megaDropdown.style.display = 'none';
+        //     }
+        // });
         toggle.addEventListener('mouseenter', function () {
             isHovered = true;
             if(megaDropdown) megaDropdown.style.display = 'flex';
