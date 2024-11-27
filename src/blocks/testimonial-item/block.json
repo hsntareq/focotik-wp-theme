@@ -1,0 +1,54 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "focotik/testimonial-item",
+	"version": "0.1.0",
+	"title": "Testimonial Item",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"parent": [
+		"focotik/testimonials"
+	],
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": ""
+		},
+		"titleImageUrl": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "img",
+			"attribute": "src",
+			"default": ""
+		},
+		"contentVideoUrl": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "img",
+			"attribute": "src",
+			"default": ""
+		},
+		"clientName": {
+			"type": "string",
+			"default": ""
+		},
+		"companyAndPosition": {
+			"type": "string",
+			"default": ""
+		},
+		"testimonial": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"textdomain": "testimonial-item",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
