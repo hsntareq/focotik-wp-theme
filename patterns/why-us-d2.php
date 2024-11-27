@@ -17,7 +17,7 @@
 
                     <!-- wp:buttons {"style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","verticalAlignment":"bottom","justifyContent":"right"}} -->
                     <div class="wp-block-buttons" style="margin-top:0;margin-bottom:0"><!-- wp:button {"className":"is-style-btn-white-color shrink0"} -->
-                        <div class="wp-block-button is-style-btn-white-color shrink0"><a class="wp-block-button__link wp-element-button" href="/contact/">Get a quote -&gt;</a></div>
+                        <div class="wp-block-button is-style-btn-white-color shrink0"><a class="wp-block-button__link wp-element-button" href="/contact/">Get a quote <img class="wp-image-1309" style="width: 24px;" src="<?php echo FOCOTIK_THEME_URI ?>assets/images/arrow-black.png" alt=""></a></div>
                         <!-- /wp:button -->
                     </div>
                     <!-- /wp:buttons -->

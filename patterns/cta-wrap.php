@@ -16,7 +16,7 @@
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-btn-white-color","style":{"spacing":{"padding":{"left":"0","right":"0","top":"0","bottom":"0"},"margin":{"top":"8px"}},"border":{"radius":"0px"}}} -->
-<div class="wp-block-button is-style-btn-white-color"><a class="wp-block-button__link wp-element-button" style="border-radius:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;margin-top:8px;">Get our service plans -> </a></div>
+<div class="wp-block-button is-style-btn-white-color"><a class="wp-block-button__link wp-element-button" style="border-radius:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;margin-top:8px;">Get our service plans <img class="wp-image-1309" style="width: 24px;" src="<?php echo FOCOTIK_THEME_URI ?>assets/images/arrow-black.png" alt=""></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
