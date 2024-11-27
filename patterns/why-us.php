@@ -45,7 +45,7 @@
 
                             <!-- wp:buttons {"className":"btn-explore"} -->
                             <div class="wp-block-buttons btn-explore"><!-- wp:button {"style":{"border":{"radius":"40px"},"color":{"background":"#272b2f"},"typography":{"fontSize":"18px","lineHeight":"1.34","fontStyle":"normal","fontWeight":"400"}}} -->
-                                <div class="wp-block-button has-custom-font-size" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a class="wp-block-button__link has-background wp-element-button" href="/mvp/" style="border-radius:40px;background-color:#272b2f">Explore Now -&gt;<img class="wp-image-1309" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/arrow.png" alt=""></a></div>
+                                <div class="wp-block-button has-custom-font-size" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a class="wp-block-button__link has-background wp-element-button" style="border-radius:40px;background-color:#272b2f">Explore Now <img class="wp-image-1309" style="width: 24px;" src="<?php echo FOCOTIK_THEME_URI ?>assets/images/arrow.png" alt=""></a></div>
                                 <!-- /wp:button -->
                             </div>
                             <!-- /wp:buttons -->
@@ -78,7 +78,7 @@
 
                             <!-- wp:buttons {"className":"btn-explore"} -->
                             <div class="wp-block-buttons btn-explore"><!-- wp:button {"style":{"border":{"radius":"40px"},"color":{"background":"#272b2f"},"typography":{"fontSize":"18px","lineHeight":"1.34","fontStyle":"normal","fontWeight":"400"}}} -->
-                                <div class="wp-block-button has-custom-font-size" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a class="wp-block-button__link has-background wp-element-button" href="/product-redesign/" style="border-radius:40px;background-color:#272b2f">Explore Now -&gt;<img class="wp-image-1309" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/arrow.png" alt=""></a></div>
+                                <div class="wp-block-button has-custom-font-size" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a class="wp-block-button__link has-background wp-element-button" style="border-radius:40px;background-color:#272b2f">Explore Now <img class="wp-image-1309" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/arrow.png" alt=""></a></div>
                                 <!-- /wp:button -->
                             </div>
                             <!-- /wp:buttons -->
@@ -111,7 +111,7 @@
 
                             <!-- wp:buttons {"className":"btn-explore"} -->
                             <div class="wp-block-buttons btn-explore"><!-- wp:button {"style":{"border":{"radius":"40px"},"color":{"background":"#272b2f"},"typography":{"fontSize":"18px","lineHeight":"1.34","fontStyle":"normal","fontWeight":"400"}}} -->
-                                <div class="wp-block-button has-custom-font-size" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a class="wp-block-button__link has-background wp-element-button" href="/team-extention/" style="border-radius:40px;background-color:#272b2f">Explore Now -&gt;<img class="wp-image-1309" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/arrow.png" alt=""></a></div>
+                                <div class="wp-block-button has-custom-font-size" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a class="wp-block-button__link has-background wp-element-button" style="border-radius:40px;background-color:#272b2f">Explore Now <img class="wp-image-1309" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/arrow.png" alt=""></a></div>
                                 <!-- /wp:button -->
                             </div>
                             <!-- /wp:buttons -->

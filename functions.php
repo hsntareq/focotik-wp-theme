@@ -36,9 +36,10 @@ function wpdocs_register_multiple_blocks() {
         if (!is_dir($block_location) || '.' === $result || '..' === $result) {
             continue;
         }
-
+// echo '<br>'.$block_location;
         register_block_type($block_location);
     }
+	// die;
 }
 
 add_action('init', 'wpdocs_register_multiple_blocks');

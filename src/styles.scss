@@ -331,9 +331,11 @@ body {
 
 	.review-content {
 		margin-top: 72px;
+
 		@include below(medium) {
 			text-align: center;
 		}
+
 		.wp-block-heading {
 			letter-spacing: -0.02em;
 			line-height: 1.25;
@@ -458,6 +460,29 @@ body {
 		.footer-bottom {
 			margin-block-start: 40px;
 			color: #B2B4B8;
+		}
+	}
+}
+
+.wp-block-button {
+	a {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		text-decoration: none;
+		transition: all 0.3s ease;
+	}
+
+	img {
+		transition: transform 0.3s ease;
+	}
+
+	a:hover {
+		box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+
+		img {
+			z-index: 1;
+			transform: translateX(5px);
 		}
 	}
 }
