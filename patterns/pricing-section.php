@@ -45,7 +45,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-fill","style":{"typography":{"fontSize":"18px","fontStyle":"normal","fontWeight":"400","lineHeight":"1.34"}},"fontFamily":"manrope"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-fill has-manrope-font-family" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a class="wp-block-button__link wp-element-button">Get Started -&gt;</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-fill has-manrope-font-family" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a href="/contact" class="wp-block-button__link wp-element-button">Get Started <img class="wp-image-1309" style="width: 24px;" src="<?php echo FOCOTIK_THEME_URI ?>assets/images/arrow.png" alt=""></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -101,7 +101,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-fill","style":{"typography":{"fontSize":"18px","fontStyle":"normal","fontWeight":"400","lineHeight":"1.34"}},"fontFamily":"manrope"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-fill has-manrope-font-family" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a class="wp-block-button__link wp-element-button">Get Started -&gt;</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-fill has-manrope-font-family" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a href="/contact" class="wp-block-button__link wp-element-button">Get Started <img class="wp-image-1309" style="width: 24px;" src="<?php echo FOCOTIK_THEME_URI ?>assets/images/arrow.png" alt=""></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -157,7 +157,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-fill","style":{"typography":{"fontSize":"18px","fontStyle":"normal","fontWeight":"400","lineHeight":"1.34"}},"fontFamily":"manrope"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-fill has-manrope-font-family" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a class="wp-block-button__link wp-element-button">Get Started -&gt;</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-fill has-manrope-font-family" style="font-size:18px;font-style:normal;font-weight:400;line-height:1.34"><a href="/contact" class="wp-block-button__link wp-element-button">Get Started <img class="wp-image-1309" style="width: 24px;" src="<?php echo FOCOTIK_THEME_URI ?>assets/images/arrow.png" alt=""></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
