@@ -11,7 +11,7 @@ import { __ } from '@wordpress/i18n';
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
  */
-import { useBlockProps, RichText } from '@wordpress/block-editor';
+import { useBlockProps, useInnerBlocksProps, InnerBlocks } from '@wordpress/block-editor';
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
@@ -29,16 +29,79 @@ import './editor.scss';
  *
  * @return {Element} Element to render.
  */
-export default function Edit({attributes, setAttributes}) {
-    const blockProps = useBlockProps();
-	return (
-		<div {...blockProps}>
-            <RichText
-                tagName="p" // Matches the selector in block.json
-                value={attributes.content}
-                onChange={(content) => setAttributes({ content })}
-                placeholder="Enter slide content..."
+export default function Edit() {
+	const blockProps = useBlockProps({
+        className: 'foco-testimonial__container',
+    });
+
+    const template = [
+        [
+            'core/image',
+            {
+                className: 'foco-testimonial__icon',
+            },
+        ],
+		[
+            'core/group',
+            {
+                className: 'row',
+            },
+            [
+                [
+					'core/group',
+					{
+						className: 'row',
+					},
+					[
+						[
+							'core/video',
+							{
+								className: 'foco-testimonial__video',
+							},
+						],
+					],
+				],
+				[
+					'core/group',
+					{
+						className: 'content',
+					},
+					[
+						[
+							'core/paragraph',
+							{
+								placeholder: __('Testimonial Message', 'gg-blocks'),
+								className: 'foco-testimonial__message',
+							},
+						],
+						[
+							'core/heading',
+							{
+								placeholder: __('Author Name', 'gg-blocks'),
+								className: 'foco-testimonial__author',
+							},
+						],
+						[
+							'core/paragraph',
+							{
+								placeholder: __('Author Info', 'gg-blocks'),
+								className: 'foco-testimonial__author-info',
+							},
+						],
+					],
+				],
+            ],
+        ],
+
+    ];
+
+    return (
+        <div {...blockProps}>
+            <InnerBlocks
+                template={template}
+                templateLock="all"
+                renderAppender={() => <InnerBlocks.DefaultBlockAppender />}
             />
         </div>
-	);
+    );
 }

@@ -11,7 +11,7 @@ import { __ } from '@wordpress/i18n';
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
  */
-import { useBlockProps, InnerBlocks } from '@wordpress/block-editor';
+import { useBlockProps, InnerBlocks, useInnerBlocksProps } from '@wordpress/block-editor';
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
@@ -29,18 +29,23 @@ import './editor.scss';
  *
  * @return {Element} Element to render.
  */
-const ALLOWED_BLOCKS = ['focotik/testimonial-item'];
 
 export default function Edit() {
 	const blockProps = useBlockProps();
-
+	const { children, ...innerBlocksProps } = useInnerBlocksProps(
+		{},
+		{
+			allowedBlocks: [ 'focotik/testimonial-item' ],
+			template: [ [ 'focotik/testimonial-item' ] ],
+			templateLock: false,
+			directInsert: true,
+			templateInsertUpdatesSelection: true,
+			renderAppender: () => <InnerBlocks.DefaultBlockAppender />,
+		}
+	);
 	return (
 		<div {...blockProps}>
-            <p>Slider Block</p>
-            <InnerBlocks
-                allowedBlocks={ALLOWED_BLOCKS}
-                template={[ALLOWED_BLOCKS]} // Default structure
-            />
+            <div { ...innerBlocksProps }>{ children }</div>
         </div>
 	);
 }
