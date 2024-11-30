@@ -222,12 +222,18 @@ body {
 	padding-block: 108px;
 
 	.brands-logo-wrap {
-		margin-top: 64px;
+		margin-top: 56px;
 
 		.brands-logo-list {
-			padding-inline: 12px;
+			// padding-inline: 12px;
+			display: flex;
 			flex-wrap: wrap;
+			gap: 12px;
 			justify-content: center;
+			figure{
+				padding-inline: 20px;
+				padding-block: 8px;
+			}
 		}
 	}
 }
