@@ -21,5 +21,5 @@
  */
  
 /* eslint-disable no-console */
-console.log("Hello World! (from create-block-slides block)");
+console.log("Hello World! (from create-block-testimonial-item block)");
 /* eslint-enable no-console */

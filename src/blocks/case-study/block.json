@@ -11,6 +11,16 @@
 	"supports": {
 		"html": false
 	},
+	"attributes": {
+		"titleImageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"content": {
+			"type": "string",
+			"default": ""
+		}
+	},
 	"textdomain": "case-study",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",

@@ -1,5 +1,5 @@
 /**
- * Use this file for JavaScript code that you want to run in the front-end 
+ * Use this file for JavaScript code that you want to run in the front-end
  * on posts/pages that contain this block.
  *
  * When this file is defined as the value of the `viewScript` property
@@ -13,13 +13,39 @@
  * }
  * ```
  *
- * If you're not making any changes to this file because your project doesn't need any 
- * JavaScript running in the front-end, then you should delete this file and remove 
- * the `viewScript` property from `block.json`. 
+ * If you're not making any changes to this file because your project doesn't need any
+ * JavaScript running in the front-end, then you should delete this file and remove
+ * the `viewScript` property from `block.json`.
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-metadata/#view-script
  */
- 
-/* eslint-disable no-console */
+
+/* eslint-disable <no-c></no-c>onsole */
 console.log("Hello World! (from create-block-slider block)");
 /* eslint-enable no-console */
+document.addEventListener('DOMContentLoaded', () => {
+    const tabContainers = document.querySelectorAll('.focotik-testimonials-tabs');
+
+    tabContainers.forEach((container) => {
+        const nav = container.querySelector('.focotik-testimonials-tab-nav');
+        const panels = container.querySelectorAll('.testimonial-item');
+
+        // Initialize: Show the first tab's content by default
+        panels[0].classList.add('is-active');
+
+        // Create tab functionality
+        nav.querySelectorAll('button').forEach((button, index) => {
+            button.addEventListener('click', () => {
+                // Handle active class on buttons
+                nav.querySelectorAll('button').forEach((btn) => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                // Show/hide corresponding panels
+                panels.forEach((panel, i) => {
+                    panel.classList.remove('is-active');
+                    panel.classList.add(i === index ? 'is-active' : 'is-inactive');
+                });
+            });
+        });
+    });
+});

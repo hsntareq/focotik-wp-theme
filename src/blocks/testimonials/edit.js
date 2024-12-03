@@ -1,51 +1,99 @@
-/**
- * Retrieves the translation of text.
- *
- * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-i18n/
- */
-import { __ } from '@wordpress/i18n';
+import { InnerBlocks, useBlockProps } from '@wordpress/block-editor';
+import { useState, useEffect, useRef } from '@wordpress/element';
+import { useSelect } from '@wordpress/data';
 
-/**
- * React hook that is used to mark the block wrapper element.
- * It provides all the necessary props like the class name.
- *
- * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
- */
-import { useBlockProps, InnerBlocks, useInnerBlocksProps } from '@wordpress/block-editor';
-
-/**
- * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
- * Those files can contain any CSS code that gets applied to the editor.
- *
- * @see https://www.npmjs.com/package/@wordpress/scripts#using-css
- */
 import './editor.scss';
 
-/**
- * The edit function describes the structure of your block in the context of the
- * editor. This represents what the editor will render when the block is used.
- *
- * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-edit-save/#edit
- *
- * @return {Element} Element to render.
- */
+export default function Edit({ attributes, setAttributes, clientId }) {
+	const { currentTab } = attributes;
+	const [activeBlockClientId, setActiveBlockClientId] = useState(currentTab || null); // Default first tab
+	const tabContentRef = useRef(null);
 
-export default function Edit() {
 	const blockProps = useBlockProps();
-	const { children, ...innerBlocksProps } = useInnerBlocksProps(
-		{},
-		{
-			allowedBlocks: [ 'focotik/testimonial-item' ],
-			template: [ [ 'focotik/testimonial-item' ] ],
-			templateLock: false,
-			directInsert: true,
-			templateInsertUpdatesSelection: true,
-			renderAppender: () => <InnerBlocks.DefaultBlockAppender />,
-		}
+
+	// Get all child blocks dynamically using `useSelect`
+	const childBlocks = useSelect(
+		(select) => select('core/block-editor').getBlocks(clientId) || [],
+		[clientId]
 	);
+
+	// Handle tab click to update active clientId
+	const handleTabClick = (block) => {
+		displayOnlyTargetBlock(`block-${block.clientId}`); // Call function when clientId changes
+		setActiveBlockClientId(block.clientId); // Set active block's clientId on tab click
+		setAttributes({ currentTab: block.clientId }); // Update parent block's currentTab attribute
+	};
+
+	useEffect(() => {
+		if (childBlocks.length > 0 && !activeBlockClientId) {
+			// Set the first block as active by default
+			setActiveBlockClientId(childBlocks[0].clientId);
+		}
+	}, [childBlocks, activeBlockClientId]);
+
+
+
+	// Function to display only the block matching the clientId
+	const displayOnlyTargetBlock = (id) => {
+		if (tabContentRef.current) {
+			// Hide all blocks
+			const allBlocks = tabContentRef.current.querySelectorAll('.focotik-testimonial-item');
+			allBlocks.forEach((block) => {
+				block.style.display = 'none'; // Hide all blocks
+			});
+
+			// Show the block with matching ID
+			const targetBlock = tabContentRef.current.querySelector(`#${id}`);
+			if (targetBlock) {
+				targetBlock.style.display = 'block'; // Show the target block
+			} else {
+				console.warn(`Element with ID "${id}" not found.`);
+			}
+		}
+	};
+
+
+
 	return (
-		<div {...blockProps}>
-            <div { ...innerBlocksProps }>{ children }</div>
-        </div>
+		<div {...blockProps} className="focotik-testimonials-tabs">
+			{/* Tab Navigation */}
+			<div className="focotik-testimonials-tab-nav">
+				{childBlocks.map((block, index) => {
+					const { imageUrl } = block.attributes; // Retrieve imageUrl from child block attributes
+
+					return (
+						<button
+							key={block.clientId} // Unique key for each tab
+							onClick={() => handleTabClick(block)} // Set active block based on clientId
+							className={activeBlockClientId === block.clientId ? 'active' : ''}
+							data-target={`block-${block.clientId}`} // Set the block id for targeting
+						>
+							{imageUrl ? (
+								<img
+									src={imageUrl}
+									alt={`Tab ${index + 1}`}
+									style={{ width: '50px', height: '50px', objectFit: 'cover' }}
+								/>
+							) : (
+								`Tab ${index + 1}`
+							)}
+						</button>
+					);
+				})}
+			</div>
+
+			{/* Tab Content */}
+			<div className="focotik-testimonials-tab-content" ref={tabContentRef}>
+				<InnerBlocks
+					allowedBlocks={['focotik/testimonial-item']}
+					renderAppender={false} // Disable appender
+				/>
+			</div>
+
+			{/* Default Appender for Adding New Child Blocks */}
+			<div className="focotik-testimonials-add-new">
+				<InnerBlocks.ButtonBlockAppender />
+			</div>
+		</div>
 	);
 }

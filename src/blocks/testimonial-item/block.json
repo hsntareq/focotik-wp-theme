@@ -8,17 +8,25 @@
 	"icon": "smiley",
 	"description": "Example block scaffolded with Create Block tool.",
 	"example": {},
+	"parent": ["focotik/testimonials"],
 	"supports": {
 		"html": false
 	},
-	"parent": ["focotik/testimonials"],
-	"attributes": {
-	  "content": {
-		"type": "string",
-		"source": "html",
-		"selector": "p"
-	  }
-	},
+    "attributes": {
+        "imageUrl": {
+            "type": "string",
+            "default": ""
+        },
+        "quote": {
+            "type": "string",
+            "default": "This is a testimonial."
+        },
+        "tabIndex": {
+            "type": "number",
+            "default": 0
+        }
+    },
+    "usesContext": ["focotikTestimonials/currentTab"],
 	"textdomain": "testimonial-item",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
