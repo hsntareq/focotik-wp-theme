@@ -32,8 +32,8 @@ import './editor.scss';
 export default function Edit() {
 
 	return (
-		<p { ...useBlockProps() }>
-			<img src='https://wpfocotik.local/wp-content/themes/focotik-wp-theme/src/blocks/case-study/assets/case-study-block-white.png' />
-		</p>
+		<div { ...useBlockProps() }>
+			<img style={{ width: '100%' }} src='https://wpfocotik.local/wp-content/themes/focotik-wp-theme/src/blocks/case-study/assets/case-study-block-white.png' />
+		</div>
 	);
 }
