@@ -54,7 +54,7 @@
 <!-- /wp:list -->
 
 <!-- wp:paragraph {"className":"get_services_button"} -->
-<p class="get_services_button"><a href="/contact" data-type="page" data-id="11">Get Services</a> <img class="wp-image-449" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/arrow-black.png" alt=""></p>
+<p class="get_services_button"><a href="/contact" data-type="page" data-id="11">Get Services</a> <img class="wp-image-449" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/services-arrow-orange.png" alt=""></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -102,7 +102,7 @@
 <!-- /wp:list -->
 
 <!-- wp:paragraph {"className":"get_services_button"} -->
-<p class="get_services_button"><a href="/contact" data-type="page" data-id="11">Get Services</a> <img class="wp-image-449" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/arrow-black.png" alt=""></p>
+<p class="get_services_button"><a href="/contact" data-type="page" data-id="11">Get Services</a> <img class="wp-image-449" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/services-arrow-orange.png" alt=""></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -138,7 +138,7 @@
 <!-- /wp:list -->
 
 <!-- wp:paragraph {"className":"get_services_button"} -->
-<p class="get_services_button"><a href="/contact" data-type="page" data-id="11">Get Services</a> <img class="wp-image-449" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/arrow-black.png" alt=""></p>
+<p class="get_services_button"><a href="/contact" data-type="page" data-id="11">Get Services</a> <img class="wp-image-449" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/services-arrow-orange.png" alt=""></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -186,7 +186,7 @@
 <!-- /wp:list -->
 
 <!-- wp:paragraph {"className":"get_services_button"} -->
-<p class="get_services_button"><a href="/contact" data-type="page" data-id="11">Get Services</a> <img class="wp-image-449" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/arrow-black.png" alt=""></p>
+<p class="get_services_button"><a href="/contact" data-type="page" data-id="11">Get Services</a> <img class="wp-image-449" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/services-arrow-orange.png" alt=""></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -222,7 +222,7 @@
 <!-- /wp:list -->
 
 <!-- wp:paragraph {"className":"get_services_button"} -->
-<p class="get_services_button"><a href="/contact" data-type="page" data-id="11">Get Services</a> <img class="wp-image-449" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/arrow-black.png" alt=""></p>
+<p class="get_services_button"><a href="/contact" data-type="page" data-id="11">Get Services</a> <img class="wp-image-449" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/services-arrow-orange.png" alt=""></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -270,7 +270,7 @@
 <!-- /wp:list -->
 
 <!-- wp:paragraph {"className":"get_services_button"} -->
-<p class="get_services_button"><a href="/contact" data-type="page" data-id="11">Get Services</a> <img class="wp-image-449" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/arrow-black.png" alt=""></p>
+<p class="get_services_button"><a href="/contact" data-type="page" data-id="11">Get Services</a> <img class="wp-image-449" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/services-arrow-orange.png" alt=""></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -306,7 +306,7 @@
 <!-- /wp:list -->
 
 <!-- wp:paragraph {"className":"get_services_button"} -->
-<p class="get_services_button"><a href="/contact" data-type="page" data-id="11">Get Services</a> <img class="wp-image-449" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/arrow-black.png" alt=""></p>
+<p class="get_services_button"><a href="/contact" data-type="page" data-id="11">Get Services</a> <img class="wp-image-449" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/services-arrow-orange.png" alt=""></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
