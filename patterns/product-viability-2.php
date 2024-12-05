@@ -50,19 +50,19 @@
 
 <!-- wp:list {"className":"is-style-list-with-circle","style":{"spacing":{"margin":{"top":"40px"}}}} -->
 <ul style="margin-top:40px" class="wp-block-list is-style-list-with-circle"><!-- wp:list-item {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
-<li style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><strong>Business-oriented</strong>&nbsp; team focus</li>
+<li style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)">Business-oriented &nbsp; team focus</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
-<li style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)">Work<strong> </strong>directly with the designer or with Product Manager / Art Director in pair</li>
+<li style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)">Work directly with the designer or with Product Manager / Art Director in pair</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
-<li style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)">Сlose cooperation where you get comfort and&nbsp;flexibility&nbsp;in the <strong>working process</strong></li>
+<li style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)">Сlose cooperation where you get comfort and &nbsp; flexibility &nbsp; in the working process</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
-<li style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)">Our hiring system will provide you with the designer for the&nbsp;<strong>immediate and productive start</strong></li>
+<li style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)">Our hiring system will provide you with the designer for the &nbsp; immediate and productive start</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group --></div>
