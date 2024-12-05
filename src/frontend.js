@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const megaDropdown = document.querySelector('.mega-dropdown');
     const mega = document.querySelector('.mega');
 
-    if(megaDropdown) megaDropdown.style.display = 'none';
+    if (megaDropdown) megaDropdown.style.display = 'none';
     let isHovered = false;
     let isMegaHovered = false;
     let dropdownClicked = false;
@@ -64,13 +64,13 @@ document.addEventListener('DOMContentLoaded', function () {
         // });
         toggle.addEventListener('mouseenter', function () {
             isHovered = true;
-            if(megaDropdown) megaDropdown.style.display = 'flex';
+            if (megaDropdown) megaDropdown.style.display = 'flex';
             mega.style.display = 'flex';
         });
         toggle.addEventListener('mouseleave', function () {
             setTimeout(function () {
                 if (!isMegaHovered && !dropdownClicked) {
-                    if(megaDropdown) megaDropdown.style.display = 'none';
+                    if (megaDropdown) megaDropdown.style.display = 'none';
                     mega.style.display = 'none';
                 }
             }, 300);
@@ -87,5 +87,21 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }, 300);
         isMegaHovered = false;
+    });
+
+    document.querySelectorAll('.show-popup').forEach(button => {
+        const contactFormPopup = document.querySelector('.popup-contact-form');
+
+        button.addEventListener('click', function (e) {
+            console.log('hover');
+            e.preventDefault();
+            contactFormPopup.style.top = '13%'; // Add unit (%)
+        });
+
+        document.addEventListener('click', function (e) {
+            if (!contactFormPopup.contains(e.target) && !button.contains(e.target)) {
+                contactFormPopup.style.top = '100%'; // Hide the popup
+            }
+        });
     });
 });

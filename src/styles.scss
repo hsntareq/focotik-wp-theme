@@ -471,7 +471,7 @@ body {
 }
 
 .wp-block-button {
-	a {
+	a,button {
 		display: flex;
 		align-items: center;
 		gap: 8px;
@@ -483,7 +483,7 @@ body {
 		transition: transform 0.3s ease;
 	}
 
-	a:hover {
+	a:hover,&.contact-form-button:hover {
 		box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 
 		img {
@@ -491,4 +491,17 @@ body {
 			transform: translateX(5px);
 		}
 	}
+}
+
+.popup-contact-form {
+	position: fixed;
+	top: 100%;
+	width: 60%;
+	background: red;
+	z-index: 9999999999;
+	left: 0;
+	right: 0;
+	margin-inline: auto;
+	transition: top 0.5s ease;
+	border-radius: 8px;
 }
