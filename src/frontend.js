@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.show-popup').forEach(button => {
         const contactFormPopup = document.querySelector('.popup-contact-form');
         const contactFormPopupParent = document.querySelector('.popup-contact-form-parent');
-
+        const contactFormPopupChild = document.querySelector('.popup-contact-form-child');
         button.addEventListener('click', function (e) {
             e.preventDefault();
             if (window.innerWidth < 768) {
@@ -103,7 +103,8 @@ document.addEventListener('DOMContentLoaded', function () {
             contactFormPopupParent.style.visibility = 'visible';
         });
         contactFormPopupParent.addEventListener('click', function (e) {
-            if (!contactFormPopup.contains(e.target) && !button.contains(e.target)) {
+            e.preventDefault();
+            if (!contactFormPopupChild.contains(e.target)) {
                 contactFormPopup.style.top = '100%'; // Hide the popup
                 setTimeout(function () {
                     contactFormPopupParent.style.visibility = 'hidden';
