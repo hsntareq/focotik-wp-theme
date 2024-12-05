@@ -5,6 +5,12 @@
     }
 }
 .contact-section {
+    .wpcf7-form {
+        p {
+            margin: 0 !important;
+        }
+    }
+
     .wpcf7-form * {
         box-sizing: border-box;
 
@@ -131,7 +137,7 @@
 }
 
 .faq-cta-contact {
-    & > .wp-block-group {
+    &>.wp-block-group {
         @include below(medium) {
             background-size: 150px !important;
         }
@@ -139,7 +145,7 @@
 
     .faq {
         background-color: #181A1D !important;
-        background-image: url('/assets/images/faq-black.png')!important;
+        background-image: url('/assets/images/faq-black.png') !important;
         color: white !important;
 
         .foco-accordion {

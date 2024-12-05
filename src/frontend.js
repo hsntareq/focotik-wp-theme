@@ -91,16 +91,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.querySelectorAll('.show-popup').forEach(button => {
         const contactFormPopup = document.querySelector('.popup-contact-form');
+        const contactFormPopupParent = document.querySelector('.popup-contact-form-parent');
 
         button.addEventListener('click', function (e) {
             console.log('hover');
             e.preventDefault();
-            contactFormPopup.style.top = '13%'; // Add unit (%)
+            contactFormPopup.style.top = '8%'; // Add unit (%)
+            contactFormPopupParent.style.visibility = 'visible';
         });
 
         document.addEventListener('click', function (e) {
             if (!contactFormPopup.contains(e.target) && !button.contains(e.target)) {
                 contactFormPopup.style.top = '100%'; // Hide the popup
+                contactFormPopupParent.style.visibility = 'hidden';
             }
         });
     });
