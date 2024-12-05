@@ -26,8 +26,8 @@
 <!-- /wp:group -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-<div class="wp-block-buttons" style="margin-top:0;margin-bottom:0"><!-- wp:button {"style":{"color":{"background":"#eb6945"}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" href="https://calendly.com/hello-focotik/30min" style="background-color:#eb6945" target="_blank" rel="noreferrer noopener">Schedule a Meeting<img class="wp-image-1309" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/arrow.png" alt=""></a></div>
+<div class="wp-block-buttons" style="margin-top:0;margin-bottom:0"><!-- wp:button {"className":"show-popup"} -->
+<div class="wp-block-button show-popup"><a class="wp-block-button__link wp-element-button" href="https://calendly.com/hello-focotik/30min" target="_blank" rel="noreferrer noopener">Schedule a Meeting<img class="wp-image-1309" style="width: 24px;" src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/arrow.png" alt=""></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
