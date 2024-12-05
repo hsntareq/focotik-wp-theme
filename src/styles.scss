@@ -230,7 +230,8 @@ body {
 			flex-wrap: wrap;
 			gap: 12px;
 			justify-content: center;
-			figure{
+
+			figure {
 				padding-inline: 20px;
 				padding-block: 8px;
 			}
@@ -471,7 +472,9 @@ body {
 }
 
 .wp-block-button {
-	a,button {
+
+	a,
+	button {
 		display: flex;
 		align-items: center;
 		gap: 8px;
@@ -483,7 +486,8 @@ body {
 		transition: transform 0.3s ease;
 	}
 
-	a:hover,&.contact-form-button:hover {
+	a:hover,
+	&.contact-form-button:hover {
 		box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 
 		img {
@@ -502,8 +506,9 @@ body {
 		inset: 0;
 		visibility: hidden;
 		transition: top 0.5s ease;
+		z-index: 9999999999;
 	}
-	
+
 	position: fixed;
 	top: 100%;
 	width: 60%;
@@ -514,7 +519,15 @@ body {
 	transition: top 0.5s ease;
 	border-radius: 8px;
 
+	@include below(medium) {
+		width: 100%;
+	}
+
 	.wp-block-group {
 		height: 650px;
+
+		@include below(medium) {
+			height: calc(100vh - 100px);
+		}
 	}
 }

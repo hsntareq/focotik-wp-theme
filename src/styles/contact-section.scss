@@ -1,9 +1,11 @@
 @import './mixins/library';
+
 .hero-contact {
     .contact-section {
         background-color: transparent !important;
     }
 }
+
 .contact-section {
     .wpcf7-form {
         p {
@@ -54,11 +56,21 @@
         display: flex;
         align-items: center;
         gap: 20px;
-    }
 
-    .wpcf7-form .contact-service-type p>* {
-        flex: 1 1 50%;
-        box-sizing: border-box;
+        @include below(small) {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        &>* {
+            flex: 1 1 50%;
+            box-sizing: border-box;
+
+            @include below(small) {
+                width: 100%;
+            }
+        }
     }
 
     .wp-block-media-text__media img {

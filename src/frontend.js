@@ -94,16 +94,20 @@ document.addEventListener('DOMContentLoaded', function () {
         const contactFormPopupParent = document.querySelector('.popup-contact-form-parent');
 
         button.addEventListener('click', function (e) {
-            console.log('hover');
             e.preventDefault();
-            contactFormPopup.style.top = '8%'; // Add unit (%)
+            if (window.innerWidth < 768) {
+                contactFormPopup.style.top = '3%';
+            } else {
+                contactFormPopup.style.top = '8%'; // Add unit (%)
+            }
             contactFormPopupParent.style.visibility = 'visible';
         });
-
-        document.addEventListener('click', function (e) {
+        contactFormPopupParent.addEventListener('click', function (e) {
             if (!contactFormPopup.contains(e.target) && !button.contains(e.target)) {
                 contactFormPopup.style.top = '100%'; // Hide the popup
-                contactFormPopupParent.style.visibility = 'hidden';
+                setTimeout(function () {
+                    contactFormPopupParent.style.visibility = 'hidden';
+                }, 400);
             }
         });
     });
