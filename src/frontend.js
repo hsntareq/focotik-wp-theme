@@ -98,18 +98,28 @@ document.addEventListener('DOMContentLoaded', function () {
             if (window.innerWidth < 768) {
                 contactFormPopup.style.top = '3%';
             } else {
-                contactFormPopup.style.top = '8%'; // Add unit (%)
+                contactFormPopup.style.top = '8%';
             }
             contactFormPopupParent.style.visibility = 'visible';
         });
         contactFormPopupParent.addEventListener('click', function (e) {
             e.preventDefault();
             if (!contactFormPopupChild.contains(e.target)) {
-                contactFormPopup.style.top = '100%'; // Hide the popup
+                contactFormPopup.style.top = '100%';
                 setTimeout(function () {
                     contactFormPopupParent.style.visibility = 'hidden';
                 }, 400);
             }
         });
+    });
+    const navItems = document.querySelectorAll('.header-nav-item');
+    const currentUrl = window.location.href;
+    navItems.forEach(item => {
+        const link = item.querySelector('a');
+        if (link && link.href === currentUrl) {
+            item.classList.add('is-active');
+        } else {
+            item.classList.remove('is-active');
+        }
     });
 });
