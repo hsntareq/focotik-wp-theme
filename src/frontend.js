@@ -1,7 +1,5 @@
 import './styles.scss';
-// import './libs/gsap'
-console.log('Hello, world! 123');
-// import './blocks/blocks.js';
+import './libs/swiper.js';
 
 document.addEventListener('DOMContentLoaded', function () {
     const accordionItems = document.querySelectorAll('.foco-accordion details');

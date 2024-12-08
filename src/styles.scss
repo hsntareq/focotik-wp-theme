@@ -543,3 +543,43 @@ body {
 .header-nav-item:hover {
 	color: #eb6945;
 }
+
+.swiper {
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	width: 100% !important;
+	overflow: visible !important;
+
+	&-wrapper {
+		display: inherit !important;
+		justify-content: inherit !important;
+		flex-wrap: nowrap;
+		margin-inline: 0 !important;
+		gap: 0px !important;
+
+		.swiper-slide {
+			display: flex !important;
+			align-items: center;
+			justify-content: center;
+			max-width: 200px !important;
+			width: auto !important;
+			height: 200px !important;
+
+			@include below(medium) {
+				max-width: 100px !important;
+				height: 100px !important;
+			}
+
+			img {
+				max-width: 200px !important;
+				width: auto !important;
+				height: 200px !important;
+				@include below(medium) {
+					max-width: 100px !important;
+					height: 100px !important;
+				}
+			}
+		}
+	}
+}
