@@ -6,8 +6,8 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"metadata":{"name":"hero team extention"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"108px","bottom":"108px"}},"color":{"background":"#181a1d"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group has-background" style="background-color:#181a1d;margin-top:0;margin-bottom:0;padding-top:108px;padding-bottom:108px"><!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
+<!-- wp:group {"metadata":{"name":"hero team extention"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"108px","bottom":"108px"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group has-background" style="margin-top:0;margin-bottom:0;padding-top:108px;padding-bottom:108px"><!-- wp:group {"metadata":{"name":"container"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"className":"hero-team-extention","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group hero-team-extention" style="margin-top:0;margin-bottom:0;padding-right:0;padding-left:0"><!-- wp:group {"layout":{"type":"constrained","wideSize":"553px","justifyContent":"left"}} -->
 <div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"lineHeight":"1.2","letterSpacing":"-0.04em"},"color":{"text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}},"fontSize":"3x-large"} -->
