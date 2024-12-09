@@ -1,5 +1,6 @@
 import './styles.scss';
 import './libs/swiper.js';
+import './libs/leaflet.js';
 
 document.addEventListener('DOMContentLoaded', function () {
     const accordionItems = document.querySelectorAll('.foco-accordion details');
