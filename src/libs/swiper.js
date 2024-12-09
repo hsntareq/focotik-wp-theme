@@ -5,7 +5,7 @@ import { Autoplay } from 'swiper/modules';
 
 const gallery = document.querySelector('.wp-block-gallery');
 const swiperContainer = document.querySelector('.swiper');
-const figures = gallery.querySelectorAll('figure');
+const figures = gallery?.querySelectorAll('figure') ?? [];
 
 new Swiper('.swiper', {
     slidesPerView: figures.length - 2,
