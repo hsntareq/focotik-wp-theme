@@ -219,7 +219,7 @@ function add_placeholder_to_featured_image_block($block_content, $block) {
 }
 add_filter('render_block', 'add_placeholder_to_featured_image_block', 10, 2);
 function enqueue_custom_scripts() {
-    wp_enqueue_script('leaflet', 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.js', array(), null, true);
-    wp_enqueue_style('leaflet-css', 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css');
+    wp_enqueue_script('leaflet-js', FOCOTIK_THEME_URI . 'assets/leaflet/main.js', array(), null, true);
+    wp_enqueue_style('leaflet-css', FOCOTIK_THEME_URI . 'assets/leaflet/style.css', array(), null);
 }
 add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
