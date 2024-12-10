@@ -1,0 +1,40 @@
+@import './mixins/library';
+
+.services-list {
+    &-heading {
+        .wp-block-heading {
+            @include below(medium) {
+                font-size: 48px;
+            }
+
+            @include below(small) {
+                font-size: 32px;
+            }
+        }
+    }
+
+    &-content {
+        .is-layout-grid {
+            @include below(large) {
+                gap: 3rem;
+            }
+
+            @include below(xmedium) {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 1rem;
+            }
+
+            @include below(small) {
+                grid-template-columns: repeat(1, minmax(0, 1fr));
+                gap: 1rem;
+
+            }
+
+            .wp-block-list li {
+                @include below(medium) {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
