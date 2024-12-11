@@ -1,0 +1,72 @@
+@import './mixins/library';
+
+$serviceheadingFontSize: 72px;
+$serviceheadingFontSizeTab: 48px;
+$serviceheadingFontSizeMobile: 36px;
+
+.home-services {
+    .testimonial-3-second-part {
+        @include below(medium) {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .has-3-x-large-font-size {
+            @include below(medium) {
+                font-size: $serviceheadingFontSizeTab !important;
+            }
+
+            @include below(small) {
+                font-size: $serviceheadingFontSizeMobile !important;
+            }
+        }
+
+        .wp-block-spacer {
+            @include below(medium) {
+                height: 24px !important;
+            }
+        }
+    }
+
+    .foco-accordion {
+        & details {
+            summary {
+                @include below(medium) {
+                    font-size: 24px !important;
+                }
+            }
+        }
+    }
+}
+
+.get_services_button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-image: linear-gradient(transparent calc(100% - 1.5px), #EB6945 1px);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size 0.5s ease;
+    padding-bottom: 12px;
+    margin-top: 32px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+
+    a {
+        color: #EB6945;
+    }
+
+    img {
+        transition: transform 0.3s ease;
+    }
+
+    &:hover {
+        background-size: 100% 100%;
+
+        img {
+            transform: translateX(5px);
+        }
+    }
+}

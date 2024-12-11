@@ -1,0 +1,217 @@
+@import './mixins/library';
+
+$testimonialHeadingFontSize: 72px;
+$testimonialHeadingFontSizeTab: 48px;
+$testimonialHeadingFontSizeMobile: 36px;
+
+.testimonial,
+.testimonial-2,
+.testimonial-4 {
+    .main-heading {
+        @include below(medium) {
+            font-size: $testimonialHeadingFontSizeTab !important;
+        }
+
+        @include below(small) {
+            font-size: $testimonialHeadingFontSizeMobile !important;
+            text-align: center;
+        }
+    }
+
+    &-card-grid {
+        @if &=='.testimonial' {
+            @include below(large) {
+                grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+            }
+
+            @include below(medium) {
+                grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+            }
+        }
+
+        @else {
+            gap: 32px;
+
+            @include below(large) {
+                grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+            }
+        }
+
+        @include below(small) {
+            grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+        }
+    }
+
+    @if &=='.testimonial-2' {
+        &-review {
+            figure {
+                margin-top: 8px;
+            }
+        }
+    }
+}
+.testimonial-4-item {
+    @include below(small) {
+        padding: 20px !important;
+    }
+}
+
+.testimonial-2-review {
+    @include below(small) {
+        padding: 20px !important;
+    }
+}
+
+.review-row {
+    @include below(medium) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &-content {
+        @include below(medium) {
+            text-align: center;
+        }
+
+        h5 {
+            @include below(large) {
+                font-size: 26px !important;
+            }
+
+            @include below(medium) {
+                font-size: 24px !important;
+            }
+
+            @include below(small) {
+                font-size: 20px !important;
+            }
+        }
+
+        p {
+            @include below(large) {
+                font-size: 22px !important;
+            }
+
+            @include below(medium) {
+                font-size: 20px !important;
+            }
+
+            @include below(small) {
+                font-size: 16px !important;
+            }
+        }
+    }
+}
+
+.testimonial-3-second-part {
+    @include below(medium) {
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .section-one {
+        max-width: 460px;
+
+        @include below(medium) {
+            max-width: 500px;
+            text-align: center;
+        }
+
+        p {
+            @include below(large) {
+                font-size: 48px !important;
+            }
+
+            @include below(medium) {
+                text-align: center;
+            }
+
+            @include below(small) {
+                font-size: 32px !important;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.testimonial-3-row-item {
+    gap: 32px;
+
+    @include below(small) {
+        gap: 16px;
+        flex-direction: column;
+        align-items: start;
+        padding: 12px !important;
+    }
+}
+
+.portfolio-section {
+    .portfolio-grid {
+        row-gap: 72px;
+        column-gap: 32px;
+    }
+}
+
+.faq .foco-accordion {
+    details {
+        padding-bottom: 32px;
+
+        summary {
+            font-size: 32px !important;
+            font-weight: 600;
+            padding: 0;
+            margin: 0;
+        }
+
+        p {
+            max-width: 879px;
+            font-size: 20px;
+            font-weight: 400;
+            padding: 0;
+            line-height: 28px;
+            letter-spacing: -0.01em;
+            text-align: left;
+        }
+    }
+}
+
+.home-services .foco-accordion {
+    width: 525px;
+    @include below(small) {
+        width: 100%;
+    }
+
+    details {
+
+        summary {
+            font-size: 32px !important;
+            font-weight: 600;
+            padding: 0;
+            margin: 0;
+            line-height: 40px;
+            letter-spacing: -0.02em;
+        }
+
+        p {
+            max-width: 453px;
+            padding-top: 12px !important;
+            padding-bottom: 24px !important;
+            margin: 0;
+            letter-spacing: -0.01em;
+            text-align: left;
+        }
+    }
+}
+
+.blogandnews {
+    .wp-block-media-text {
+        .wp-block-media-text__media {
+            height: 40px;
+            width: 40px;
+        }
+
+        .wp-block-media-text__content {
+            padding-inline: 0;
+        }
+    }
+}

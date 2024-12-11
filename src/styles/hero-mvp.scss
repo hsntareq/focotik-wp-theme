@@ -1,0 +1,18 @@
+@import './mixins/library';
+$heroHeadingTab : 48px;
+$heroHeadingMobile: 32px;
+
+.hero-mvp {
+    h2 {
+        @include between(900px, 1200px) {
+            font-size: $heroHeadingTab !important;
+        }
+        @include below(small){
+            font-size: $heroHeadingMobile !important;
+        }
+    }
+
+    @include below(medium) {
+        flex-direction: column;
+    }
+}
