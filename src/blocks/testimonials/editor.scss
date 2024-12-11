@@ -8,18 +8,3 @@
 	border: 1px dotted #f00;
 }
 
-.focotik-testimonials-tab-content {
-	.focotik-testimonial-item {
-		display: none;
-
-		&:first-child {
-			display: block;
-		}
-	}
-}
-
-.focotik-testimonials-tabs {
-	.focotik-testimonials-tab-nav button.active {
-		border-bottom: 2px solid blue;
-	}
-}

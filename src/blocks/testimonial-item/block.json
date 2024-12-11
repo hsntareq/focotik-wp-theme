@@ -13,17 +13,37 @@
 		"html": false
 	},
     "attributes": {
+        "tabId": {
+            "type": "string",
+            "default": ""
+        },
         "imageUrl": {
+            "type": "string",
+            "default": ""
+        },
+        "videoUrl": {
             "type": "string",
             "default": ""
         },
         "quote": {
             "type": "string",
-            "default": "This is a testimonial."
+            "default": ""
         },
-        "tabIndex": {
-            "type": "number",
-            "default": 0
+        "message": {
+            "type": "string",
+            "default": ""
+        },
+        "tags": {
+            "type": "string",
+            "default": ""
+        },
+        "author": {
+            "type": "string",
+            "default": ""
+        },
+        "designation": {
+            "type": "string",
+            "default": ""
         }
     },
     "usesContext": ["focotikTestimonials/currentTab"],

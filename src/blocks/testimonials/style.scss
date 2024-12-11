@@ -10,3 +10,85 @@
 	color: #fff;
 	padding: 2px;
 }
+
+.focotik-testimonials-tabs {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #272B2F;
+	width: 900px;
+	padding: 50px;
+	gap: 16px;
+
+	.focotik-testimonials-tab-nav {
+		display: flex;
+		flex-direction: column;
+		flex: 0 0 165px;
+		row-gap: 16px;
+
+		button {
+			border-radius: 12px;
+			border: 1.5px solid #383A3E;
+			background-color: transparent;
+			height: 108px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+			padding: 0;
+			overflow: hidden;
+			transition: all .3s;
+			color: #fff;
+
+			&.active {
+				background-color: #181A1D;
+			}
+		}
+	}
+
+	.focotik-testimonials-tab-content {
+		flex: 1;
+
+		.focotik-testimonial-item {
+			display: none;
+			position: relative;
+			gap: 32px;
+
+			&:first-child {
+				display: flex;
+			}
+
+			&>img {
+				display: none;
+			}
+
+			.logo-changer {
+				position: absolute;
+				display: none;
+				right: 0;
+			}
+
+			.video-wrap {
+				flex: 0 0 40%;
+				padding: 0;
+
+				.testimonial-video {
+					border-radius: 12px;
+					width: 100%;
+				}
+			}
+
+		}
+	}
+
+	&:hover {
+		.focotik-testimonials-tab-content {
+			.logo-changer {
+				display: block;
+			}
+		}
+	}
+
+	.focotik-testimonials-add-new {
+		flex: 1 1 100%;
+	}
+}

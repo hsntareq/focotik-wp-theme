@@ -6,8 +6,9 @@ import './editor.scss';
 
 export default function Edit({ attributes, setAttributes, clientId }) {
 	const { currentTab } = attributes;
-	const [activeBlockClientId, setActiveBlockClientId] = useState(currentTab || null); // Default first tab
+	const [activeBlockClientId, setActiveBlockClientId] = useState(currentTab || null);
 	const tabContentRef = useRef(null);
+	const [lastChildCount, setLastChildCount] = useState(0);
 
 	const blockProps = useBlockProps();
 
@@ -17,21 +18,11 @@ export default function Edit({ attributes, setAttributes, clientId }) {
 		[clientId]
 	);
 
-	// Handle tab click to update active clientId
-	const handleTabClick = (block) => {
-		displayOnlyTargetBlock(`block-${block.clientId}`); // Call function when clientId changes
-		setActiveBlockClientId(block.clientId); // Set active block's clientId on tab click
-		setAttributes({ currentTab: block.clientId }); // Update parent block's currentTab attribute
-	};
-
-	useEffect(() => {
-		if (childBlocks.length > 0 && !activeBlockClientId) {
-			// Set the first block as active by default
-			setActiveBlockClientId(childBlocks[0].clientId);
-		}
-	}, [childBlocks, activeBlockClientId]);
-
-
+	// Get the currently selected block in the editor
+	const selectedBlockClientId = useSelect(
+		(select) => select('core/block-editor').getSelectedBlockClientId(),
+		[]
+	);
 
 	// Function to display only the block matching the clientId
 	const displayOnlyTargetBlock = (id) => {
@@ -39,40 +30,95 @@ export default function Edit({ attributes, setAttributes, clientId }) {
 			// Hide all blocks
 			const allBlocks = tabContentRef.current.querySelectorAll('.focotik-testimonial-item');
 			allBlocks.forEach((block) => {
-				block.style.display = 'none'; // Hide all blocks
+				block.style.display = 'none';
 			});
 
 			// Show the block with matching ID
 			const targetBlock = tabContentRef.current.querySelector(`#${id}`);
 			if (targetBlock) {
-				targetBlock.style.display = 'block'; // Show the target block
+				targetBlock.style.display = 'flex';
 			} else {
 				console.warn(`Element with ID "${id}" not found.`);
 			}
 		}
 	};
 
+	// Handle tab click to update active clientId
+	const handleTabClick = (block) => {
+		displayOnlyTargetBlock(`block-${block.clientId}`);
+		setActiveBlockClientId(block.clientId);
+		setAttributes({ currentTab: block.clientId });
+	};
 
+	// Handle changes in selectedBlockClientId (Document Overview selection)
+	useEffect(() => {
+		if (selectedBlockClientId && selectedBlockClientId !== activeBlockClientId) {
+			const selectedBlock = childBlocks.find(
+				(block) => block.clientId === selectedBlockClientId
+			);
+			if (selectedBlock) {
+				handleTabClick(selectedBlock);
+			}
+		}
+	}, [selectedBlockClientId]);
+
+	// Focus the newly added block
+	useEffect(() => {
+		if (childBlocks.length > lastChildCount) {
+			const newBlock = childBlocks[childBlocks.length - 1];
+			handleTabClick(newBlock);
+		}
+		setLastChildCount(childBlocks.length);
+	}, [childBlocks, lastChildCount]);
+
+	// Handle deletion of a block
+	useEffect(() => {
+		if (childBlocks.length < lastChildCount) {
+			// Block was deleted, find the next block to display
+			const deletedIndex = childBlocks.findIndex(
+				(block) => block.clientId === activeBlockClientId
+			);
+
+			const nextBlock =
+				childBlocks[deletedIndex] || childBlocks[deletedIndex - 1] || childBlocks[0];
+
+			if (nextBlock) {
+				handleTabClick(nextBlock);
+			} else {
+				// No blocks left
+				setActiveBlockClientId(null);
+				setAttributes({ currentTab: null });
+			}
+		}
+		setLastChildCount(childBlocks.length);
+	}, [childBlocks, activeBlockClientId]);
+
+	// Initialize the first block as active if no active block exists
+	useEffect(() => {
+		if (childBlocks.length > 0 && !activeBlockClientId) {
+			handleTabClick(childBlocks[0]);
+		}
+	}, [childBlocks, activeBlockClientId]);
 
 	return (
 		<div {...blockProps} className="focotik-testimonials-tabs">
 			{/* Tab Navigation */}
 			<div className="focotik-testimonials-tab-nav">
 				{childBlocks.map((block, index) => {
-					const { imageUrl } = block.attributes; // Retrieve imageUrl from child block attributes
+					const { imageUrl } = block.attributes;
 
 					return (
 						<button
-							key={block.clientId} // Unique key for each tab
-							onClick={() => handleTabClick(block)} // Set active block based on clientId
+							key={block.clientId}
+							onClick={() => handleTabClick(block)}
 							className={activeBlockClientId === block.clientId ? 'active' : ''}
-							data-target={`block-${block.clientId}`} // Set the block id for targeting
+							data-target={`block-${block.clientId}`}
 						>
 							{imageUrl ? (
 								<img
 									src={imageUrl}
 									alt={`Tab ${index + 1}`}
-									style={{ width: '50px', height: '50px', objectFit: 'cover' }}
+									style={{ width: '100%', objectFit: 'cover' }}
 								/>
 							) : (
 								`Tab ${index + 1}`
@@ -86,12 +132,12 @@ export default function Edit({ attributes, setAttributes, clientId }) {
 			<div className="focotik-testimonials-tab-content" ref={tabContentRef}>
 				<InnerBlocks
 					allowedBlocks={['focotik/testimonial-item']}
-					renderAppender={false} // Disable appender
+					renderAppender={false}
 				/>
 			</div>
 
-			{/* Default Appender for Adding New Child Blocks */}
 			<div className="focotik-testimonials-add-new">
+				<p>Some rendered content here</p>
 				<InnerBlocks.ButtonBlockAppender />
 			</div>
 		</div>
