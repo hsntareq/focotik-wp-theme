@@ -8,45 +8,53 @@
 	"icon": "smiley",
 	"description": "Example block scaffolded with Create Block tool.",
 	"example": {},
-	"parent": ["focotik/testimonials"],
+	"parent": [
+		"focotik/testimonials"
+	],
 	"supports": {
 		"html": false
 	},
-    "attributes": {
-        "tabId": {
-            "type": "string",
-            "default": ""
-        },
-        "imageUrl": {
-            "type": "string",
-            "default": ""
-        },
-        "videoUrl": {
-            "type": "string",
-            "default": ""
-        },
-        "quote": {
-            "type": "string",
-            "default": ""
-        },
-        "message": {
-            "type": "string",
-            "default": ""
-        },
-        "tags": {
-            "type": "string",
-            "default": ""
-        },
-        "author": {
-            "type": "string",
-            "default": ""
-        },
-        "designation": {
-            "type": "string",
-            "default": ""
-        }
-    },
-    "usesContext": ["focotikTestimonials/currentTab"],
+	"attributes": {
+		"tabId": {
+			"type": "string",
+			"default": ""
+		},
+		"emails": {
+			"type": "array",
+			"default": []
+		},
+		"imageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"videoUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"quote": {
+			"type": "string",
+			"default": ""
+		},
+		"message": {
+			"type": "string",
+			"default": ""
+		},
+		"tags": {
+			"type": "string",
+			"default": ""
+		},
+		"author": {
+			"type": "string",
+			"default": ""
+		},
+		"designation": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"usesContext": [
+		"focotikTestimonials/currentTab"
+	],
 	"textdomain": "testimonial-item",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
