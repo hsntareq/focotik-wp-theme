@@ -121,4 +121,15 @@ document.addEventListener('DOMContentLoaded', function () {
             item.classList.remove('is-active');
         }
     });
+    const pricingButton = document.querySelectorAll('.pricing-tab-item');
+    pricingButton && pricingButton.forEach(button => {
+        const pricingImage = button.querySelector('.wp-block-button__link img');
+        button.addEventListener('mouseenter', function () {
+            pricingImage.src = 'https://wpfocotik.local/wp-content/themes/focotik-wp-theme/assets/images/arrow.png';
+        });
+
+        button.addEventListener('mouseleave', function () {
+            pricingImage.src = 'https://wpfocotik.local/wp-content/themes/focotik-wp-theme/assets/images/arrow-black.png';
+        });
+    })
 });
