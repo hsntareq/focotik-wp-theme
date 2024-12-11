@@ -30,9 +30,10 @@ import './editor.scss';
  * @return {Element} Element to render.
  */
 export default function Edit() {
+
 	return (
-		<p { ...useBlockProps() }>
-			{ __( 'Case Study – hello from the editor!', 'case-study' ) }
-		</p>
+		<div { ...useBlockProps() }>
+			<img style={{ width: '100%' }} src='https://wpfocotik.local/wp-content/themes/focotik-wp-theme/src/blocks/case-study/assets/case-study-block-white.png' />
+		</div>
 	);
 }

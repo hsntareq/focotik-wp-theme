@@ -421,11 +421,18 @@
 	"templateParts": [
 		{
 			"area": "header",
-			"name": "header"
+			"name": "header-dark",
+			"title": "Header Dark"
+		},
+		{
+			"area": "header",
+			"name": "header-white",
+			"title": "Header White"
 		},
 		{
 			"area": "footer",
-			"name": "footer"
+			"name": "footer",
+			"title": "Footer"
 		}
 	],
 	"version": 2,

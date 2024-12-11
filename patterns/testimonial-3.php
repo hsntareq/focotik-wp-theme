@@ -6,13 +6,12 @@
  * Inserter: no
  */
 ?>
-
-<!-- wp:group {"metadata":{"name":"Testimonial 3"},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"top":"180px","bottom":"180px"}},"color":{"background":"#181a1d","text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
-<div class="wp-block-group has-text-color has-background has-link-color" style="color:#eff2f6;background-color:#181a1d;padding-top:180px;padding-bottom:180px"><!-- wp:group {"metadata":{"name":"testimonial-3-second-part"},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
-<div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"align":"left","style":{"elements":{"link":{"color":{"text":"#eff2f6"}}},"color":{"text":"#eff2f6"},"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"1.2"}},"fontSize":"3x-large"} -->
-<p class="has-text-align-left has-text-color has-link-color has-3-x-large-font-size" style="color:#eff2f6;font-style:normal;font-weight:600;line-height:1.2"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">Redesign</mark> is<br>not your only<br>concern, right?</p>
+<!-- wp:group {"metadata":{"name":"Testimonial 3"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"180px","bottom":"180px"}},"color":{"background":"#181a1d","text":"#eff2f6"},"elements":{"link":{"color":{"text":"#eff2f6"}}}},"layout":{"type":"constrained","wideSize":"1170px"}} -->
+<div class="wp-block-group has-text-color has-background has-link-color" style="color:#eff2f6;background-color:#181a1d;padding-top:180px;padding-bottom:180px"><!-- wp:group {"metadata":{"name":"testimonial-3-second-part"},"className":"testimonial-3-second-part","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div class="wp-block-group testimonial-3-second-part"><!-- wp:group {"className":"section-one","layout":{"type":"default"}} -->
+<div class="wp-block-group section-one"><!-- wp:paragraph {"align":"left","style":{"elements":{"link":{"color":{"text":"#eff2f6"}}},"color":{"text":"#eff2f6"},"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"1.2"}},"fontSize":"3x-large"} -->
+<p class="has-text-align-left has-text-color has-link-color has-3-x-large-font-size" style="color:#eff2f6;font-style:normal;font-weight:600;line-height:1.2"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-hover-color">Redesign</mark> is not your only concern, right?</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"116px","width":"0px","style":{"layout":[]}} -->
@@ -20,7 +19,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:image {"id":230,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/img-services.png" alt="" class="wp-image-230"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/img-services.png" alt="" class="wp-image-230"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -43,8 +42,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"48px","bottom":"48px","left":"24px","right":"24px"},"margin":{"top":"16px","bottom":"0px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group" style="margin-top:16px;margin-bottom:0px;padding-top:48px;padding-right:24px;padding-bottom:48px;padding-left:24px"><!-- wp:heading {"level":4,"style":{"color":{"text":"#383a3e"},"elements":{"link":{"color":{"text":"#383a3e"}}}}} -->
+<!-- wp:group {"className":"testimonial-3-row-item","style":{"className":"testimonial-3-row-item","spacing":{"padding":{"top":"48px","bottom":"48px","left":"24px","right":"24px"},"margin":{"top":"16px","bottom":"0px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group testimonial-3-row-item" style="margin-top:16px;margin-bottom:0px;padding-top:48px;padding-right:24px;padding-bottom:48px;padding-left:24px"><!-- wp:heading {"level":4,"style":{"color":{"text":"#383a3e"},"elements":{"link":{"color":{"text":"#383a3e"}}}}} -->
 <h4 class="wp-block-heading has-text-color has-link-color" style="color:#383a3e">02</h4>
 <!-- /wp:heading -->
 
@@ -61,8 +60,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"48px","bottom":"48px","left":"24px","right":"24px"},"margin":{"top":"16px","bottom":"0px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group" style="margin-top:16px;margin-bottom:0px;padding-top:48px;padding-right:24px;padding-bottom:48px;padding-left:24px"><!-- wp:heading {"level":4,"style":{"color":{"text":"#383a3e"},"elements":{"link":{"color":{"text":"#383a3e"}}}}} -->
+<!-- wp:group {"className":"testimonial-3-row-item","style":{"spacing":{"padding":{"top":"48px","bottom":"48px","left":"24px","right":"24px"},"margin":{"top":"16px","bottom":"0px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group testimonial-3-row-item" style="margin-top:16px;margin-bottom:0px;padding-top:48px;padding-right:24px;padding-bottom:48px;padding-left:24px"><!-- wp:heading {"level":4,"style":{"color":{"text":"#383a3e"},"elements":{"link":{"color":{"text":"#383a3e"}}}}} -->
 <h4 class="wp-block-heading has-text-color has-link-color" style="color:#383a3e">03</h4>
 <!-- /wp:heading -->
 
@@ -79,8 +78,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"48px","bottom":"48px","left":"24px","right":"24px"},"margin":{"top":"16px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group" style="margin-top:16px;padding-top:48px;padding-right:24px;padding-bottom:48px;padding-left:24px"><!-- wp:heading {"level":4,"style":{"color":{"text":"#383a3e"},"elements":{"link":{"color":{"text":"#383a3e"}}}}} -->
+<!-- wp:group {"className":"testimonial-3-row-item","style":{"spacing":{"padding":{"top":"48px","bottom":"48px","left":"24px","right":"24px"},"margin":{"top":"16px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group testimonial-3-row-item" style="margin-top:16px;padding-top:48px;padding-right:24px;padding-bottom:48px;padding-left:24px"><!-- wp:heading {"level":4,"style":{"color":{"text":"#383a3e"},"elements":{"link":{"color":{"text":"#383a3e"}}}}} -->
 <h4 class="wp-block-heading has-text-color has-link-color" style="color:#383a3e">04</h4>
 <!-- /wp:heading -->
 
@@ -97,8 +96,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"48px","bottom":"48px","left":"24px","right":"24px"},"margin":{"top":"16px","bottom":"0px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group" style="margin-top:16px;margin-bottom:0px;padding-top:48px;padding-right:24px;padding-bottom:48px;padding-left:24px"><!-- wp:heading {"level":4,"style":{"color":{"text":"#383a3e"},"elements":{"link":{"color":{"text":"#383a3e"}}}}} -->
+<!-- wp:group {"className":"testimonial-3-row-item","style":{"spacing":{"padding":{"top":"48px","bottom":"48px","left":"24px","right":"24px"},"margin":{"top":"16px","bottom":"0px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group testimonial-3-row-item" style="margin-top:16px;margin-bottom:0px;padding-top:48px;padding-right:24px;padding-bottom:48px;padding-left:24px"><!-- wp:heading {"level":4,"style":{"color":{"text":"#383a3e"},"elements":{"link":{"color":{"text":"#383a3e"}}}}} -->
 <h4 class="wp-block-heading has-text-color has-link-color" style="color:#383a3e">05</h4>
 <!-- /wp:heading -->
 

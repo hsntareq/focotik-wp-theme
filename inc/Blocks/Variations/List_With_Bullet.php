@@ -20,7 +20,10 @@ class List_With_Bullet
 			.wp-block-list.is-style-list-with-bullet li {
 				display: flex;
 				align-items: flex-start;
-				margin-bottom: 0.5em;
+				margin-bottom: 12px;
+				font-size:16px;
+				font-wight:400;
+				line-height:24px;
 			}
 
 			.wp-block-list.is-style-list-with-bullet li::before {
@@ -30,7 +33,7 @@ class List_With_Bullet
 				background-image: url(' . FOCOTIK_THEME_URI . 'assets/images/svg-icons/bullet.svg);
 				background-size: contain;
 				background-repeat: no-repeat;
-				margin-right: 0.5em;
+				margin-right: 12px;
 				flex-shrink: 0;
 			}'
 		));

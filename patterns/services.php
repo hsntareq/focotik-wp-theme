@@ -27,7 +27,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"id":222,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/services-vector-warp.png" alt="" class="wp-image-222"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/services-vector-warp.png" alt="" class="wp-image-222"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -38,7 +38,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":230,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://focotik.test/wp-content/uploads/2024/08/img-services.png" alt="" class="wp-image-230"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url(FOCOTIK_THEME_URI) ?>assets/images/img-services.png" alt="" class="wp-image-230"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

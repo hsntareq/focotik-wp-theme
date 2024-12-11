@@ -1,24 +1,146 @@
+@import './mixins/library';
 
 .pricing-section {
 	padding-block: 180px;
-    p.has-text-color.has-link-color.has-medium-font-size {
-        margin-bottom: 16px;
-    }
-	.pricing-item-row{
-		column-gap: 32px;
-		
+
+	p.has-text-color.has-link-color.has-medium-font-size {
+		margin-bottom: 16px;
 	}
+
+	.pricing-item-row {
+		column-gap: 32px;
+
+	}
+
 	.pricing-text-box {
 		padding-block: 24px;
 		padding-inline: 24px;
 		border-radius: 20px;
-        flex:1;
-        margin-top: 16px;
+		flex: 1;
+		margin-top: 16px;
 
 		ul.pricing-list-item {
 			list-style-type: none;
-			li::before {
-				
+		}
+	}
+
+	h3 {
+		@include below(medium) {
+			font-size: 32px !important;
+		}
+
+		+p {
+			@include below(medium) {
+				font-size: 20px !important;
+			}
+		}
+	}
+
+	.pricing-item-row {
+		@include between(medium, large) {
+			gap: 12px;
+		}
+
+		@include below(xmedium) {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.pricing-text-box {
+			.wp-block-heading {
+				@include below(large) {
+					font-size: 22px !important;
+				}
+			}
+		}
+	}
+
+	.pricing-text-box {
+		&:hover {
+			background-color: white !important;
+			color: #383A3E !important;
+			transition: all 0.3s ease;
+
+			h5 {
+				color: #383A3E !important;
+			}
+
+			p::first-child {
+				color: #b2b4b8 !important;
+			}
+
+			p {
+				color: #383A3E !important;
+			}
+
+			ul {
+				color: #515457 !important;
+
+				li::before {
+					content: "";
+					width: 24px;
+					height: 24px;
+					background-image: url(https://wpfocotik.local/wp-content/themes/focotik-wp-theme/assets/images/svg-icons/bullet-grayscale.svg);
+					background-size: contain;
+					background-repeat: no-repeat;
+					margin-right: 12px;
+					flex-shrink: 0;
+				}
+			}
+
+		}
+
+	}
+}
+
+$heading_color: #383A3E;
+$list_item_color: #515457;
+$button_color: #EFF2F6;
+$button_bg_color: #EB6945;
+
+.pricing-tab-section {
+
+	.wp-block-heading {
+		@include below(large) {
+			font-size: 48px !important;
+		}
+
+		@include below(medium) {
+			font-size: 32px !important;
+		}
+	}
+
+	.pricing-tabs-row {
+		@include below(large) {
+			flex-direction: column;
+			align-items: center !important;
+		}
+
+		.pricing-tab-item {
+			&:hover {
+				background-color: #F6F9FD !important;
+				transition: all 0.3s ease;
+				color: $heading_color !important;
+
+				.wp-block-heading,
+				p {
+					color: $heading_color !important;
+				}
+
+				.wp-block-button a {
+					color: $button_color !important;
+					background-color: $button_bg_color !important;
+				}
+
+				li {
+					color: $list_item_color !important;
+				}
+			}
+
+			.ref-justify-center {
+				a {
+					justify-content: center;
+				}
 			}
 		}
 	}
