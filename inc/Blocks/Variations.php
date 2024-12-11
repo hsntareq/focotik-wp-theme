@@ -16,6 +16,7 @@ use Focotik\Blocks\Variations\Grid_Card;
 use Focotik\Blocks\Variations\Grid_Gradient;
 use Focotik\Blocks\Variations\List_With_Bullet;
 use Focotik\Blocks\Variations\List_With_Bullet_Gray;
+use Focotik\Blocks\Variations\List_With_Bullet_Gray_Small;
 use Focotik\Blocks\Variations\List_With_Circle;
 use Focotik\Blocks\Variations\List_With_Gradient_Bullet;
 use Focotik\Blocks\Variations\List_With_Right_Arrow;
@@ -62,6 +63,7 @@ class Variations
 		Grid_Card::get_instance();
 		List_With_Bullet::get_instance();
 		List_With_Bullet_Gray::get_instance();
+		List_With_Bullet_Gray_Small::get_instance();
 		List_With_Gradient_Bullet::get_instance();
 		List_With_Circle::get_instance();
 		List_With_Right_Arrow::get_instance();
