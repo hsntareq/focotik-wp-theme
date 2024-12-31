@@ -3,6 +3,7 @@
  * @see https://github.com/WordPress/gutenberg/blob/trunk/docs/reference-guides/block-api/block-metadata.md#render
  */
 $case_studies = get_posts(array("post_type" => 'case-studies', 'posts_per_page' => 5));
+// print_r(count($case_studies));die;
 ?>
 <div class="works" style="background-color:#e7e7e7;margin-top:0;margin-bottom:0">
 	<!-- <div class="wp-block-group"> -->
@@ -16,29 +17,45 @@ $case_studies = get_posts(array("post_type" => 'case-studies', 'posts_per_page' 
 		<div style="height:48px;margin-top:24px" aria-hidden="true"></div>
 
 		<?php if ($case_studies): ?>
+			<?php echo count($case_studies); ?>
 			<div class="posts-container">
-				<?php foreach ($case_studies as $index => $post): ?>
-					<?php
-					// Check if the current row should have two posts (odd rows) or one post (even rows)
-					echo '<div class="wp-block-group' . ($index % 2 === 0 ? ' gap32 grid-column-auto' : '') . '" style="margin-top:0;margin-bottom:0;display:grid;grid-template-columns: repeat(' . ($index % 2 === 0 ? '2' : '1') . ', minmax(0,1fr));">';
+			<?php
+				$row_count = 0; // Counter to track the number of rows displayed
 
+				foreach ($case_studies as $index => $post):
+					// Break the loop after 3 rows
+					if ($row_count >= 3) {
+						break;
+					}
 
+					// Determine if the current row is odd or even
+					$is_odd_row = $row_count % 2 === 0; // Odd rows have 2 items
+					$item_count = $is_odd_row ? 2 : 1;
+
+					// Open the row container
+					echo '<div class="wp-block-group' . ($is_odd_row ? ' gap32 grid-column-auto' : '') . '" style="margin-top:0;margin-bottom:0;display:grid;grid-template-columns: repeat(' . $item_count . ', minmax(0,1fr));">';
+
+					// Render the current post
 					echo render_post_item($post);
 
-					// Close the divs after each row pattern
-					if ($index % 2 === 0 && isset($case_studies[$index + 1])) {
-						// Check if we should display the next item in the same row for two-item rows
+					// For odd rows, render the second item if it exists
+					if ($is_odd_row && isset($case_studies[$index + 1])) {
 						echo render_post_item($case_studies[$index + 1]);
+						$index++; // Increment index to skip the second post in the odd row
+					}
 
-						$index++; // Increment index to skip the next post as it’s already displayed
-						echo '</div>'; // Close the two-item row
-						echo '<hr style="margin-bottom:80px;border-color:#C6CBCE">';
-					} elseif ($index % 2 !== 0 || $index === count($case_studies) - 1) {
-						echo '</div>'; // Close the one-item row
+					// Close the row container
+					echo '</div>';
+
+					// Add <hr> if it's not the last row
+					if ($row_count < 2) { // Since the last row is the 3rd row (index 2)
 						echo '<hr style="margin-bottom:80px;border-color:#C6CBCE">';
 					}
-					?>
-				<?php endforeach; ?>
+
+					// Increment row count after each row is rendered
+					$row_count++;
+				endforeach;
+			?>
 			</div>
 		<?php endif; ?>
 	</div>
