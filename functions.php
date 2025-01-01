@@ -157,15 +157,16 @@ add_action('after_setup_theme', 'mytheme_add_editor_styles');
 function render_post_item($post, $signle = false) {
 	$post_thumbnail = get_the_post_thumbnail($post->ID, '', ['style' => 'border-radius:8px;max-height:518px;object-fit:cover;width:100%']);
 	if ($post_thumbnail == '' || !has_post_thumbnail($post->ID)) {
-		$placeholder_image = FOCOTIK_THEME_URI . 'assets/images/placeholder-images/380x150.png';
+		// $placeholder_image = FOCOTIK_THEME_URI . 'assets/images/placeholder-images/380x150.png';
+		$placeholder_image = 'https://placehold.co/600x400/ddd/999/svg?text=No+Image+Found';
 		// Fallback image if no thumbnail
-		$post_thumbnail = '<img src="' . $placeholder_image . '" alt="" class="wp-image-945" style="border-radius:8px;width:100%;height:380px" />';
+		$post_thumbnail = '<img src="' . $placeholder_image . '" alt="no post image" />';
 	}
 	// Get post categories
 	$post_categories = wp_get_post_categories($post->ID);
 
 	// Start building the output
-	$output = '<div class="wp-block-group">
+	$output = '<div class="wp-block-group case-study-item">
     <a href="' . get_the_permalink($post->ID) . '">
         <figure class="wp-block-image size-full is-resized has-custom-border post-thumbnail">' . $post_thumbnail . '</figure>
     </a>
