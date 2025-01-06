@@ -47,8 +47,10 @@ $case_studies = get_posts(array("post_type" => 'case-studies', 'posts_per_page' 
 					// Close the row container
 					echo '</div>';
 
-					// Add <hr> if it's not the last row
-					if ($row_count < 2) { // Since the last row is the 3rd row (index 2)
+					// Add <hr> based on specific conditions:
+					// - If there are more than 2 items, add <hr> only between rows 1 and 2
+					// - Do not add <hr> after the last row
+					if ($total_items > 2 && $row_count < 1) {
 						echo '<hr style="margin-bottom:80px;border-color:#C6CBCE">';
 					}
 
@@ -56,6 +58,7 @@ $case_studies = get_posts(array("post_type" => 'case-studies', 'posts_per_page' 
 					$row_count++;
 				}
 			?>
+
 			</div>
 		<?php endif; ?>
 	</div>
