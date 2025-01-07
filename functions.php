@@ -181,11 +181,11 @@ function render_post_item($post, $signle = false) {
 	}
 
 	$output .= '</div>
-        <h5 class="wp-block-heading">
+        <div class="wp-block-heading">
             <a href="' . get_the_permalink($post->ID) . '">
                 <span class="underline">' . esc_html($post->post_title) . '</span>
             </a>
-        </h5>
+        </div>
     </div>';
 
 	return $output;

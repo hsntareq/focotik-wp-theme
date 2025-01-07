@@ -7,14 +7,7 @@ $case_studies = get_posts(array("post_type" => 'case-studies', 'posts_per_page' 
 ?>
 <div class="works case-study-wrapper" style="background-color:#e7e7e7;margin-top:0;margin-bottom:0">
 	<!-- <div class="wp-block-group"> -->
-	<div style="max-width:1170px;margin-right:auto;margin-left:auto;padding-right:24px;padding-left:24px">
-		<div class="wp-block-group is-nowrap" style="display:flex;flex-wrap:nowrap;justify-content:space-between;align-items:center">
-			<h3 class="main-heading" style="color:#383a3e">Intuitive works boosting <mark style="background-color:rgba(0, 0, 0, 0);color:#eb6945" class="has-inline-color">conversions by 800%</mark></h3>
-			<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
-				<div class="wp-block-button"><a href="<?php echo esc_url(home_url('/works')) ?>" class="wp-block-button__link wp-element-button">Check more projects -&gt;</a></div>
-			</div>
-		</div>
-		<div style="height:48px;margin-top:24px" aria-hidden="true"></div>
+	<div style="max-width:1170px;margin-right:auto;margin-left:auto;">
 
 		<?php if ($case_studies): ?>
 			<div class="posts-container">
