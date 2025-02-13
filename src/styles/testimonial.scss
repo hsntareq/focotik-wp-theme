@@ -60,6 +60,9 @@ $testimonialHeadingFontSizeMobile: 36px;
     @include below(small) {
         padding: 20px !important;
     }
+	figure.wp-block-image{
+		flex-shrink: 0;
+	}
 }
 
 .review-row {
