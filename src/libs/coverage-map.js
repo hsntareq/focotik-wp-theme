@@ -116,9 +116,6 @@ d3.json("https://raw.githubusercontent.com/johan/world.geo.json/master/countries
 					// Darken the country's fill color on hover (only if orders > 0)
 					d3.select(this).attr("fill", "#EB6945"); // Darker shade of green
 					// Show coverage-tooltip on hover
-					const parentRect = d3.select("#foco-coverage-map").node().getBoundingClientRect();
-					console.log(parentRect, event);
-
 					d3.select(".coverage-tooltip")
 						.html(`${d.properties.name} ${orders} Sales`)
 						.style("left", (event.clientX + 10) + "px")
