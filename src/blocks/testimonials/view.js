@@ -21,26 +21,7 @@
  */
 
 /* eslint-disable <no-c></no-c>onsole */
-console.log("Hello World! (from create-block-slider block)");
-
-// const tabItems = document.querySelectorAll('.focotik-testimonial-item');
-// const tabNav = document.querySelector('.focotik-testimonials-tab-nav');
-// tabItems.forEach((tabItem, index) => {
-// 	const image = tabItem.querySelector('.testimonial-image');
-// 	const button = document.createElement('button');
-// 	button.innerHTML = `<img src="${image.src}" alt="Tab ${index + 1}" style="width: 100%; object-fit: cover;">`;
-// 	tabNav.appendChild(button);
-// });
-
-// const tabContent = document.querySelector('.focotik-testimonials-tab-content');
-// tabNav.addEventListener('click', (e) => {
-// 	if (e.target.tagName === 'BUTTON') {
-// 		const index = Array.from(tabNav.children).indexOf(e.target);
-// 		const video = tabItems[index].querySelector('.testimonial-video');
-// 		tabContent.innerHTML = '';
-// 		tabContent.appendChild(video.cloneNode(true));
-// 	}
-// });
+console.log("Hello World! (from focotik-slider block)");
 
 document.addEventListener("DOMContentLoaded", function () {
 	const navWrapper = document.querySelector(".focotik-testimonials-tab-nav");
@@ -90,6 +71,8 @@ document.addEventListener("DOMContentLoaded", function () {
 			// Activate the clicked button and show the corresponding item
 			const targetId = button.getAttribute("data-target");
 			const targetItem = contentWrapper.querySelector(`#${targetId}`);
+			console.log(targetId, targetItem.querySelector('.vimeo-player'));
+
 			if (targetItem) {
 				button.classList.add("active");
 				targetItem.style.display = "flex"; // Show the corresponding testimonial item

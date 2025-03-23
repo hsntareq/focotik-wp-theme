@@ -1,0 +1,89 @@
+// Define default breakpoints
+$breakpoints: (
+  xs: 0px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+// Mixin for 'above' (min-width)
+@mixin above($breakpoint) {
+  $bp: if(type-of($breakpoint) == 'string', map-get($breakpoints, $breakpoint), $breakpoint + px);
+
+  @if $bp {
+    @media (min-width: #{$bp}) {
+      @content;
+    }
+  } @else {
+    @error "Invalid breakpoint: #{$breakpoint}. Ensure it is a valid key or number.";
+  }
+}
+
+// Mixin for 'below' (max-width)
+@mixin below($breakpoint) {
+  $bp: if(type-of($breakpoint) == 'string', map-get($breakpoints, $breakpoint), $breakpoint + px);
+
+  @if $bp {
+    @media (max-width: #{$bp}) {
+      @content;
+    }
+  } @else {
+    @error "Invalid breakpoint: #{$breakpoint}. Ensure it is a valid key or number.";
+  }
+}
+
+// Mixin for 'between' (min-width and max-width)
+@mixin between($breakpoint1, $breakpoint2) {
+  $bp1: if(type-of($breakpoint1) == 'string', map-get($breakpoints, $breakpoint1), $breakpoint1 + px);
+  $bp2: if(type-of($breakpoint2) == 'string', map-get($breakpoints, $breakpoint2), $breakpoint2 + px);
+
+  @if $bp1 and $bp2 {
+    @media (min-width: #{$bp1}) and (max-width: #{$bp2}) {
+      @content;
+    }
+  } @else {
+    @error "Invalid breakpoints: #{$breakpoint1}, #{$breakpoint2}. Ensure they are valid keys or numbers.";
+  }
+}
+
+
+// ==================== Usage Examples ==================
+
+
+// === Using above ===
+.example-above {
+  @include above('md') {
+    background-color: blue;
+  }
+
+  @include above(1024) {
+    color: white;
+  }
+}
+
+// === Using below ===
+.example-below {
+  @include below('lg') {
+    background-color: green;
+  }
+
+  @include below(768) {
+    font-size: 14px;
+  }
+}
+
+// === Using between ===
+.example-between {
+  @include between('sm', 'lg') {
+    background-color: red;
+  }
+
+  @include between(400, 800) {
+    border: 1px solid black;
+  }
+
+  @include between('md', 1024) {
+    padding: 20px;
+  }
+}

@@ -13,8 +13,8 @@ $worksheadingFontSizeMobile: 36px;
         }
     }
     .wp-block-heading.main-heading{
-        max-width: 700px;
-        text-align: left;
+        // max-width: 700px;
+        // text-align: left;
         @include below(medium) {
             font-size: $worksheadingFontSizeTab !important;
             text-align: center;

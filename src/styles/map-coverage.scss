@@ -14,18 +14,19 @@
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
+
+	svg {
+		width: 100%;
+		height: 100%;
+		background-color: transparent;
+		/* Light gray background for the sea area */
+	}
 }
 
-.foco-map-parent{
+.foco-map-parent {
 	position: relative;
 }
 
-svg {
-	width: 100%;
-	height: 100%;
-	background-color: transparent;
-	/* Light gray background for the sea area */
-}
 
 path[data-country="Bermuda"] {
 	display: none;

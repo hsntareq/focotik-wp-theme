@@ -1,5 +1,5 @@
 import { InnerBlocks, useBlockProps } from '@wordpress/block-editor';
-import { useState, useEffect, useRef } from '@wordpress/element';
+import { useState, useEffect, useRef, cloneElement } from '@wordpress/element';
 import { useSelect } from '@wordpress/data';
 
 import './editor.scss';
@@ -15,7 +15,7 @@ export default function Edit({ attributes, setAttributes, clientId }) {
 	// Get all child blocks dynamically using `useSelect`
 	const childBlocks = useSelect(
 		(select) => select('core/block-editor').getBlocks(clientId) || [],
-		[clientId]
+		[]
 	);
 
 	// Get the currently selected block in the editor
@@ -100,45 +100,57 @@ export default function Edit({ attributes, setAttributes, clientId }) {
 		}
 	}, [childBlocks, activeBlockClientId]);
 
+	const CustomButtonBlockAppender = (props) => {
+		const defaultAppender = <InnerBlocks.ButtonBlockAppender {...props} />;
+		return cloneElement(defaultAppender, {},
+			<>
+				{defaultAppender.props.children}
+				<span style={{ marginLeft: '5px', color: '#666' }}>Add a new button</span>
+			</>
+		);
+	};
+
+
 	return (
-		<div {...blockProps} className="focotik-testimonials-tabs">
-			{/* Tab Navigation */}
-			<div className="focotik-testimonials-tab-nav">
-				{childBlocks.map((block, index) => {
-					const { imageUrl } = block.attributes;
+		<div {...blockProps} className="focotik-testimonials">
+			<div className="focotik-testimonials-tabs">
+				{/* Tab Navigation */}
+				<div className="focotik-testimonials-tab-nav">
+					{childBlocks.map((block, index) => {
+						const { imageUrl } = block.attributes;
 
-					return (
-						<button
-							key={block.clientId}
-							onClick={() => handleTabClick(block)}
-							className={activeBlockClientId === block.clientId ? 'active' : ''}
-							data-target={`block-${block.clientId}`}
-						>
-							{imageUrl ? (
-								<img
-									src={imageUrl}
-									alt={`Tab ${index + 1}`}
-									style={{ width: '100%', objectFit: 'cover' }}
-								/>
-							) : (
-								`Tab ${index + 1}`
-							)}
-						</button>
-					);
-				})}
+						return (
+							<button
+								key={block.clientId}
+								onClick={() => handleTabClick(block)}
+								className={activeBlockClientId === block.clientId ? 'active' : ''}
+								data-target={`block-${block.clientId}`}
+							>
+								{imageUrl ? (
+									<img
+										src={imageUrl}
+										alt={`Tab ${index + 1}`}
+										style={{ width: '100%', objectFit: 'cover' }}
+									/>
+								) : (
+									`Tab ${index + 1}`
+								)}
+							</button>
+						);
+					})}
+				</div>
+
+				{/* Tab Content */}
+				<div className="focotik-testimonials-tab-content" ref={tabContentRef}>
+					<InnerBlocks
+						allowedBlocks={['focotik/testimonial-item']}
+						renderAppender={false}
+					/>
+				</div>
 			</div>
-
-			{/* Tab Content */}
-			<div className="focotik-testimonials-tab-content" ref={tabContentRef}>
-				<InnerBlocks
-					allowedBlocks={['focotik/testimonial-item']}
-					renderAppender={false}
-				/>
-			</div>
-
 			<div className="focotik-testimonials-add-new">
-				<p>Some rendered content here</p>
-				<InnerBlocks.ButtonBlockAppender />
+				{/* <InnerBlocks.ButtonBlockAppender /> */}
+				<CustomButtonBlockAppender rootClientId={clientId} />
 			</div>
 		</div>
 	);

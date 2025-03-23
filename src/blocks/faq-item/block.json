@@ -1,30 +1,24 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "focotik/testimonials",
+	"name": "focotik/faq-item",
 	"version": "0.1.0",
-	"title": "Testimonials",
+	"title": "Faq Item",
 	"category": "widgets",
 	"icon": "smiley",
 	"description": "Example block scaffolded with Create Block tool.",
 	"example": {},
 	"supports": {
-		"align": [
-			"full",
-			"wide"
-		],
 		"html": false
 	},
 	"attributes": {
-		"currentTab": {
-			"type": "number",
-			"default": 0
+		"title": {
+			"type": "string",
+			"default": "Faq Item",
+			"selector": "h3"
 		}
 	},
-	"providesContext": {
-		"focotik/currentTab": "currentTab"
-	},
-	"textdomain": "testimonials",
+	"textdomain": "faq-item",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css",

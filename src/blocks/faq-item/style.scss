@@ -1,0 +1,95 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+
+.wp-block-focotik-faq-item {
+
+	&.block-editor-block-list__block {
+		border: 2px dashed transparent;
+
+		&.is-selected {
+			border: 2px dashed #f00;
+		}
+	}
+
+	margin-block-end: 5px;
+	padding-block: 32px;
+
+	&:not(:last-child) {
+		border-bottom: 1px solid #d6d8dc;
+	}
+
+	&::after {
+		display: none;
+	}
+
+
+	.accordion-item-title {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		cursor: pointer;
+
+		h3 {
+			margin: 0;
+			font-weight: 600;
+			font-size: 32px;
+
+			@media all and (max-width: 768px) {
+				font-size: 24px;
+			}
+		}
+
+		.accordion-arrow {
+			flex-shrink: 0;
+			padding: 0;
+			margin: 0;
+			width: 40px;
+			height: 40px;
+			background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0zMCAyNS4wMDJMMjAgMTUuMDAyTDEwIDI1LjAwMiIgc3Ryb2tlPSIjOTI5NDk4IiBzdHJva2Utd2lkdGg9IjMiCiAgICAgICAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgo8L3N2Zz4=);
+			background-size: contain;
+			background-repeat: no-repeat;
+			transform: rotateX(180deg);
+			transition: transform 100ms ease;
+		}
+	}
+
+
+
+	.accordion-item-content {
+		// display: none;
+		visibility: hidden;
+		height: 0;
+		opacity: 0;
+		max-width: 880px;
+		transform: rotateX(90deg) translateY(-100px);
+		transition: all 300ms ease;
+
+		p {
+			font-size: 20px;
+		}
+	}
+
+	&.has-child-selected,
+	&.is-selected {
+
+		.accordion-item-content {
+			// display: block;
+			opacity: 1;
+			visibility: visible;
+			height: auto;
+			transform: rotateX(0deg) translateY(0px);
+		}
+
+		.accordion-item-title {
+			.accordion-arrow {
+				transform: rotateX(0deg);
+				// background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMCAxNS4wMDJMMjAgMjUuMDAyTDMwIDE1LjAwMiIgc3Ryb2tlPSIjOTI5NDk4IiBzdHJva2Utd2lkdGg9IjMiCiAgICAgICAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogICAgICAgIHN0cm9rZS1saW5lam9pbj0icm91bmQiIC8+Cjwvc3ZnPgo=);
+			}
+		}
+	}
+}

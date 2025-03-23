@@ -5,6 +5,17 @@ $whyUsheadingFontSizeTab: 48px;
 $whyUsheadingFontSizeMobile: 36px;
 
 .why-us {
+	.main-heading{
+		@include below(large) {
+			font-size: $whyUsheadingFontSizeTab !important;
+			text-align: center;
+		}
+
+		@include below(small) {
+			font-size: $whyUsheadingFontSizeMobile !important;
+		}
+	}
+
     .wp-block-heading {
         @include below(medium) {
             font-size: $whyUsheadingFontSizeTab !important;
@@ -94,8 +105,8 @@ $whyUsheadingFontSizeMobile: 36px;
     }
 
     .main-heading {
-        max-width: 700px;
-        text-align: left;
+        // max-width: 700px;
+        // text-align: left;
 
         @include below(medium) {
             font-size: $headingFontSizeTab !important;
