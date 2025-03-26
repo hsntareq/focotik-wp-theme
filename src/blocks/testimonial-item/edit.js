@@ -130,7 +130,7 @@ export default function Edit({ attributes, setAttributes }) {
 					</div>
 					<button class="pause-button">Pause Video</button>
 				</div>
-				<MediaUpload
+				{/* <MediaUpload
 					onSelect={(media) => setAttributes({ videoUrl: media.url })}
 					allowedTypes={['video']}
 					render={({ open }) => (
@@ -145,7 +145,7 @@ export default function Edit({ attributes, setAttributes }) {
 							)}
 						</button>
 					)}
-				/>
+				/> */}
 			</div>
 			<div className='testimonial-content'>
 
@@ -153,7 +153,7 @@ export default function Edit({ attributes, setAttributes }) {
 				<RichText
 					tagName="p"
 					value={message}
-					className='testimonial-content__message'
+					className='testimonial-content__author-message'
 					onChange={(newMessage) => setAttributes({ message: newMessage })}
 					placeholder={__('Enter client\'s comment here.', 'focotik')}
 				/>
@@ -163,7 +163,7 @@ export default function Edit({ attributes, setAttributes }) {
 				<div className='testimonial-content__author-tags'>
 					<ul ref={listRef}>
 						{emails.map((email, index) => (
-							<li key={index} draggable="true">
+							<li key={index} draggable="true" className='tag-item'>
 								<span>{email}</span>
 								<Button
 									variant="secondary"
@@ -186,31 +186,25 @@ export default function Edit({ attributes, setAttributes }) {
 					</ul>
 				</div>
 
-				<RichText
-					tagName="p"
-					value={tags}
-					className='testimonial-content__tags'
-					onChange={(newTags) => setAttributes({ tags: newTags })}
-					placeholder={__('Enter tags (comma-separated)...', 'focotik')}
-				/>
+				<div className='testimonial-content__author'>
+					{/* Author */}
+					<RichText
+						tagName="p"
+						value={author}
+						className='testimonial-content__author-name'
+						onChange={(newAuthor) => setAttributes({ author: newAuthor })}
+						placeholder={__('Enter author name...', 'focotik')}
+					/>
 
-				{/* Author */}
-				<RichText
-					tagName="p"
-					value={author}
-					className='testimonial-content__author'
-					onChange={(newAuthor) => setAttributes({ author: newAuthor })}
-					placeholder={__('Enter author name...', 'focotik')}
-				/>
-
-				{/* Designation */}
-				<RichText
-					tagName="p"
-					value={designation}
-					className='testimonial-content__author-designation'
-					onChange={(newDesignation) => setAttributes({ designation: newDesignation })}
-					placeholder={__('Enter author designation...', 'focotik')}
-				/>
+					{/* Designation */}
+					<RichText
+						tagName="p"
+						value={designation}
+						className='testimonial-content__author-designation'
+						onChange={(newDesignation) => setAttributes({ designation: newDesignation })}
+						placeholder={__('Enter author designation...', 'focotik')}
+					/>
+				</div>
 			</div>
 		</div>
 	);

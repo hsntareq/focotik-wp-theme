@@ -15,7 +15,7 @@ export default function save({ attributes }) {
 				/>
 			)}
 			{videoUrl && (
-				<div className='video-wrap'>
+				<div className='video-markup'>
 					<div className='video-container'>
 						{/* https://vimeo.com/1060742540 video embed  2.⁠ ⁠⁠https://vimeo.com/1060739446 */}
 						<iframe class="vimeo-player" src="https://player.vimeo.com/video/1060739446" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -24,29 +24,24 @@ export default function save({ attributes }) {
 				</div>
 			)}
 			<div className='testimonial-content'>
-				{message && <RichText.Content tagName="p" className='testimonial-content__message' value={message} />}
-				{author && <RichText.Content tagName="p" className='testimonial-content__author' value={author} />}
-				{designation && <RichText.Content tagName="p" value={designation} />}
-				{/* {emails &&
-					<div>
-						<ul style={{ display: 'flex', gap: 5, justifyContent: 'flex-start', padding: 0 }}>
+				{message && <RichText.Content tagName="p" className='testimonial-content__author-message' value={message} />}
+				{emails &&
+					<div className='testimonial-content__author-tags'>
+						<ul>
 							{emails.map((email, index) => (
-								<li key={index} style={{ display: 'flex', alignItems: 'center', gap: '10px', border: '1px solid #515457', paddingLeft: '10px' }}>
+								<li key={index} className='tag-item'>
 									<span>{email}</span>
 								</li>
 							))}
 						</ul>
 					</div>
-				} */}
-				{tags && (
-					<RichText.Content
-						tagName="span"
-						value={tags}
-						className='testimonial-content__tags'
-					/>
-				)}
+				}
+				<div className='testimonial-content__author'>
+					{author && <RichText.Content tagName="p" className='testimonial-content__author-name' value={author} />}
+					{designation && <RichText.Content tagName="p" className='testimonial-content__author-designation' value={designation} />}
+				</div>
 			</div>
-		</div>
+		</div >
 	);
 }
 

@@ -1,9 +1,5 @@
-/**
- * The following styles get applied both on the front of your site
- * and in the editor.
- *
- * Replace them with your own styles or remove the file completely.
- */
+@use '../../styles/mixins/library' as *;
+
 
 .wp-block-create-block-slider {
 	background-color: #21759b;
@@ -23,18 +19,27 @@
 	.focotik-testimonials-tabs {
 		display: flex;
 		gap: 16px;
+		flex-direction: column;
+
+		@include above(medium) {
+			flex-direction: row;
+		}
 
 		.focotik-testimonials-tab-nav {
 			display: flex;
-			flex-direction: column;
-			flex: 0 0 165px;
-			row-gap: 16px;
+			gap: 16px;
+			overflow: scroll;
+			padding-block-end: 20px;
+
+			@include above(medium) {
+				flex: 0 0 165px;
+				flex-direction: column;
+			}
 
 			button {
 				border-radius: 12px;
 				border: 1.5px solid #383A3E;
 				background-color: transparent;
-				height: 108px;
 				display: flex;
 				align-items: center;
 				justify-content: center;
@@ -42,11 +47,21 @@
 				padding: 0;
 				overflow: hidden;
 				transition: all .3s;
-				color: #fff;
+				color: #ffffff;
+				flex-shrink: 0;
+				max-width: 160px;
+				height: 90px;
+
+				@include above(medium) {
+					height: 108px;
+					max-width: inherit;
+				}
 
 				&.active {
 					background-color: #181A1D;
 				}
+
+
 			}
 		}
 
@@ -56,8 +71,13 @@
 			.focotik-testimonial-item {
 				display: none;
 				position: relative;
-				gap: 32px;
-				align-items: center;
+				gap: 18px;
+				flex-direction: column;
+
+				@include above(medium) {
+					gap: 32px;
+					flex-direction: row;
+				}
 
 				&:first-child {
 					display: flex;
@@ -68,15 +88,58 @@
 				}
 
 				.testimonial-content {
-					&__message {
-						font-weight: 600;
-						font-size: 32px;
-						line-height: 40px;
-						letter-spacing: -2%;
-						color: #EFF2F6;
+					align-self: center;
+					order: 1;
+
+					@include above(medium) {
+						order: 2;
 					}
 
+					&>* {
+						padding-block-end: 16px;
+						margin: 0;
+
+						@include above(large) {
+							padding-block-end: 32px;
+						}
+					}
+
+
 					&__author {
+
+						&-message {
+							font-weight: 600;
+							font-size: 22px;
+							line-height: 1.5;
+							letter-spacing: -2%;
+							color: #EFF2F6;
+
+							@include above(medium) {
+								font-size: 26px;
+							}
+
+							@include above(large) {
+								font-size: 32px;
+							}
+						}
+
+						&-designation {
+							font-weight: 400;
+							font-size: 16px;
+							line-height: 24px;
+							color: #AEAEAE;
+							margin: 0;
+						}
+
+						&-name {
+							font-weight: 700;
+							font-size: 20px;
+							line-height: 28px;
+							color: #EFF2F6;
+							text-transform: capitalize;
+							margin: 0;
+						}
+
 						&-tags {
 							display: flex;
 							align-items: center;
@@ -84,7 +147,7 @@
 
 
 							/* EmailInput */
-							
+
 							/* EmailInput */
 
 							.components-base-control__field,
@@ -135,13 +198,9 @@
 									display: flex;
 									align-items: center;
 
-									&:last-child {
+									&:not(.tag-item) {
 										background-color: transparent;
 										padding: 0;
-									}
-
-									:active {
-										cursor: move;
 									}
 
 									&:hover button {
@@ -178,6 +237,13 @@
 
 				.video-markup {
 					flex-shrink: 0;
+					width: 100%;
+					order: 2;
+
+					@include above(medium) {
+						order: 1;
+						width: 40%;
+					}
 				}
 
 				.logo-changer {
@@ -195,21 +261,22 @@
 				.video-container {
 					position: relative;
 					width: 100%;
-					padding-top: calc((24 / 19) * 100%);
+					padding-top: 130%; // This creates a 2:3 aspect ratio (height = 150% of width)
 					overflow: hidden;
 					border-radius: 12px;
 
 					iframe {
-						background: #ddd;
-						position: absolute;
-						top: 50%;
-						left: 50%;
-						width: calc((24 / 19) * 100vh);
-						height: 100vh;
-						transform: translate(-50%, -50%);
-						object-fit: cover;
+					  position: absolute;
+					  top: 50%;
+					  left: 50%;
+					  width: 100%;
+					  height: auto;
+					  min-height: 140%; // Adjust this to crop top/bottom if needed
+					  transform: translate(-50%, -50%);
+					  border: 0;
 					}
-				}
+				  }
+
 
 			}
 		}
