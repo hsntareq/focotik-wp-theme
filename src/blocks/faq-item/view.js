@@ -21,5 +21,5 @@
  */
 
 /* eslint-disable no-console */
-console.log("Hello World! (from focotik-faq-item block)");
+// console.log("Hello World! (from focotik-faq-item block)");
 /* eslint-enable no-console */

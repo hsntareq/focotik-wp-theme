@@ -18,7 +18,7 @@ export default function save({ attributes }) {
 				<div className='video-markup'>
 					<div className='video-container'>
 						{/* https://vimeo.com/1060742540 video embed  2.⁠ ⁠⁠https://vimeo.com/1060739446 */}
-						<iframe class="vimeo-player" src="https://player.vimeo.com/video/1060739446" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+						<iframe class="vimeo-player" src={videoUrl} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 					</div>
 					<button class="pause-button">Pause Video</button>
 				</div>

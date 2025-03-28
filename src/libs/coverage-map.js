@@ -40,7 +40,12 @@ d3.json("https://raw.githubusercontent.com/johan/world.geo.json/master/countries
 
 		// Adjust projection to fit the full map
 		const projection = d3.geoEquirectangular()
-			.fitSize([width, height], { type: "FeatureCollection", features: geoData.features });
+			.fitSize([width, height * 1.2], { type: "FeatureCollection", features: geoData.features });
+
+		// Set up the map projection to geoMercator for a 2D view
+		// const projection = d3.geoMercator()
+		// 	.scale(180)  // Adjust scale for better fitting
+		// 	.translate([width / 2, height / 2 + 100]); // Center the map
 
 		const path = d3.geoPath().projection(projection);
 
@@ -114,9 +119,9 @@ d3.json("https://raw.githubusercontent.com/johan/world.geo.json/master/countries
 
 		const totalLandArea = d3.sum(geoData.features, d => d3.geoArea(d));
 		const orderedArea = d3.sum(geoData.features.filter(d => orderByCountry[d.properties.name] > 0), d => d3.geoArea(d));
-		console.log("Total Land Area (without poles):", totalLandArea);
-		console.log("Ordered Area Coverage:", orderedArea);
-		console.log("Order Coverage Percentage:", (orderedArea / totalLandArea) * 100);
+		// console.log("Total Land Area (without poles):", totalLandArea);
+		// console.log("Ordered Area Coverage:", orderedArea);
+		// console.log("Order Coverage Percentage:", (orderedArea / totalLandArea) * 100);
 	})
 	.catch(error => {
 		console.error("Error loading GeoJSON data:", error);

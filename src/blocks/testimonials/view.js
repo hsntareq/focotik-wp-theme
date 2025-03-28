@@ -21,7 +21,47 @@
  */
 
 /* eslint-disable <no-c></no-c>onsole */
-console.log("Hello World! (from focotik-slider block)");
+// console.log("Hello World! (from focotik-slider block)");
+
+
+// Function to extract Vimeo ID from the URL (supports multiple formats)
+function extractVimeoId(url) {
+	const match = url.match(/(?:vimeo\.com\/(?:.*\/)?|player\.vimeo\.com\/video\/)(\d+)/);
+	return match ? match[1] : null;
+}
+
+// Select all iframes inside .video-container to support multiple videos
+document.querySelectorAll('.video-container iframe').forEach((iframe) => {
+
+	iframe.addEventListener('load', function () {
+		// Get the src attribute from the iframe
+		const videoUrl = iframe.getAttribute('src');
+		const videoId = extractVimeoId(videoUrl);
+
+		if (videoId) {
+			// Fetch video metadata from Vimeo oEmbed API
+			fetch(`https://vimeo.com/api/oembed.json?url=https://vimeo.com/${videoId}`)
+				.then(response => response.json())
+				.then(data => {
+					console.log('Intrinsic video width:', data.width);
+					console.log('Intrinsic video height:', data.height);
+
+					// Calculate aspect ratio and apply it to the container
+					const aspectRatio = data.height / data.width;
+					const container = iframe.parentElement;
+					console.log(container);
+
+					if (container) {
+						iframe.style.aspectRatio = `${data.width} / ${data.height}`;
+					}
+				})
+				.catch(error => console.error('Error fetching video metadata:', error));
+		}
+	});
+});
+
+
+
 
 document.addEventListener("DOMContentLoaded", function () {
 	const navWrapper = document.querySelector(".focotik-testimonials-tab-nav");
@@ -72,6 +112,8 @@ document.addEventListener("DOMContentLoaded", function () {
 			const targetId = button.getAttribute("data-target");
 			const targetItem = contentWrapper.querySelector(`#${targetId}`);
 			console.log(targetId, targetItem.querySelector('.vimeo-player'));
+
+			// adjustVideoSize(targetItem.querySelector('.vimeo-player'));
 
 			if (targetItem) {
 				button.classList.add("active");
