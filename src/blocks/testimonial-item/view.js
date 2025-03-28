@@ -21,7 +21,7 @@
  */
 
 /* eslint-disable no-console */
-console.log("Hello World! (from focotik-testimonial-item block)");
+// console.log("Hello World! (from focotik-testimonial-item block)");
 
 /* eslint-enable no-console */
 // Wait for the DOM to load

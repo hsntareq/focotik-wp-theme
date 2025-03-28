@@ -1,7 +1,7 @@
 import * as d3 from 'd3';
 
 let width = 1170;
-let height = 670;
+let height = 530;
 
 const svg = d3.select("#foco-coverage-map")
 	.append("svg")
@@ -10,7 +10,6 @@ const svg = d3.select("#foco-coverage-map")
 	.attr("viewBox", `0 0 ${width} ${height}`)
 	.attr("preserveAspectRatio", "xMidYMid meet");
 
-// Example order data for different countries
 const orderData = [
 	{ "country": "United States", "orders": 1500 },
 	{ "country": "Germany", "orders": 800 },
@@ -30,31 +29,31 @@ const orderData = [
 	{ "country": "Bangladesh", "orders": 900 }
 ];
 
-// Map order data to country names
 const orderByCountry = {};
 orderData.forEach(d => {
 	orderByCountry[d.country] = d.orders;
 });
 
-// Load the GeoJSON data for the world
 d3.json("https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json")
 	.then(geoData => {
-		// Filter out Antarctica
 		geoData.features = geoData.features.filter(d => d.properties.name !== "Antarctica");
 
+		// Adjust projection to fit the full map
+		const projection = d3.geoEquirectangular()
+			.fitSize([width, height * 1.2], { type: "FeatureCollection", features: geoData.features });
+
 		// Set up the map projection to geoMercator for a 2D view
-		const projection = d3.geoMercator()
-			.scale(180)  // Adjust scale for better fitting
-			.translate([width / 2, height / 2 + 100]); // Center the map
+		// const projection = d3.geoMercator()
+		// 	.scale(180)  // Adjust scale for better fitting
+		// 	.translate([width / 2, height / 2 + 100]); // Center the map
 
 		const path = d3.geoPath().projection(projection);
 
-		// Add the patterns for the countries
 		const defs = svg.append("defs");
 		const dotPattern = defs.append("pattern")
 			.attr("id", "dotPattern")
-			.attr("width", 5)
-			.attr("height", 5)
+			.attr("width", 6)
+			.attr("height", 6)
 			.attr("patternUnits", "userSpaceOnUse")
 			.append("circle")
 			.attr("cx", 2)
@@ -62,7 +61,6 @@ d3.json("https://raw.githubusercontent.com/johan/world.geo.json/master/countries
 			.attr("r", 1.2)
 			.attr("fill", "#383A3E");
 
-		// Render the countries on the map
 		svg.selectAll("path.country")
 			.data(geoData.features)
 			.enter()
@@ -74,7 +72,6 @@ d3.json("https://raw.githubusercontent.com/johan/world.geo.json/master/countries
 			.attr("stroke", "#EB6945")
 			.attr("stroke-width", 0);
 
-		// Add an overlay for clickable countries
 		svg.selectAll("path.country-overlay")
 			.data(geoData.features)
 			.enter()
@@ -98,7 +95,7 @@ d3.json("https://raw.githubusercontent.com/johan/world.geo.json/master/countries
 					d3.select(".coverage-tooltip")
 						.html(`${d.properties.name} ${orders} Sales`)
 						.style("left", (event.clientX) + "px")
-						.style("top", (event.clientY) + "px")
+						.style("top", (event.clientY + 5) + "px")
 						.style("opacity", 1);
 				}
 			})
@@ -110,7 +107,6 @@ d3.json("https://raw.githubusercontent.com/johan/world.geo.json/master/countries
 				d3.select(".coverage-tooltip").style("opacity", 0);
 			});
 
-		// Draw the border for countries with orders
 		svg.selectAll("path.country-orders")
 			.data(geoData.features.filter(d => orderByCountry[d.properties.name] > 0))
 			.enter()
@@ -121,12 +117,11 @@ d3.json("https://raw.githubusercontent.com/johan/world.geo.json/master/countries
 			.attr("stroke", "#EB6945")
 			.attr("stroke-width", 1);
 
-		// Calculate coverage stats
 		const totalLandArea = d3.sum(geoData.features, d => d3.geoArea(d));
 		const orderedArea = d3.sum(geoData.features.filter(d => orderByCountry[d.properties.name] > 0), d => d3.geoArea(d));
-		console.log("Total Land Area (without poles):", totalLandArea);
-		console.log("Ordered Area Coverage:", orderedArea);
-		console.log("Order Coverage Percentage:", (orderedArea / totalLandArea) * 100);
+		// console.log("Total Land Area (without poles):", totalLandArea);
+		// console.log("Ordered Area Coverage:", orderedArea);
+		// console.log("Order Coverage Percentage:", (orderedArea / totalLandArea) * 100);
 	})
 	.catch(error => {
 		console.error("Error loading GeoJSON data:", error);

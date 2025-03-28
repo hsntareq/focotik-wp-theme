@@ -21,7 +21,7 @@
  */
 
 /* eslint-disable no-console */
-console.log("Hello World! (from focotik-faqs block)");
+// console.log("Hello World! (from focotik-faqs block)");
 /* eslint-enable no-console */
 
 const accordionItems = document.querySelectorAll('.accordion-item');
