@@ -25,7 +25,7 @@
 
 /* eslint-enable no-console */
 // Wait for the DOM to load
-/* document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
 	// Get the iframe element
 	const iframe = document.getElementById('vimeo-player');
 
@@ -35,6 +35,8 @@
 	// Add an event listener to the external button
 	const pauseButton = document.getElementById('pause-button');
 	pauseButton.addEventListener('click', function () {
+		console.log('Pause button clicked!', player);
+
 		// Pause the video
 		player.pause().then(function () {
 			console.log('Video paused!');
@@ -54,4 +56,4 @@
 		}
 	});
 });
- */
+

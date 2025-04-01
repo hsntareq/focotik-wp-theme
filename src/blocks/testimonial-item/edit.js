@@ -89,7 +89,7 @@ export default function Edit({ attributes, setAttributes }) {
 		};
 	}, []);
 
-
+	// adming url images/spinner-2x.gif
 
 	return (
 		<div {...blockProps}>
@@ -124,8 +124,8 @@ export default function Edit({ attributes, setAttributes }) {
 					placeholder="Enter video URL..." />
 				<div className='video-wrap'>
 					<div className='video-container'>
-						{/* https://vimeo.com/1060742540 video embed  2.⁠ ⁠⁠https://vimeo.com/1060739446
-	*/}
+						{/* https://vimeo.com/1060742540 video embed  2.⁠ ⁠⁠https://vimeo.com/1060739446 */}
+						<div className="loading"><span className="foco_loader"></span></div>
 						<iframe class="vimeo-player" src={videoUrl} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 					</div>
 					<button class="pause-button">Pause Video</button>

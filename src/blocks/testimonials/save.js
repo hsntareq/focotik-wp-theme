@@ -5,7 +5,6 @@ export default function Save({ attributes }) {
 
 	return (
 		<div {...blockProps} className="focotik-testimonials">
-			<script src='https://player.vimeo.com/api/player.js'></script>
 			<div className="focotik-testimonials-tabs">
 				<div className="focotik-testimonials-tab-nav"></div>
 				<div className="focotik-testimonials-tab-content">

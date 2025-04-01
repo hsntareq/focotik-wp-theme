@@ -1,8 +1,11 @@
 import { useBlockProps, RichText } from '@wordpress/block-editor';
+import { useEffect } from '@wordpress/element';
 
 export default function save({ attributes }) {
 	const { tabId, imageUrl, videoUrl, emails, message, tags, author, designation } = attributes;
 	const blockProps = useBlockProps.save();
+	// get default loader image url here
+	// url/wp-includes/js/tinymce/skins/lightgray/img/loader.gif
 
 	return (
 		<div {...blockProps} className="focotik-testimonial-item" id={`${tabId}`}>
@@ -18,6 +21,7 @@ export default function save({ attributes }) {
 				<div className='video-markup'>
 					<div className='video-container'>
 						{/* https://vimeo.com/1060742540 video embed  2.⁠ ⁠⁠https://vimeo.com/1060739446 */}
+						<div className="loading"><span className="foco_loader"></span></div>
 						<iframe class="vimeo-player" src={videoUrl} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 					</div>
 					<button class="pause-button">Pause Video</button>

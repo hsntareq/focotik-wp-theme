@@ -119,5 +119,15 @@ final class Theme_Main {
 		if (!defined('FOCOTIK_THEME_URI')) {
 			define('FOCOTIK_THEME_URI', trailingslashit(get_template_directory_uri()));
 		}
+
+		// FOCOTIK_THEME_URI is defined as the URL for the plugin directory.
+		if (!defined('FOCOTIK_SITE_URL')) {
+			define('FOCOTIK_SITE_URL', trailingslashit(site_url()));
+		}
+
+		// FOCOTIK_THEME_URI is defined as the URL for the plugin directory.
+		if (!defined('FOCOTIK_INCLUDE_URL')) {
+			define('FOCOTIK_INCLUDE_URL', trailingslashit(includes_url()));
+		}
 	}
 }

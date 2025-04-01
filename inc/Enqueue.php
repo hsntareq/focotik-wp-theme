@@ -17,8 +17,7 @@ if (!defined('ABSPATH')) {
 /**
  * Plugin_Main Class
  */
-class Enqueue
-{
+class Enqueue {
 	use Traits\Singleton, Traits\PluginData; // Use the Singleton and PluginData trait.
 
 	/**
@@ -26,16 +25,15 @@ class Enqueue
 	 *
 	 * @return void
 	 */
-	private function __construct()
-	{
+	private function __construct() {
 		// All the initialization tasks.
 		$this->init();
 	}
 
-	public function init()
-	{
+	public function init() {
 		// Enqueue style for frontend
 		add_action('enqueue_block_assets', array($this, 'enqueue_frontend_style'));
+		add_action('wp_enqueue_scripts', array($this, 'wp_enqueue_frontend_style'));
 	}
 
 	/**
@@ -43,8 +41,26 @@ class Enqueue
 	 *
 	 * @return void
 	 */
-	public function enqueue_frontend_style()
-	{
+	public function wp_enqueue_frontend_style() {
+
+		// Check if any post on the page has your block
+		wp_enqueue_script(
+			'focotik-player-vimeo',  // Changed handle to use hyphen instead of dot
+			'https://player.vimeo.com/api/player.js',
+			array(),
+			'1.0.0',
+			true
+		);
+	}
+
+	/**
+	 * Enqueue style for frontend.
+	 *
+	 * @return void
+	 */
+	public function enqueue_frontend_style() {
+
+
 		wp_enqueue_style('frontend-style', get_stylesheet_directory_uri() . '/build/frontend.css', array(), '1.0.0', 'all');
 		wp_enqueue_script(
 			'focotik-script',
@@ -53,6 +69,14 @@ class Enqueue
 			'1.0.0',
 			true
 		);
-		wp_localize_script('focotik-script', 'focotik', array('assets_url' => FOCOTIK_ASSETS_URI));
+		wp_localize_script(
+			'focotik-script',
+			'focotik',
+			array(
+				'assets_url' => FOCOTIK_ASSETS_URI,
+				'site_url' => FOCOTIK_SITE_URL,
+				'include_url' => FOCOTIK_INCLUDE_URL
+			)
+		);
 	}
 }

@@ -31,7 +31,10 @@ function extractVimeoId(url) {
 }
 
 // Select all iframes inside .video-container to support multiple videos
-document.querySelectorAll('.video-container iframe').forEach((iframe) => {
+document.querySelectorAll('.video-container').forEach((videoContainer) => {
+	// videoContainer && videoContainer.querySelector('iframe').forEach((iframe) => {
+	const iframe = videoContainer && videoContainer.querySelector('iframe');
+	const loading = videoContainer && videoContainer.querySelector('.loading');
 
 	iframe.addEventListener('load', function () {
 		// Get the src attribute from the iframe
@@ -43,9 +46,6 @@ document.querySelectorAll('.video-container iframe').forEach((iframe) => {
 			fetch(`https://vimeo.com/api/oembed.json?url=https://vimeo.com/${videoId}`)
 				.then(response => response.json())
 				.then(data => {
-					console.log('Intrinsic video width:', data.width);
-					console.log('Intrinsic video height:', data.height);
-
 					// Calculate aspect ratio and apply it to the container
 					const aspectRatio = data.height / data.width;
 					const container = iframe.parentElement;
@@ -53,6 +53,8 @@ document.querySelectorAll('.video-container iframe').forEach((iframe) => {
 
 					if (container) {
 						iframe.style.aspectRatio = `${data.width} / ${data.height}`;
+						iframe.style.display = "block";
+						loading.style.display = "none";
 					}
 				})
 				.catch(error => console.error('Error fetching video metadata:', error));
@@ -75,7 +77,10 @@ document.addEventListener("DOMContentLoaded", function () {
 	// Find all testimonial items
 	const testimonialItems = contentWrapper.querySelectorAll(".focotik-testimonial-item");
 
-	testimonialItems.forEach((item, index) => {
+
+
+	testimonialItems && testimonialItems.forEach((item, index) => {
+		console.log(item);
 		const id = item.id;
 		const img = item.querySelector(".testimonial-image");
 		if (!id || !img) return;
@@ -99,21 +104,34 @@ document.addEventListener("DOMContentLoaded", function () {
 		item.style.display = index === 0 ? "flex" : "none";
 	});
 
+
 	// Handle button clicks to toggle content
 	const buttons = navWrapper.querySelectorAll("button");
 
 	buttons.forEach((button) => {
 		button.addEventListener("click", function () {
-			// Deactivate all buttons and hide all items
-			buttons.forEach((btn) => btn.classList.remove("active"));
-			testimonialItems.forEach((item) => (item.style.display = "none"));
+
+			console.log('btn clicked', button);
 
 			// Activate the clicked button and show the corresponding item
 			const targetId = button.getAttribute("data-target");
 			const targetItem = contentWrapper.querySelector(`#${targetId}`);
-			console.log(targetId, targetItem.querySelector('.vimeo-player'));
 
-			// adjustVideoSize(targetItem.querySelector('.vimeo-player'));
+			// Deactivate all buttons and hide all items
+			buttons.forEach((btn) => btn.classList.remove("active"));
+			testimonialItems.forEach((item) => {
+				item.style.display = "none";
+				console.log(item);
+				const player = new Vimeo.Player(item.querySelector('.vimeo-player'));
+
+				// Pause the video
+				player.pause().then(function () {
+					console.log('Video paused!');
+				}).catch(function (error) {
+					console.error('Error pausing video:', error);
+				});
+
+			});
 
 			if (targetItem) {
 				button.classList.add("active");
