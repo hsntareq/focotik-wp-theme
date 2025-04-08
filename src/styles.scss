@@ -265,6 +265,10 @@ html {
 		.foco-video-wrap {
 			padding: 56.25% 0 0 0;
 			position: relative;
+
+			iframe{
+				border-radius: 8px;
+			}
 		}
 
 		.wp-has-aspect-ratio {
