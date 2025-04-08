@@ -24,7 +24,6 @@ export default function save({ attributes }) {
 						<div className="loading"><span className="foco_loader"></span></div>
 						<iframe class="vimeo-player" src={videoUrl} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 					</div>
-					<button class="pause-button">Pause Video</button>
 				</div>
 			)}
 			<div className='testimonial-content'>

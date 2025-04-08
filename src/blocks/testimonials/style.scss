@@ -14,7 +14,12 @@
 
 .focotik-testimonials {
 	background-color: #272B2F;
-	padding: 50px;
+	padding-block: 50px;
+	padding-inline: 20px;
+
+	@include above(medium) {
+		padding-block: 50px;
+	}
 
 	.focotik-testimonials-tabs {
 		display: flex;

@@ -4,6 +4,22 @@ console.log('Hello, world! 123');
 // import './blocks/blocks.js';
 import './libs/coverage-map.js';
 
+// Select all anchor links that have a # in their href
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+	anchor.addEventListener('click', function (e) {
+		e.preventDefault(); // Prevent the default link behavior
+
+		// Get the target element using the href value
+		const targetElement = document.querySelector(this.getAttribute('href'));
+
+		// Scroll to the target element with smooth behavior
+		targetElement.scrollIntoView({
+			behavior: 'smooth'
+		});
+	});
+});
+
+
 document.addEventListener('DOMContentLoaded', function () {
 	const accordionItems = document.querySelectorAll('.foco-accordion details');
 

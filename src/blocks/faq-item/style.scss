@@ -38,6 +38,7 @@
 			margin: 0;
 			font-weight: 600;
 			font-size: 32px;
+			color: #383A3E;
 
 			@media all and (max-width: 768px) {
 				font-size: 24px;
@@ -68,6 +69,7 @@
 		max-width: 880px;
 		transform: rotateX(90deg) translateY(-100px);
 		transition: all 300ms ease;
+		color: #515457;
 
 		p {
 			font-size: 20px;

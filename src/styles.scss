@@ -24,6 +24,10 @@ body {
 	background-color: #E7E7E7;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .nogap {
 	gap: 0;
 }
@@ -64,6 +68,7 @@ body {
 		border-top: 1px solid #C6CBCE;
 	}
 }
+
 .foco_loader {
 	width: 48px;
 	height: 48px;
@@ -74,8 +79,9 @@ body {
 	position: relative;
 	box-sizing: border-box;
 	animation: rotation 2s linear infinite;
-  }
-  .foco_loader::after {
+}
+
+.foco_loader::after {
 	content: '';
 	box-sizing: border-box;
 	position: absolute;
@@ -91,24 +97,28 @@ body {
 	border-radius: 50%;
 	animation: rotationBack 1s linear infinite;
 	transform-origin: center center;
-  }
+}
 
-  @keyframes rotation {
+@keyframes rotation {
 	0% {
-	  transform: rotate(0deg);
+		transform: rotate(0deg);
 	}
+
 	100% {
-	  transform: rotate(360deg);
+		transform: rotate(360deg);
 	}
-  }
-  @keyframes rotationBack {
+}
+
+@keyframes rotationBack {
 	0% {
-	  transform: rotate(0deg);
+		transform: rotate(0deg);
 	}
+
 	100% {
-	  transform: rotate(-360deg);
+		transform: rotate(-360deg);
 	}
-  }
+}
+
 .foco-accordion {
 	details {
 		overflow: hidden;
