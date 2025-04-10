@@ -1,0 +1,49 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/quote-message",
+	"version": "0.1.0",
+	"title": "Quote Message",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		},
+		"arrowDirectionVertical": {
+			"type": "string",
+			"default": "arrow-bottom"
+		},
+		"arrowDirectionHorizontal": {
+			"type": "string",
+			"default": "arrow-right"
+		},
+		"bgColor": {
+			"type": "string",
+			"default": "#f44336"
+		},
+		"textColor": {
+			"type": "string",
+			"default": "#000000"
+		},
+		"boxMargin": {
+			"type": "object",
+			"default": {
+				"left": "0px",
+				"right": "0px"
+			}
+		}
+	},
+	"textdomain": "quote-message",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

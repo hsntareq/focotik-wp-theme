@@ -1,0 +1,74 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+
+.wp-block-create-block-quote-message {
+
+	.quote__message {
+		/* arrow box */
+		min-width: 30px;
+		position: relative;
+		padding-block: 12px;
+		padding-inline: 16px;
+		border-radius: 21px;
+		color: #fff;
+		display: inline-block;
+	}
+
+	.arrow {
+		width: 0px;
+		height: 0px;
+		border-style: solid;
+		position: absolute;
+		background: transparent;
+		border-color: transparent;
+	}
+
+	&.arrow-left {
+		margin-left: 20px !important;
+
+		.arrow {
+			right: calc(100% - 16px);
+			border-width: 10px 40px 10px 0;
+		}
+
+		&.arrow-top .arrow {
+			top: 5px;
+			rotate: 26deg;
+		}
+
+		&.arrow-bottom .arrow {
+			bottom: 5px;
+			rotate: -26deg;
+		}
+	}
+
+	&.arrow-right {
+		.arrow {
+			left: calc(100% - 16px);
+			border-width: 10px 0 10px 40px;
+		}
+
+		&.arrow-top .arrow {
+			top: 5px;
+			rotate: -26deg;
+		}
+
+		&.arrow-bottom .arrow {
+			bottom: 5px;
+			rotate: 26deg;
+		}
+	}
+
+
+	/* arrow box */
+	p {
+		margin: 0;
+	}
+
+
+}

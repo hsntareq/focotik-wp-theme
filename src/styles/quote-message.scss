@@ -1,0 +1,32 @@
+.quote__message {
+	p {
+		margin: 0;
+	}
+
+	&-top::before,
+	&-top::after {
+		content: '';
+		width: 30px;
+		height: 20px;
+		display: block;
+		background-color: red;
+	}
+
+
+	&-top,
+	&-bottom {
+		font-weight: 500;
+		font-size: 16px;
+		padding-block: 12px;
+		padding-inline: 18px;
+		border: 1px solid #242424;
+		display: inline-block;
+		border-radius: 24px;
+		position: relative;
+	}
+
+	&-content {
+		font-weight: 400;
+		font-size: 32px;
+	}
+}

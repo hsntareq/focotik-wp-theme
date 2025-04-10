@@ -1,10 +1,6 @@
 {
 	"settings": {
 		"appearanceTools": true,
-		"layout": {
-			"contentSize": "620px",
-			"wideSize": "1170px"
-		},
 		"spacing": {
 			"units": [
 				"%",
